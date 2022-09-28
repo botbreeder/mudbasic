@@ -1,0 +1,4 @@
+Agent
+Object
+Action
+Location
