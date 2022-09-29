@@ -1,11 +1,16 @@
-Agent
-    Human
-    Animal
-Object
-    
-Occurence
-    Action
-    Event
-Space
-    Location
-    Path
+Thing
+    Agent
+        Human
+        Animal
+    Object
+        Vegetal
+        Inanimate
+    Occurence
+        Action
+        Event
+    Space
+        Location
+        Path
+    Abstract
+        Feeling
+        Concept
