@@ -1,4 +1,11 @@
 Agent
+    Human
+    Animal
 Object
-Action
-Location
+    
+Occurence
+    Action
+    Event
+Space
+    Location
+    Path
