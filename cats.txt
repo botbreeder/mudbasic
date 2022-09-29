@@ -3,7 +3,7 @@ Thing
     Agent
         Human
             Individual
-            People
+            Organization
         Animal
     Object
         Vegetal
