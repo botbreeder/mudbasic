@@ -16,4 +16,4 @@ Thing
     Abstract
         Feeling
         Concept
-
+        State
