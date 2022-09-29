@@ -2,6 +2,8 @@
 Thing
     Agent
         Human
+            Individual
+            ?
         Animal
     Object
         Vegetal
