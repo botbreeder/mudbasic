@@ -12,6 +12,7 @@ Thing
     Space
         Location
         Path
+        Vehicle
     Abstract
         Feeling
         Concept
