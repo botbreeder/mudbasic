@@ -1,3002 +1,2986 @@
-| WORD | CATS 1 | CATS 2 | CATS 3 | CATS 4 | 
-|---|---|---|---|---|
-| attempt | Thing | Occurrence | Action | Action modifier | 
-| may | Thing | Occurrence | Action | Action modifier | 
-| might | Thing | Occurrence | Action | Action modifier | 
-| must | Thing | Occurrence | Action | Action modifier | 
-| need | Thing | Occurrence | Action | Action modifier | 
-| try | Thing | Occurrence | Action | Action modifier | 
-| bake | Thing | Occurrence | Action | High level action | 
-| blame | Thing | Occurrence | Action | High level action | 
-| bomb | Thing | Occurrence | Action | High level action | 
-| build | Thing | Occurrence | Action | High level action | 
-| burn | Thing | Occurrence | Action | High level action | 
-| bury | Thing | Occurrence | Action | High level action | 
-| buy | Thing | Occurrence | Action | High level action | 
-| calculate | Thing | Occurrence | Action | High level action | 
-| call | Thing | Occurrence | Action | High level action | 
-| capture | Thing | Occurrence | Action | High level action | 
-| celebrate | Thing | Occurrence | Action | High level action | 
-| change | Thing | Occurrence | Action | High level action | 
-| charge | Thing | Occurrence | Action | High level action | 
-| chase | Thing | Occurrence | Action | High level action | 
-| claim | Thing | Occurrence | Action | High level action | 
-| collect | Thing | Occurrence | Action | High level action | 
-| commit | Thing | Occurrence | Action | High level action | 
-| communicate | Thing | Occurrence | Action | High level action | 
-| compare | Thing | Occurrence | Action | High level action | 
-| complain | Thing | Occurrence | Action | High level action | 
-| connect | Thing | Occurrence | Action | High level action | 
-| convince | Thing | Occurrence | Action | High level action | 
-| cook | Thing | Occurrence | Action | High level action | 
-| copy | Thing | Occurrence | Action | High level action | 
-| create | Thing | Occurrence | Action | High level action | 
-| cut | Thing | Occurrence | Action | High level action | 
-| dare | Thing | Occurrence | Action | High level action | 
-| deal | Thing | Occurrence | Action | High level action | 
-| defeat | Thing | Occurrence | Action | High level action | 
-| defend | Thing | Occurrence | Action | High level action | 
-| define | Thing | Occurrence | Action | High level action | 
-| deliver | Thing | Occurrence | Action | High level action | 
-| deny | Thing | Occurrence | Action | High level action | 
-| describe | Thing | Occurrence | Action | High level action | 
-| destroy | Thing | Occurrence | Action | High level action | 
-| dining | Thing | Occurrence | Action | High level action | 
-| disappear | Thing | Occurrence | Action | High level action | 
-| discover | Thing | Occurrence | Action | High level action | 
-| discuss | Thing | Occurrence | Action | High level action | 
-| earn | Thing | Occurrence | Action | High level action | 
-| elect | Thing | Occurrence | Action | High level action | 
-| employ | Thing | Occurrence | Action | High level action | 
-| enable | Thing | Occurrence | Action | High level action | 
-| encourage | Thing | Occurrence | Action | High level action | 
-| enter | Thing | Occurrence | Action | High level action | 
-| escape | Thing | Occurrence | Action | High level action | 
-| exchange | Thing | Occurrence | Action | High level action | 
-| explain | Thing | Occurrence | Action | High level action | 
-| explore | Thing | Occurrence | Action | High level action | 
-| feed | Thing | Occurrence | Action | High level action | 
-| fill | Thing | Occurrence | Action | High level action | 
-| fish | Thing | Occurrence | Action | High level action | 
-| fix | Thing | Occurrence | Action | High level action | 
-| follow | Thing | Occurrence | Action | High level action | 
-| gather | Thing | Occurrence | Action | High level action | 
-| get | Thing | Occurrence | Action | High level action | 
-| graduate | Thing | Occurrence | Action | High level action | 
-| grant | Thing | Occurrence | Action | High level action | 
-| help | Thing | Occurrence | Action | High level action | 
-| hide | Thing | Occurrence | Action | High level action | 
-| hire | Thing | Occurrence | Action | High level action | 
-| hunt | Thing | Occurrence | Action | High level action | 
-| hurt | Thing | Occurrence | Action | High level action | 
-| impose | Thing | Occurrence | Action | High level action | 
-| improve | Thing | Occurrence | Action | High level action | 
-| increase | Thing | Occurrence | Action | High level action | 
-| indicate | Thing | Occurrence | Action | High level action | 
-| insist | Thing | Occurrence | Action | High level action | 
-| install | Thing | Occurrence | Action | High level action | 
-| intend | Thing | Occurrence | Action | High level action | 
-| introduce | Thing | Occurrence | Action | High level action | 
-| invest | Thing | Occurrence | Action | High level action | 
-| investigate | Thing | Occurrence | Action | High level action | 
-| invite | Thing | Occurrence | Action | High level action | 
-| join | Thing | Occurrence | Action | High level action | 
-| joke | Thing | Occurrence | Action | High level action | 
-| kill | Thing | Occurrence | Action | High level action | 
-| launch | Thing | Occurrence | Action | High level action | 
-| leave | Thing | Occurrence | Action | High level action | 
-| lock | Thing | Occurrence | Action | High level action | 
-| make | Thing | Occurrence | Action | High level action | 
-| marry | Thing | Occurrence | Action | High level action | 
-| meet | Thing | Occurrence | Action | High level action | 
-| mount | Thing | Occurrence | Action | High level action | 
-| negotiate | Thing | Occurrence | Action | High level action | 
-| observe | Thing | Occurrence | Action | High level action | 
-| obtain | Thing | Occurrence | Action | High level action | 
-| participate | Thing | Occurrence | Action | High level action | 
-| pass | Thing | Occurrence | Action | High level action | 
-| pay | Thing | Occurrence | Action | High level action | 
-| perform | Thing | Occurrence | Action | High level action | 
-| permit | Thing | Occurrence | Action | High level action | 
-| photograph | Thing | Occurrence | Action | High level action | 
-| play | Thing | Occurrence | Action | High level action | 
-| portray | Thing | Occurrence | Action | High level action | 
-| pose | Thing | Occurrence | Action | High level action | 
-| post | Thing | Occurrence | Action | High level action | 
-| practice | Thing | Occurrence | Action | High level action | 
-| prepare | Thing | Occurrence | Action | High level action | 
-| pretend | Thing | Occurrence | Action | High level action | 
-| print | Thing | Occurrence | Action | High level action | 
-| proceed | Thing | Occurrence | Action | High level action | 
-| produce | Thing | Occurrence | Action | High level action | 
-| propose | Thing | Occurrence | Action | High level action | 
-| protect | Thing | Occurrence | Action | High level action | 
-| protest | Thing | Occurrence | Action | High level action | 
-| prove | Thing | Occurrence | Action | High level action | 
-| provide | Thing | Occurrence | Action | High level action | 
-| publish | Thing | Occurrence | Action | High level action | 
-| purchase | Thing | Occurrence | Action | High level action | 
-| pursue | Thing | Occurrence | Action | High level action | 
-| quit | Thing | Occurrence | Action | High level action | 
-| quote | Thing | Occurrence | Action | High level action | 
-| raise | Thing | Occurrence | Action | High level action | 
-| receive | Thing | Occurrence | Action | High level action | 
-| recommend | Thing | Occurrence | Action | High level action | 
-| record | Thing | Occurrence | Action | High level action | 
-| recruit | Thing | Occurrence | Action | High level action | 
-| reduce | Thing | Occurrence | Action | High level action | 
-| register | Thing | Occurrence | Action | High level action | 
-| regulate | Thing | Occurrence | Action | High level action | 
-| reinforce | Thing | Occurrence | Action | High level action | 
-| release | Thing | Occurrence | Action | High level action | 
-| remain | Thing | Occurrence | Action | High level action | 
-| remind | Thing | Occurrence | Action | High level action | 
-| remove | Thing | Occurrence | Action | High level action | 
-| repeat | Thing | Occurrence | Action | High level action | 
-| replace | Thing | Occurrence | Action | High level action | 
-| reply | Thing | Occurrence | Action | High level action | 
-| report | Thing | Occurrence | Action | High level action | 
-| request | Thing | Occurrence | Action | High level action | 
-| rest | Thing | Occurrence | Action | High level action | 
-| return | Thing | Occurrence | Action | High level action | 
-| reveal | Thing | Occurrence | Action | High level action | 
-| save | Thing | Occurrence | Action | High level action | 
-| search | Thing | Occurrence | Action | High level action | 
-| send | Thing | Occurrence | Action | High level action | 
-| set | Thing | Occurrence | Action | High level action | 
-| settle | Thing | Occurrence | Action | High level action | 
-| share | Thing | Occurrence | Action | High level action | 
-| show | Thing | Occurrence | Action | High level action | 
-| shut | Thing | Occurrence | Action | High level action | 
-| spend | Thing | Occurrence | Action | High level action | 
-| split | Thing | Occurrence | Action | High level action | 
-| spread | Thing | Occurrence | Action | High level action | 
-| start | Thing | Occurrence | Action | High level action | 
-| stay | Thing | Occurrence | Action | High level action | 
-| steal | Thing | Occurrence | Action | High level action | 
-| stir | Thing | Occurrence | Action | High level action | 
-| stop | Thing | Occurrence | Action | High level action | 
-| strip | Thing | Occurrence | Action | High level action | 
-| struggle | Thing | Occurrence | Action | High level action | 
-| study | Thing | Occurrence | Action | High level action | 
-| submit | Thing | Occurrence | Action | High level action | 
-| sue | Thing | Occurrence | Action | High level action | 
-| suggest | Thing | Occurrence | Action | High level action | 
-| suicide | Thing | Occurrence | Action | High level action | 
-| swear | Thing | Occurrence | Action | High level action | 
-| teach | Thing | Occurrence | Action | High level action | 
-| tell | Thing | Occurrence | Action | High level action | 
-| testify | Thing | Occurrence | Action | High level action | 
-| threaten | Thing | Occurrence | Action | High level action | 
-| trace | Thing | Occurrence | Action | High level action | 
-| trade | Thing | Occurrence | Action | High level action | 
-| transfer | Thing | Occurrence | Action | High level action | 
-| translate | Thing | Occurrence | Action | High level action | 
-| travel | Thing | Occurrence | Action | High level action | 
-| treat | Thing | Occurrence | Action | High level action | 
-| trick | Thing | Occurrence | Action | High level action | 
-| turn | Thing | Occurrence | Action | High level action | 
-| urge | Thing | Occurrence | Action | High level action | 
-| use | Thing | Occurrence | Action | High level action | 
-| violate | Thing | Occurrence | Action | High level action | 
-| visit | Thing | Occurrence | Action | High level action | 
-| volunteer | Thing | Occurrence | Action | High level action | 
-| vote | Thing | Occurrence | Action | High level action | 
-| wage | Thing | Occurrence | Action | High level action | 
-| wait | Thing | Occurrence | Action | High level action | 
-| warn | Thing | Occurrence | Action | High level action | 
-| wash | Thing | Occurrence | Action | High level action | 
-| welcome | Thing | Occurrence | Action | High level action | 
-| wipe | Thing | Occurrence | Action | High level action | 
-| withdraw | Thing | Occurrence | Action | High level action | 
-| wrap | Thing | Occurrence | Action | High level action | 
-| write | Thing | Occurrence | Action | High level action | 
-| yield | Thing | Occurrence | Action | High level action | 
-| care | Thing | Occurrence | Action | Mental action | 
-| consider | Thing | Occurrence | Action | Mental action | 
-| decide | Thing | Occurrence | Action | Mental action | 
-| disagree | Thing | Occurrence | Action | Mental action | 
-| enjoy | Thing | Occurrence | Action | Mental action | 
-| evaluate | Thing | Occurrence | Action | Mental action | 
-| expect | Thing | Occurrence | Action | Mental action | 
-| identify | Thing | Occurrence | Action | Mental action | 
-| ignore | Thing | Occurrence | Action | Mental action | 
-| imagine | Thing | Occurrence | Action | Mental action | 
-| learn | Thing | Occurrence | Action | Mental action | 
-| pick | Thing | Occurrence | Action | Mental action | 
-| plan | Thing | Occurrence | Action | Mental action | 
-| predict | Thing | Occurrence | Action | Mental action | 
-| refuse | Thing | Occurrence | Action | Mental action | 
-| reject | Thing | Occurrence | Action | Mental action | 
-| relate | Thing | Occurrence | Action | Mental action | 
-| relax | Thing | Occurrence | Action | Mental action | 
-| remember | Thing | Occurrence | Action | Mental action | 
-| resist | Thing | Occurrence | Action | Mental action | 
-| suppose | Thing | Occurrence | Action | Mental action | 
-| think | Thing | Occurrence | Action | Mental action | 
-| understand | Thing | Occurrence | Action | Mental action | 
-| want | Thing | Occurrence | Action | Mental action | 
-| wish | Thing | Occurrence | Action | Mental action | 
-| worry | Thing | Occurrence | Action | Mental action | 
-| attack | Thing | Occurrence | Action | Physical action | 
-| bite | Thing | Occurrence | Action | Physical action | 
-| break | Thing | Occurrence | Action | Physical action | 
-| breathe | Thing | Occurrence | Action | Physical action | 
-| carry | Thing | Occurrence | Action | Physical action | 
-| catch | Thing | Occurrence | Action | Physical action | 
-| climb | Thing | Occurrence | Action | Physical action | 
-| close | Thing | Occurrence | Action | Physical action | 
-| come | Thing | Occurrence | Action | Physical action | 
-| dance | Thing | Occurrence | Action | Physical action | 
-| dig | Thing | Occurrence | Action | Physical action | 
-| draw | Thing | Occurrence | Action | Physical action | 
-| drive | Thing | Occurrence | Action | Physical action | 
-| drop | Thing | Occurrence | Action | Physical action | 
-| eat | Thing | Occurrence | Action | Physical action | 
-| examine | Thing | Occurrence | Action | Physical action | 
-| fight | Thing | Occurrence | Action | Physical action | 
-| flee | Thing | Occurrence | Action | Physical action | 
-| give | Thing | Occurrence | Action | Physical action | 
-| go | Thing | Occurrence | Action | Physical action | 
-| grab | Thing | Occurrence | Action | Physical action | 
-| hang | Thing | Occurrence | Action | Physical action | 
-| hit | Thing | Occurrence | Action | Physical action | 
-| hold | Thing | Occurrence | Action | Physical action | 
-| jump | Thing | Occurrence | Action | Physical action | 
-| kick | Thing | Occurrence | Action | Physical action | 
-| kiss | Thing | Occurrence | Action | Physical action | 
-| knock | Thing | Occurrence | Action | Physical action | 
-| laugh | Thing | Occurrence | Action | Physical action | 
-| lay | Thing | Occurrence | Action | Physical action | 
-| look | Thing | Occurrence | Action | Physical action | 
-| move | Thing | Occurrence | Action | Physical action | 
-| nod | Thing | Occurrence | Action | Physical action | 
-| open | Thing | Occurrence | Action | Physical action | 
-| pray | Thing | Occurrence | Action | Physical action | 
-| pull | Thing | Occurrence | Action | Physical action | 
-| push | Thing | Occurrence | Action | Physical action | 
-| put | Thing | Occurrence | Action | Physical action | 
-| read | Thing | Occurrence | Action | Physical action | 
-| ride | Thing | Occurrence | Action | Physical action | 
-| run | Thing | Occurrence | Action | Physical action | 
-| rush | Thing | Occurrence | Action | Physical action | 
-| say | Thing | Occurrence | Action | Physical action | 
-| scream | Thing | Occurrence | Action | Physical action | 
-| shake | Thing | Occurrence | Action | Physical action | 
-| shoot | Thing | Occurrence | Action | Physical action | 
-| shout | Thing | Occurrence | Action | Physical action | 
-| sing | Thing | Occurrence | Action | Physical action | 
-| sit | Thing | Occurrence | Action | Physical action | 
-| smile | Thing | Occurrence | Action | Physical action | 
-| smoke | Thing | Occurrence | Action | Physical action | 
-| speak | Thing | Occurrence | Action | Physical action | 
-| stand | Thing | Occurrence | Action | Physical action | 
-| stare | Thing | Occurrence | Action | Physical action | 
-| stretch | Thing | Occurrence | Action | Physical action | 
-| strike | Thing | Occurrence | Action | Physical action | 
-| swim | Thing | Occurrence | Action | Physical action | 
-| take | Thing | Occurrence | Action | Physical action | 
-| talk | Thing | Occurrence | Action | Physical action | 
-| throw | Thing | Occurrence | Action | Physical action | 
-| toss | Thing | Occurrence | Action | Physical action | 
-| touch | Thing | Occurrence | Action | Physical action | 
-| walk | Thing | Occurrence | Action | Physical action | 
-| wander | Thing | Occurrence | Action | Physical action | 
-| wear | Thing | Occurrence | Action | Physical action | 
-| whisper | Thing | Occurrence | Action | Physical action | 
-| yell | Thing | Occurrence | Action | Physical action | 
-| listen | Thing | Occurrence | Action | Physical action | 
-| shine | Thing | Occurrence | Action | Unintentional action | 
-| die | Thing | Occurrence | Action | Unintentional action | 
-| feel | Thing | Occurrence | Action | Unintentional action | 
-| find | Thing | Occurrence | Action | Unintentional action | 
-| hear | Thing | Occurrence | Action | Unintentional action | 
-| impress | Thing | Occurrence | Action | Unintentional action | 
-| live | Thing | Occurrence | Action | Unintentional action | 
-| notice | Thing | Occurrence | Action | Unintentional action | 
-| overcome | Thing | Occurrence | Action | Unintentional action | 
-| qualify | Thing | Occurrence | Action | Unintentional action | 
-| reach | Thing | Occurrence | Action | Unintentional action | 
-| react | Thing | Occurrence | Action | Unintentional action | 
-| recognize | Thing | Occurrence | Action | Unintentional action | 
-| recover | Thing | Occurrence | Action | Unintentional action | 
-| represent | Thing | Occurrence | Action | Unintentional action | 
-| sleep | Thing | Occurrence | Action | Unintentional action | 
-| smell | Thing | Occurrence | Action | Unintentional action | 
-| spin | Thing | Occurrence | Action | Unintentional action | 
-| stick | Thing | Occurrence | Action | Unintentional action | 
-| succeed | Thing | Occurrence | Action | Unintentional action | 
-| suffer | Thing | Occurrence | Action | Unintentional action | 
-| survive | Thing | Occurrence | Action | Unintentional action | 
-| tend | Thing | Occurrence | Action | Unintentional action | 
-| transform | Thing | Occurrence | Action | Unintentional action | 
-| trust | Thing | Occurrence | Action | Unintentional action | 
-| vary | Thing | Occurrence | Action | Unintentional action | 
-| wake | Thing | Occurrence | Action | Unintentional action | 
-| win | Thing | Occurrence | Action | Unintentional action | 
-| surround | Thing | Occurrence | Action | Unintentional action | 
-| support | Thing | Occurrence | Action | Unintentional action | 
-| animal | Thing | Agent | Animal |  | 
-| bear | Thing | Agent | Animal | Wild | 
-| bird | Thing | Agent | Animal | Wild | 
-| cat | Thing | Agent | Animal | Domestic | 
-| chicken | Thing | Agent | Animal | Farm | 
-| cow | Thing | Agent | Animal | Farm | 
-| deer | Thing | Agent | Animal | Wild | 
-| dog | Thing | Agent | Animal | Domestic | 
-| fish | Thing | Agent | Animal | Wild | 
-| fly | Thing | Agent | Animal | Wild | 
-| horse | Thing | Agent | Animal | Farm | 
-| mouse | Thing | Agent | Animal | Wild | 
-| pet | Thing | Agent | Animal | Domestic | 
-| account | Thing | Abstract | Concept |  | 
-| address | Thing | Abstract | Concept |  | 
-| advice | Thing | Abstract | Concept |  | 
-| afternoon | Thing | Abstract | Concept |  | 
-| age | Thing | Abstract | Concept |  | 
-| agreement | Thing | Abstract | Concept |  | 
-| alive | Thing | Abstract | Concept |  | 
-| answer | Thing | Abstract | Concept |  | 
-| appointment | Thing | Abstract | Concept |  | 
-| approval | Thing | Abstract | Concept |  | 
-| award | Thing | Abstract | Concept |  | 
-| baseball | Thing | Abstract | Concept |  | 
-| basketball | Thing | Abstract | Concept |  | 
-| beginning | Thing | Abstract | Concept |  | 
-| belief | Thing | Abstract | Concept |  | 
-| benefit | Thing | Abstract | Concept |  | 
-| bet | Thing | Abstract | Concept |  | 
-| brand | Thing | Abstract | Concept |  | 
-| business | Thing | Abstract | Concept |  | 
-| campaign | Thing | Abstract | Concept |  | 
-| capability | Thing | Abstract | Concept |  | 
-| capacity | Thing | Abstract | Concept |  | 
-| capital | Thing | Abstract | Concept |  | 
-| category | Thing | Abstract | Concept |  | 
-| cause | Thing | Abstract | Concept |  | 
-| challenge | Thing | Abstract | Concept |  | 
-| chance | Thing | Abstract | Concept |  | 
-| channel | Thing | Abstract | Concept |  | 
-| chapter | Thing | Abstract | Concept |  | 
-| choice | Thing | Abstract | Concept |  | 
-| circumstance | Thing | Abstract | Concept |  | 
-| clue | Thing | Abstract | Concept |  | 
-| code | Thing | Abstract | Concept |  | 
-| comedy | Thing | Abstract | Concept |  | 
-| commander | Thing | Abstract | Concept |  | 
-| commercial | Thing | Abstract | Concept |  | 
-| commission | Thing | Abstract | Concept |  | 
-| concept | Thing | Abstract | Concept |  | 
-| conflict | Thing | Abstract | Concept |  | 
-| connection | Thing | Abstract | Concept |  | 
-| consciousness | Thing | Abstract | Concept |  | 
-| consequence | Thing | Abstract | Concept |  | 
-| contract | Thing | Abstract | Concept |  | 
-| correct | Thing | Abstract | Concept |  | 
-| cost | Thing | Abstract | Concept |  | 
-| data | Thing | Abstract | Concept |  | 
-| decision | Thing | Abstract | Concept |  | 
-| definition | Thing | Abstract | Concept |  | 
-| demand | Thing | Abstract | Concept |  | 
-| description | Thing | Abstract | Concept |  | 
-| duty | Thing | Abstract | Concept |  | 
-| effect | Thing | Abstract | Concept |  | 
-| end | Thing | Abstract | Concept |  | 
-| evaluation | Thing | Abstract | Concept |  | 
-| evening | Thing | Abstract | Concept |  | 
-| everyday | Thing | Abstract | Concept |  | 
-| existence | Thing | Abstract | Concept |  | 
-| explanation | Thing | Abstract | Concept |  | 
-| fact | Thing | Abstract | Concept |  | 
-| failure | Thing | Abstract | Concept |  | 
-| false | Thing | Abstract | Concept |  | 
-| fashion | Thing | Abstract | Concept |  | 
-| favor | Thing | Abstract | Concept |  | 
-| fee | Thing | Abstract | Concept |  | 
-| finding | Thing | Abstract | Concept |  | 
-| freedom | Thing | Abstract | Concept |  | 
-| future | Thing | Abstract | Concept |  | 
-| game | Thing | Abstract | Concept |  | 
-| group | Thing | Abstract | Concept |  | 
-| health | Thing | Abstract | Concept |  | 
-| height | Thing | Abstract | Concept |  | 
-| holiday | Thing | Abstract | Concept |  | 
-| honor | Thing | Abstract | Concept |  | 
-| hypothesis | Thing | Abstract | Concept |  | 
-| idea | Thing | Abstract | Concept |  | 
-| implication | Thing | Abstract | Concept |  | 
-| imply | Thing | Abstract | Concept |  | 
-| importance | Thing | Abstract | Concept |  | 
-| incentive | Thing | Abstract | Concept |  | 
-| influence | Thing | Abstract | Concept |  | 
-| information | Thing | Abstract | Concept |  | 
-| inquiry | Thing | Abstract | Concept |  | 
-| instruction | Thing | Abstract | Concept |  | 
-| intelligence | Thing | Abstract | Concept |  | 
-| intention | Thing | Abstract | Concept |  | 
-| item | Thing | Abstract | Concept |  | 
-| job | Thing | Abstract | Concept |  | 
-| justice | Thing | Abstract | Concept |  | 
-| knowledge | Thing | Abstract | Concept |  | 
-| law | Thing | Abstract | Concept |  | 
-| lie | Thing | Abstract | Concept |  | 
-| life | Thing | Abstract | Concept |  | 
-| luck | Thing | Abstract | Concept |  | 
-| meaning | Thing | Abstract | Concept |  | 
-| media | Thing | Abstract | Concept |  | 
-| mess | Thing | Abstract | Concept |  | 
-| meter | Thing | Abstract | Concept |  | 
-| method | Thing | Abstract | Concept |  | 
-| mission | Thing | Abstract | Concept |  | 
-| mistake | Thing | Abstract | Concept |  | 
-| moment | Thing | Abstract | Concept |  | 
-| moral | Thing | Abstract | Concept |  | 
-| morning | Thing | Abstract | Concept |  | 
-| mystery | Thing | Abstract | Concept |  | 
-| myth | Thing | Abstract | Concept |  | 
-| name | Thing | Abstract | Concept |  | 
-| nature | Thing | Abstract | Concept |  | 
-| news | Thing | Abstract | Concept |  | 
-| night | Thing | Abstract | Concept |  | 
-| notion | Thing | Abstract | Concept |  | 
-| now | Thing | Abstract | Concept |  | 
-| number | Thing | Abstract | Concept |  | 
-| obligation | Thing | Abstract | Concept |  | 
-| occupation | Thing | Abstract | Concept |  | 
-| offer | Thing | Abstract | Concept |  | 
-| once | Thing | Abstract | Concept |  | 
-| opportunity | Thing | Abstract | Concept |  | 
-| peace | Thing | Abstract | Concept |  | 
-| permission | Thing | Abstract | Concept |  | 
-| plan | Thing | Abstract | Concept |  | 
-| PM | Thing | Abstract | Concept |  | 
-| poetry | Thing | Abstract | Concept |  | 
-| point | Thing | Abstract | Concept |  | 
-| policy | Thing | Abstract | Concept |  | 
-| politics | Thing | Abstract | Concept |  | 
-| poll | Thing | Abstract | Concept |  | 
-| power | Thing | Abstract | Concept |  | 
-| prayer | Thing | Abstract | Concept |  | 
-| prescription | Thing | Abstract | Concept |  | 
-| price | Thing | Abstract | Concept |  | 
-| priority | Thing | Abstract | Concept |  | 
-| procedure | Thing | Abstract | Concept |  | 
-| profile | Thing | Abstract | Concept |  | 
-| profit | Thing | Abstract | Concept |  | 
-| program | Thing | Abstract | Concept |  | 
-| project | Thing | Abstract | Concept |  | 
-| promise | Thing | Abstract | Concept |  | 
-| proof | Thing | Abstract | Concept |  | 
-| proposal | Thing | Abstract | Concept |  | 
-| punishment | Thing | Abstract | Concept |  | 
-| purpose | Thing | Abstract | Concept |  | 
-| quality | Thing | Abstract | Concept |  | 
-| question | Thing | Abstract | Concept |  | 
-| range | Thing | Abstract | Concept |  | 
-| rank | Thing | Abstract | Concept |  | 
-| rating | Thing | Abstract | Concept |  | 
-| reason | Thing | Abstract | Concept |  | 
-| recipe | Thing | Abstract | Concept |  | 
-| reference | Thing | Abstract | Concept |  | 
-| relation | Thing | Abstract | Concept |  | 
-| relationship | Thing | Abstract | Concept |  | 
-| religion | Thing | Abstract | Concept |  | 
-| reputation | Thing | Abstract | Concept |  | 
-| research | Thing | Abstract | Concept |  | 
-| reservation | Thing | Abstract | Concept |  | 
-| respect | Thing | Abstract | Concept |  | 
-| result | Thing | Abstract | Concept |  | 
-| revenue | Thing | Abstract | Concept |  | 
-| right | Thing | Abstract | Concept |  | 
-| role | Thing | Abstract | Concept |  | 
-| salary | Thing | Abstract | Concept |  | 
-| secret | Thing | Abstract | Concept |  | 
-| self | Thing | Abstract | Concept |  | 
-| sentence | Thing | Abstract | Concept |  | 
-| shot | Thing | Abstract | Concept |  | 
-| signal | Thing | Abstract | Concept |  | 
-| sin | Thing | Abstract | Concept |  | 
-| situation | Thing | Abstract | Concept |  | 
-| skill | Thing | Abstract | Concept |  | 
-| somehow | Thing | Abstract | Concept |  | 
-| sometimes | Thing | Abstract | Concept |  | 
-| soul | Thing | Abstract | Concept |  | 
-| spirit | Thing | Abstract | Concept |  | 
-| sport | Thing | Abstract | Concept |  | 
-| spring | Thing | Abstract | Concept |  | 
-| story | Thing | Abstract | Concept |  | 
-| stream | Thing | Abstract | Concept |  | 
-| success | Thing | Abstract | Concept |  | 
-| suggestion | Thing | Abstract | Concept |  | 
-| summer | Thing | Abstract | Concept |  | 
-| symptom | Thing | Abstract | Concept |  | 
-| tactic | Thing | Abstract | Concept |  | 
-| tale | Thing | Abstract | Concept |  | 
-| target | Thing | Abstract | Concept |  | 
-| task | Thing | Abstract | Concept |  | 
-| tax | Thing | Abstract | Concept |  | 
-| teaching | Thing | Abstract | Concept |  | 
-| testimony | Thing | Abstract | Concept |  | 
-| text | Thing | Abstract | Concept |  | 
-| thanks | Thing | Abstract | Concept |  | 
-| theory | Thing | Abstract | Concept |  | 
-| thought | Thing | Abstract | Concept |  | 
-| threat | Thing | Abstract | Concept |  | 
-| time | Thing | Abstract | Concept |  | 
-| title | Thing | Abstract | Concept |  | 
-| topic | Thing | Abstract | Concept |  | 
-| trail | Thing | Abstract | Concept |  | 
-| transformation | Thing | Abstract | Concept |  | 
-| transition | Thing | Abstract | Concept |  | 
-| trend | Thing | Abstract | Concept |  | 
-| trouble | Thing | Abstract | Concept |  | 
-| truth | Thing | Abstract | Concept |  | 
-| type | Thing | Abstract | Concept |  | 
-| understanding | Thing | Abstract | Concept |  | 
-| unit | Thing | Abstract | Concept |  | 
-| waste | Thing | Abstract | Concept |  | 
-| weather | Thing | Abstract | Concept |  | 
-| word | Thing | Abstract | Concept |  | 
-| work | Thing | Abstract | Concept |  | 
-| youth | Thing | Abstract | Concept |  | 
-| anniversary | Thing | Occurrence | Event | Celebration | 
-| birthday | Thing | Occurrence | Event | Celebration | 
-| celebration | Thing | Occurrence | Event | Celebration | 
-| Christmas | Thing | Occurrence | Event | Celebration | 
-| party | Thing | Occurrence | Event | Celebration | 
-| wedding | Thing | Occurrence | Event | Celebration | 
-| breakfast | Thing | Occurrence | Event | Daily | 
-| conversation | Thing | Occurrence | Event | Daily | 
-| dialogue | Thing | Occurrence | Event | Daily | 
-| dinner | Thing | Occurrence | Event | Daily | 
-| discussion | Thing | Occurrence | Event | Daily | 
-| interaction | Thing | Occurrence | Event | Daily | 
-| shower | Thing | Occurrence | Event | Daily | 
-| surprise | Thing | Occurrence | Event | Daily | 
-| vacation | Thing | Occurrence | Event | Daily | 
-| birth | Thing | Occurrence | Event | Life | 
-| crime | Thing | Occurrence | Event | Life | 
-| death | Thing | Occurrence | Event | Life | 
-| disaster | Thing | Occurrence | Event | Life | 
-| funeral | Thing | Occurrence | Event | Life | 
-| miracle | Thing | Occurrence | Event | Life | 
-| murder | Thing | Occurrence | Event | Life | 
-| surgery | Thing | Occurrence | Event | Life | 
-| therapy | Thing | Occurrence | Event | Life | 
-| treatment | Thing | Occurrence | Event | Life | 
-| war | Thing | Occurrence | Event | Life | 
-| championship | Thing | Occurrence | Event | Sport | 
-| competition | Thing | Occurrence | Event | Sport | 
-| football | Thing | Occurrence | Event | Sport | 
-| golf | Thing | Occurrence | Event | Sport | 
-| soccer | Thing | Occurrence | Event | Sport | 
-| tennis | Thing | Occurrence | Event | Sport | 
-| tournament | Thing | Occurrence | Event | Sport | 
-| training | Thing | Occurrence | Event | Sport | 
-| storm | Thing | Occurrence | Event |  | 
-| assault | Thing | Occurrence | Event |  | 
-| argument | Thing | Occurrence | Event |  | 
-| arrival | Thing | Occurrence | Event |  | 
-| battle | Thing | Occurrence | Event |  | 
-| boom | Thing | Occurrence | Event |  | 
-| ceremony | Thing | Occurrence | Event |  | 
-| concert | Thing | Occurrence | Event |  | 
-| conference | Thing | Occurrence | Event |  | 
-| contest | Thing | Occurrence | Event |  | 
-| delivery | Thing | Occurrence | Event |  | 
-| election | Thing | Occurrence | Event |  | 
-| encounter | Thing | Occurrence | Event |  | 
-| event | Thing | Occurrence | Event |  | 
-| explosion | Thing | Occurrence | Event |  | 
-| fight | Thing | Occurrence | Event |  | 
-| flight | Thing | Occurrence | Event |  | 
-| interview | Thing | Occurrence | Event |  | 
-| investigation | Thing | Occurrence | Event |  | 
-| meeting | Thing | Occurrence | Event |  | 
-| negotiation | Thing | Occurrence | Event |  | 
-| operation | Thing | Occurrence | Event |  | 
-| process | Thing | Occurrence | Event |  | 
-| sale | Thing | Occurrence | Event |  | 
-| scandal | Thing | Occurrence | Event |  | 
-| trial | Thing | Occurrence | Event |  | 
-| trip | Thing | Occurrence | Event |  | 
-| variation | Thing | Occurrence | Event |  | 
-| victory | Thing | Occurrence | Event |  | 
-| violation | Thing | Occurrence | Event |  | 
-| warning | Thing | Occurrence | Event |  | 
-| workshop | Thing | Occurrence | Event |  | 
-| anger | Thing | Abstract | Feeling | Emotion | 
-| angry | Thing | Abstract | Feeling | Emotion | 
-| anxiety | Thing | Abstract | Feeling | Emotion | 
-| confusion | Thing | Abstract | Feeling | Emotion | 
-| courage | Thing | Abstract | Feeling | Emotion | 
-| crazy | Thing | Abstract | Feeling | Emotion | 
-| cry | Thing | Abstract | Feeling | Emotion | 
-| desire | Thing | Abstract | Feeling | Emotion | 
-| desperate | Thing | Abstract | Feeling | Emotion | 
-| emotion | Thing | Abstract | Feeling | Emotion | 
-| emotional | Thing | Abstract | Feeling | Emotion | 
-| exciting | Thing | Abstract | Feeling | Emotion | 
-| fear | Thing | Abstract | Feeling | Emotion | 
-| frustration | Thing | Abstract | Feeling | Emotion | 
-| fun | Thing | Abstract | Feeling | Emotion | 
-| glad | Thing | Abstract | Feeling | Emotion | 
-| happy | Thing | Abstract | Feeling | Emotion | 
-| hate | Thing | Abstract | Feeling | Emotion | 
-| hope | Thing | Abstract | Feeling | Emotion | 
-| horror | Thing | Abstract | Feeling | Emotion | 
-| humor | Thing | Abstract | Feeling | Emotion | 
-| joy | Thing | Abstract | Feeling | Emotion | 
-| love | Thing | Abstract | Feeling | Emotion | 
-| mad | Thing | Abstract | Feeling | Emotion | 
-| mood | Thing | Abstract | Feeling | Emotion | 
-| nervous | Thing | Abstract | Feeling | Emotion | 
-| passion | Thing | Abstract | Feeling | Emotion | 
-| relief | Thing | Abstract | Feeling | Emotion | 
-| sad | Thing | Abstract | Feeling | Emotion | 
-| shock | Thing | Abstract | Feeling | Emotion | 
-| stress | Thing | Abstract | Feeling | Emotion | 
-| surprised | Thing | Abstract | Feeling | Emotion | 
-| tear | Thing | Abstract | Feeling | Emotion | 
-| terror | Thing | Abstract | Feeling | Emotion | 
-| tired | Thing | Abstract | Feeling | Emotion | 
-| worried | Thing | Abstract | Feeling | Emotion | 
-| appearance | Thing | Abstract | Feeling | Senses | 
-| black | Thing | Abstract | Feeling | Senses | 
-| blue | Thing | Abstract | Feeling | Senses | 
-| bright | Thing | Abstract | Feeling | Senses | 
-| brown | Thing | Abstract | Feeling | Senses | 
-| cold | Thing | Abstract | Feeling | Senses | 
-| color | Thing | Abstract | Feeling | Senses | 
-| comfortable | Thing | Abstract | Feeling | Senses | 
-| cool | Thing | Abstract | Feeling | Senses | 
-| dark | Thing | Abstract | Feeling | Senses | 
-| darkness | Thing | Abstract | Feeling | Senses | 
-| film | Thing | Abstract | Feeling | Senses | 
-| flavor | Thing | Abstract | Feeling | Senses | 
-| gray | Thing | Abstract | Feeling | Senses | 
-| green | Thing | Abstract | Feeling | Senses | 
-| hungry | Thing | Abstract | Feeling | Senses | 
-| light | Thing | Abstract | Feeling | Senses | 
-| mental | Thing | Abstract | Feeling | Senses | 
-| mind | Thing | Abstract | Feeling | Senses | 
-| movie | Thing | Abstract | Feeling | Senses | 
-| music | Thing | Abstract | Feeling | Senses | 
-| orange | Thing | Abstract | Feeling | Senses | 
-| pain | Thing | Abstract | Feeling | Senses | 
-| perceive | Thing | Abstract | Feeling | Senses | 
-| perception | Thing | Abstract | Feeling | Senses | 
-| pink | Thing | Abstract | Feeling | Senses | 
-| pleasure | Thing | Abstract | Feeling | Senses | 
-| red | Thing | Abstract | Feeling | Senses | 
-| see | Thing | Abstract | Feeling | Senses | 
-| sense | Thing | Abstract | Feeling | Senses | 
-| sex | Thing | Abstract | Feeling | Senses | 
-| shadow | Thing | Abstract | Feeling | Senses | 
-| sight | Thing | Abstract | Feeling | Senses | 
-| silence | Thing | Abstract | Feeling | Senses | 
-| sound | Thing | Abstract | Feeling | Senses | 
-| speech | Thing | Abstract | Feeling | Senses | 
-| taste | Thing | Abstract | Feeling | Senses | 
-| temperature | Thing | Abstract | Feeling | Senses | 
-| vision | Thing | Abstract | Feeling | Senses | 
-| voice | Thing | Abstract | Feeling | Senses | 
-| watch | Thing | Abstract | Feeling | Senses | 
-| white | Thing | Abstract | Feeling | Senses | 
-| yellow | Thing | Abstract | Feeling | Senses | 
-| aggressive | Thing | Abstract | Feeling |  | 
-| attractive | Thing | Abstract | Feeling |  | 
-| beautiful | Thing | Abstract | Feeling |  | 
-| beauty | Thing | Abstract | Feeling |  | 
-| design | Thing | Abstract | Feeling |  | 
-| dream | Thing | Abstract | Feeling |  | 
-| expectation | Thing | Abstract | Feeling |  | 
-| experience | Thing | Abstract | Feeling |  | 
-| fantasy | Thing | Abstract | Feeling |  | 
-| feeling | Thing | Abstract | Feeling |  | 
-| memory | Thing | Abstract | Feeling |  | 
-| message | Thing | Abstract | Feeling |  | 
-| offense | Thing | Abstract | Feeling |  | 
-| personality | Thing | Abstract | Feeling |  | 
-| poem | Thing | Abstract | Feeling |  | 
-| reflection | Thing | Abstract | Feeling |  | 
-| rhythm | Thing | Abstract | Feeling |  | 
-| sign | Thing | Abstract | Feeling |  | 
-| song | Thing | Abstract | Feeling |  | 
-| will | Thing | Abstract | Feeling |  | 
-| adolescent | Thing | Agent | Human | Age | 
-| adult | Thing | Agent | Human | Age | 
-| baby | Thing | Agent | Human | Age | 
-| boy | Thing | Agent | Human | Age | 
-| child | Thing | Agent | Human | Age | 
-| elderly | Thing | Agent | Human | Age | 
-| girl | Thing | Agent | Human | Age | 
-| infant | Thing | Agent | Human | Age | 
-| kid | Thing | Agent | Human | Age | 
-| man | Thing | Agent | Human | Age | 
-| teen | Thing | Agent | Human | Age | 
-| teenager | Thing | Agent | Human | Age | 
-| woman | Thing | Agent | Human | Age | 
-| boyfriend | Thing | Agent | Human | Family | 
-| brother | Thing | Agent | Human | Family | 
-| couple | Thing | Agent | Human | Family | 
-| cousin | Thing | Agent | Human | Family | 
-| dad | Thing | Agent | Human | Family | 
-| daughter | Thing | Agent | Human | Family | 
-| family | Thing | Agent | Human | Family | 
-| father | Thing | Agent | Human | Family | 
-| friend | Thing | Agent | Human | Family | 
-| girlfriend | Thing | Agent | Human | Family | 
-| grandfather | Thing | Agent | Human | Family | 
-| grandmother | Thing | Agent | Human | Family | 
-| husband | Thing | Agent | Human | Family | 
-| lover | Thing | Agent | Human | Family | 
-| mom | Thing | Agent | Human | Family | 
-| mother | Thing | Agent | Human | Family | 
-| neighbor | Thing | Agent | Human | Family | 
-| relative | Thing | Agent | Human | Family | 
-| sister | Thing | Agent | Human | Family | 
-| son | Thing | Agent | Human | Family | 
-| twin | Thing | Agent | Human | Family | 
-| uncle | Thing | Agent | Human | Family | 
-| wife | Thing | Agent | Human | Family | 
-| activist | Thing | Agent | Human | Hobby | 
-| artist | Thing | Agent | Human | Hobby | 
-| author | Thing | Agent | Human | Hobby | 
-| fighter | Thing | Agent | Human | Hobby | 
-| hunter | Thing | Agent | Human | Hobby | 
-| jury | Thing | Agent | Human | Hobby | 
-| musician | Thing | Agent | Human | Hobby | 
-| poet | Thing | Agent | Human | Hobby | 
-| reader | Thing | Agent | Human | Hobby | 
-| tourist | Thing | Agent | Human | Hobby | 
-| writer | Thing | Agent | Human | Hobby | 
-| painter | Thing | Agent | Human | Occupation | 
-| actor | Thing | Agent | Human | Occupation | 
-| actress | Thing | Agent | Human | Occupation | 
-| administrator | Thing | Agent | Human | Occupation | 
-| analyst | Thing | Agent | Human | Occupation | 
-| architect | Thing | Agent | Human | Occupation | 
-| athlete | Thing | Agent | Human | Occupation | 
-| attorney | Thing | Agent | Human | Occupation | 
-| boss | Thing | Agent | Human | Occupation | 
-| captain | Thing | Agent | Human | Occupation | 
-| celebrity | Thing | Agent | Human | Occupation | 
-| CEO | Thing | Agent | Human | Occupation | 
-| chairman | Thing | Agent | Human | Occupation | 
-| chef | Thing | Agent | Human | Occupation | 
-| chief | Thing | Agent | Human | Occupation | 
-| coach | Thing | Agent | Human | Occupation | 
-| colleague | Thing | Agent | Human | Occupation | 
-| consultant | Thing | Agent | Human | Occupation | 
-| cop | Thing | Agent | Human | Occupation | 
-| criminal | Thing | Agent | Human | Occupation | 
-| dealer | Thing | Agent | Human | Occupation | 
-| deputy | Thing | Agent | Human | Occupation | 
-| designer | Thing | Agent | Human | Occupation | 
-| director | Thing | Agent | Human | Occupation | 
-| doctor | Thing | Agent | Human | Occupation | 
-| driver | Thing | Agent | Human | Occupation | 
-| economist | Thing | Agent | Human | Occupation | 
-| employee | Thing | Agent | Human | Occupation | 
-| employer | Thing | Agent | Human | Occupation | 
-| engineer | Thing | Agent | Human | Occupation | 
-| expert | Thing | Agent | Human | Occupation | 
-| farmer | Thing | Agent | Human | Occupation | 
-| governor | Thing | Agent | Human | Occupation | 
-| guard | Thing | Agent | Human | Occupation | 
-| historian | Thing | Agent | Human | Occupation | 
-| instructor | Thing | Agent | Human | Occupation | 
-| investigator | Thing | Agent | Human | Occupation | 
-| investor | Thing | Agent | Human | Occupation | 
-| journalist | Thing | Agent | Human | Occupation | 
-| judge | Thing | Agent | Human | Occupation | 
-| killer | Thing | Agent | Human | Occupation | 
-| king | Thing | Agent | Human | Occupation | 
-| lawyer | Thing | Agent | Human | Occupation | 
-| leader | Thing | Agent | Human | Occupation | 
-| manager | Thing | Agent | Human | Occupation | 
-| manufacturer | Thing | Agent | Human | Occupation | 
-| mayor | Thing | Agent | Human | Occupation | 
-| minister | Thing | Agent | Human | Occupation | 
-| nurse | Thing | Agent | Human | Occupation | 
-| observer | Thing | Agent | Human | Occupation | 
-| officer | Thing | Agent | Human | Occupation | 
-| operator | Thing | Agent | Human | Occupation | 
-| photographer | Thing | Agent | Human | Occupation | 
-| physician | Thing | Agent | Human | Occupation | 
-| pilot | Thing | Agent | Human | Occupation | 
-| politician | Thing | Agent | Human | Occupation | 
-| president | Thing | Agent | Human | Occupation | 
-| priest | Thing | Agent | Human | Occupation | 
-| prisoner | Thing | Agent | Human | Occupation | 
-| professional | Thing | Agent | Human | Occupation | 
-| professor | Thing | Agent | Human | Occupation | 
-| prosecutor | Thing | Agent | Human | Occupation | 
-| psychologist | Thing | Agent | Human | Occupation | 
-| publisher | Thing | Agent | Human | Occupation | 
-| quarterback | Thing | Agent | Human | Occupation | 
-| reporter | Thing | Agent | Human | Occupation | 
-| researcher | Thing | Agent | Human | Occupation | 
-| scientist | Thing | Agent | Human | Occupation | 
-| senator | Thing | Agent | Human | Occupation | 
-| singer | Thing | Agent | Human | Occupation | 
-| slave | Thing | Agent | Human | Occupation | 
-| soldier | Thing | Agent | Human | Occupation | 
-| specialist | Thing | Agent | Human | Occupation | 
-| star | Thing | Agent | Human | Occupation | 
-| student | Thing | Agent | Human | Occupation | 
-| teacher | Thing | Agent | Human | Occupation | 
-| terrorist | Thing | Agent | Human | Occupation | 
-| worker | Thing | Agent | Human | Occupation | 
-| army | Thing | Agent | Human | Organization | 
-| committee | Thing | Agent | Human | Organization | 
-| community | Thing | Agent | Human | Organization | 
-| company | Thing | Agent | Human | Organization | 
-| corporation | Thing | Agent | Human | Organization | 
-| crew | Thing | Agent | Human | Organization | 
-| crowd | Thing | Agent | Human | Organization | 
-| gang | Thing | Agent | Human | Organization | 
-| household | Thing | Agent | Human | Organization | 
-| league | Thing | Agent | Human | Organization | 
-| military | Thing | Agent | Human | Organization | 
-| nation | Thing | Agent | Human | Organization | 
-| organization | Thing | Agent | Human | Organization | 
-| people | Thing | Agent | Human | Organization | 
-| police | Thing | Agent | Human | Organization | 
-| press | Thing | Agent | Human | Organization | 
-| society | Thing | Agent | Human | Organization | 
-| team | Thing | Agent | Human | Organization | 
-| tribe | Thing | Agent | Human | Organization | 
-| troop | Thing | Agent | Human | Organization | 
-| anybody | Thing | Agent | Human |  | 
-| anyone | Thing | Agent | Human |  | 
-| buyer | Thing | Agent | Human |  | 
-| champion | Thing | Agent | Human |  | 
-| citizen | Thing | Agent | Human |  | 
-| civil | Thing | Agent | Human |  | 
-| civilian | Thing | Agent | Human |  | 
-| client | Thing | Agent | Human |  | 
-| consumer | Thing | Agent | Human |  | 
-| customer | Thing | Agent | Human |  | 
-| enemy | Thing | Agent | Human |  | 
-| everybody | Thing | Agent | Human |  | 
-| everyone | Thing | Agent | Human |  | 
-| folk | Thing | Agent | Human |  | 
-| founder | Thing | Agent | Human |  | 
-| gentleman | Thing | Agent | Human |  | 
-| ghost | Thing | Agent | Human |  | 
-| God | Thing | Agent | Human |  | 
-| guest | Thing | Agent | Human |  | 
-| guy | Thing | Agent | Human |  | 
-| hero | Thing | Agent | Human |  | 
-| host | Thing | Agent | Human |  | 
-| human | Thing | Agent | Human |  | 
-| lady | Thing | Agent | Human |  | 
-| me | Thing | Agent | Human |  | 
-| myself | Thing | Agent | Human |  | 
-| nobody | Thing | Agent | Human |  | 
-| opponent | Thing | Agent | Human |  | 
-| ourselves | Thing | Agent | Human |  | 
-| owner | Thing | Agent | Human |  | 
-| passenger | Thing | Agent | Human |  | 
-| person | Thing | Agent | Human |  | 
-| player | Thing | Agent | Human |  | 
-| refugee | Thing | Agent | Human |  | 
-| resident | Thing | Agent | Human |  | 
-| somebody | Thing | Agent | Human |  | 
-| someone | Thing | Agent | Human |  | 
-| speaker | Thing | Agent | Human |  | 
-| stranger | Thing | Agent | Human |  | 
-| survivor | Thing | Agent | Human |  | 
-| suspect | Thing | Agent | Human |  | 
-| user | Thing | Agent | Human |  | 
-| veteran | Thing | Agent | Human |  | 
-| victim | Thing | Agent | Human |  | 
-| visitor | Thing | Agent | Human |  | 
-| voter | Thing | Agent | Human |  | 
-| winner | Thing | Agent | Human |  | 
-| witness | Thing | Agent | Human |  | 
-| blood | Thing | Object | Inanimate | Body part | 
-| body | Thing | Object | Inanimate | Body part | 
-| bone | Thing | Object | Inanimate | Body part | 
-| ear | Thing | Object | Inanimate | Body part | 
-| eye | Thing | Object | Inanimate | Body part | 
-| face | Thing | Object | Inanimate | Body part | 
-| finger | Thing | Object | Inanimate | Body part | 
-| flesh | Thing | Object | Inanimate | Body part | 
-| foot | Thing | Object | Inanimate | Body part | 
-| hair | Thing | Object | Inanimate | Body part | 
-| hand | Thing | Object | Inanimate | Body part | 
-| hat | Thing | Object | Inanimate | Body part | 
-| head | Thing | Object | Inanimate | Body part | 
-| heart | Thing | Object | Inanimate | Body part | 
-| heel | Thing | Object | Inanimate | Body part | 
-| knee | Thing | Object | Inanimate | Body part | 
-| lap | Thing | Object | Inanimate | Body part | 
-| leg | Thing | Object | Inanimate | Body part | 
-| lip | Thing | Object | Inanimate | Body part | 
-| lung | Thing | Object | Inanimate | Body part | 
-| mouth | Thing | Object | Inanimate | Body part | 
-| muscle | Thing | Object | Inanimate | Body part | 
-| neck | Thing | Object | Inanimate | Body part | 
-| nose | Thing | Object | Inanimate | Body part | 
-| palm | Thing | Object | Inanimate | Body part | 
-| shoulder | Thing | Object | Inanimate | Body part | 
-| skin | Thing | Object | Inanimate | Body part | 
-| stomach | Thing | Object | Inanimate | Body part | 
-| tail | Thing | Object | Inanimate | Body part | 
-| throat | Thing | Object | Inanimate | Body part | 
-| toe | Thing | Object | Inanimate | Body part | 
-| tongue | Thing | Object | Inanimate | Body part | 
-| tooth | Thing | Object | Inanimate | Body part | 
-| belt | Thing | Object | Inanimate | Clothe | 
-| boot | Thing | Object | Inanimate | Clothe | 
-| clothes | Thing | Object | Inanimate | Clothe | 
-| coat | Thing | Object | Inanimate | Clothe | 
-| dress | Thing | Object | Inanimate | Clothe | 
-| glove | Thing | Object | Inanimate | Clothe | 
-| jacket | Thing | Object | Inanimate | Clothe | 
-| lawsuit | Thing | Object | Inanimate | Clothe | 
-| pant | Thing | Object | Inanimate | Clothe | 
-| ring | Thing | Object | Inanimate | Clothe | 
-| shirt | Thing | Object | Inanimate | Clothe | 
-| shoe | Thing | Object | Inanimate | Clothe | 
-| suit | Thing | Object | Inanimate | Clothe | 
-| tie | Thing | Object | Inanimate | Clothe | 
-| uniform | Thing | Object | Inanimate | Clothe | 
-| clothing | Thing | Object | Inanimate | Clothe | 
-| apple | Thing | Object | Inanimate | Food | 
-| bean | Thing | Object | Inanimate | Food | 
-| beer | Thing | Object | Inanimate | Food | 
-| bread | Thing | Object | Inanimate | Food | 
-| butter | Thing | Object | Inanimate | Food | 
-| cake | Thing | Object | Inanimate | Food | 
-| cheese | Thing | Object | Inanimate | Food | 
-| chocolate | Thing | Object | Inanimate | Food | 
-| cookie | Thing | Object | Inanimate | Food | 
-| corn | Thing | Object | Inanimate | Food | 
-| drink | Thing | Object | Inanimate | Food | 
-| egg | Thing | Object | Inanimate | Food | 
-| food | Thing | Object | Inanimate | Food | 
-| fruit | Thing | Object | Inanimate | Food | 
-| garlic | Thing | Object | Inanimate | Food | 
-| honey | Thing | Object | Inanimate | Food | 
-| ingredient | Thing | Object | Inanimate | Food | 
-| juice | Thing | Object | Inanimate | Food | 
-| lemon | Thing | Object | Inanimate | Food | 
-| lunch | Thing | Object | Inanimate | Food | 
-| meal | Thing | Object | Inanimate | Food | 
-| meat | Thing | Object | Inanimate | Food | 
-| milk | Thing | Object | Inanimate | Food | 
-| nut | Thing | Object | Inanimate | Food | 
-| onion | Thing | Object | Inanimate | Food | 
-| pepper | Thing | Object | Inanimate | Food | 
-| pie | Thing | Object | Inanimate | Food | 
-| potato | Thing | Object | Inanimate | Food | 
-| rice | Thing | Object | Inanimate | Food | 
-| salad | Thing | Object | Inanimate | Food | 
-| salt | Thing | Object | Inanimate | Food | 
-| sauce | Thing | Object | Inanimate | Food | 
-| soup | Thing | Object | Inanimate | Food | 
-| sugar | Thing | Object | Inanimate | Food | 
-| water | Thing | Object | Inanimate | Food | 
-| wine | Thing | Object | Inanimate | Food | 
-| bed | Thing | Object | Inanimate | Furniture | 
-| bench | Thing | Object | Inanimate | Furniture | 
-| cabinet | Thing | Object | Inanimate | Furniture | 
-| couch | Thing | Object | Inanimate | Furniture | 
-| furniture | Thing | Object | Inanimate | Furniture | 
-| oven | Thing | Object | Inanimate | Furniture | 
-| piano | Thing | Object | Inanimate | Furniture | 
-| television | Thing | Object | Inanimate | Furniture | 
-| TV | Thing | Object | Inanimate | Furniture | 
-| gear | Thing | Object | Inanimate |  | 
-| acid | Thing | Object | Inanimate |  | 
-| air | Thing | Object | Inanimate |  | 
-| album | Thing | Object | Inanimate |  | 
-| alcohol | Thing | Object | Inanimate |  | 
-| arm | Thing | Object | Inanimate |  | 
-| bag | Thing | Object | Inanimate |  | 
-| ball | Thing | Object | Inanimate |  | 
-| barrel | Thing | Object | Inanimate |  | 
-| barrier | Thing | Object | Inanimate |  | 
-| basket | Thing | Object | Inanimate |  | 
-| battery | Thing | Object | Inanimate |  | 
-| bell | Thing | Object | Inanimate |  | 
-| bill | Thing | Object | Inanimate |  | 
-| blade | Thing | Object | Inanimate |  | 
-| blanket | Thing | Object | Inanimate |  | 
-| board | Thing | Object | Inanimate |  | 
-| bomb | Thing | Object | Inanimate |  | 
-| book | Thing | Object | Inanimate |  | 
-| bottle | Thing | Object | Inanimate |  | 
-| bowl | Thing | Object | Inanimate |  | 
-| box | Thing | Object | Inanimate |  | 
-| brain | Thing | Object | Inanimate |  | 
-| breast | Thing | Object | Inanimate |  | 
-| brick | Thing | Object | Inanimate |  | 
-| brush | Thing | Object | Inanimate |  | 
-| buck | Thing | Object | Inanimate |  | 
-| bullet | Thing | Object | Inanimate |  | 
-| button | Thing | Object | Inanimate |  | 
-| cable | Thing | Object | Inanimate |  | 
-| camera | Thing | Object | Inanimate |  | 
-| can | Thing | Object | Inanimate |  | 
-| card | Thing | Object | Inanimate |  | 
-| cash | Thing | Object | Inanimate |  | 
-| chain | Thing | Object | Inanimate |  | 
-| chair | Thing | Object | Inanimate |  | 
-| check | Thing | Object | Inanimate |  | 
-| cheek | Thing | Object | Inanimate |  | 
-| chest | Thing | Object | Inanimate |  | 
-| chip | Thing | Object | Inanimate |  | 
-| cigarette | Thing | Object | Inanimate |  | 
-| clock | Thing | Object | Inanimate |  | 
-| cloud | Thing | Object | Inanimate |  | 
-| club | Thing | Object | Inanimate |  | 
-| coffee | Thing | Object | Inanimate |  | 
-| computer | Thing | Object | Inanimate |  | 
-| container | Thing | Object | Inanimate |  | 
-| content | Thing | Object | Inanimate |  | 
-| cotton | Thing | Object | Inanimate |  | 
-| cream | Thing | Object | Inanimate |  | 
-| crop | Thing | Object | Inanimate |  | 
-| cup | Thing | Object | Inanimate |  | 
-| desk | Thing | Object | Inanimate |  | 
-| device | Thing | Object | Inanimate |  | 
-| dirt | Thing | Object | Inanimate |  | 
-| dish | Thing | Object | Inanimate |  | 
-| display | Thing | Object | Inanimate |  | 
-| document | Thing | Object | Inanimate |  | 
-| drawing | Thing | Object | Inanimate |  | 
-| drug | Thing | Object | Inanimate |  | 
-| dust | Thing | Object | Inanimate |  | 
-| electricity | Thing | Object | Inanimate |  | 
-| e-mail | Thing | Object | Inanimate |  | 
-| energy | Thing | Object | Inanimate |  | 
-| engine | Thing | Object | Inanimate |  | 
-| equipment | Thing | Object | Inanimate |  | 
-| evidence | Thing | Object | Inanimate |  | 
-| fabric | Thing | Object | Inanimate |  | 
-| fan | Thing | Object | Inanimate |  | 
-| fence | Thing | Object | Inanimate |  | 
-| fiber | Thing | Object | Inanimate |  | 
-| file | Thing | Object | Inanimate |  | 
-| fire | Thing | Object | Inanimate |  | 
-| flag | Thing | Object | Inanimate |  | 
-| flame | Thing | Object | Inanimate |  | 
-| fuel | Thing | Object | Inanimate |  | 
-| gas | Thing | Object | Inanimate |  | 
-| gift | Thing | Object | Inanimate |  | 
-| glass | Thing | Object | Inanimate |  | 
-| gold | Thing | Object | Inanimate |  | 
-| grave | Thing | Object | Inanimate |  | 
-| grocery | Thing | Object | Inanimate |  | 
-| gun | Thing | Object | Inanimate |  | 
-| handle | Thing | Object | Inanimate |  | 
-| heat | Thing | Object | Inanimate |  | 
-| heritage | Thing | Object | Inanimate |  | 
-| hole | Thing | Object | Inanimate |  | 
-| ice | Thing | Object | Inanimate |  | 
-| illness | Thing | Object | Inanimate |  | 
-| image | Thing | Object | Inanimate |  | 
-| income | Thing | Object | Inanimate |  | 
-| index | Thing | Object | Inanimate |  | 
-| infection | Thing | Object | Inanimate |  | 
-| injury | Thing | Object | Inanimate |  | 
-| Internet | Thing | Object | Inanimate |  | 
-| investment | Thing | Object | Inanimate |  | 
-| iron | Thing | Object | Inanimate |  | 
-| keep | Thing | Object | Inanimate |  | 
-| key | Thing | Object | Inanimate |  | 
-| knife | Thing | Object | Inanimate |  | 
-| label | Thing | Object | Inanimate |  | 
-| leather | Thing | Object | Inanimate |  | 
-| letter | Thing | Object | Inanimate |  | 
-| machine | Thing | Object | Inanimate |  | 
-| magazine | Thing | Object | Inanimate |  | 
-| mail | Thing | Object | Inanimate |  | 
-| makeup | Thing | Object | Inanimate |  | 
-| map | Thing | Object | Inanimate |  | 
-| mask | Thing | Object | Inanimate |  | 
-| match | Thing | Object | Inanimate |  | 
-| material | Thing | Object | Inanimate |  | 
-| matter | Thing | Object | Inanimate |  | 
-| mechanism | Thing | Object | Inanimate |  | 
-| medication | Thing | Object | Inanimate |  | 
-| menu | Thing | Object | Inanimate |  | 
-| metal | Thing | Object | Inanimate |  | 
-| mirror | Thing | Object | Inanimate |  | 
-| missile | Thing | Object | Inanimate |  | 
-| money | Thing | Object | Inanimate |  | 
-| monitor | Thing | Object | Inanimate |  | 
-| moon | Thing | Object | Inanimate |  | 
-| motor | Thing | Object | Inanimate |  | 
-| net | Thing | Object | Inanimate |  | 
-| network | Thing | Object | Inanimate |  | 
-| newspaper | Thing | Object | Inanimate |  | 
-| noise | Thing | Object | Inanimate |  | 
-| note | Thing | Object | Inanimate |  | 
-| object | Thing | Object | Inanimate |  | 
-| oil | Thing | Object | Inanimate |  | 
-| paint | Thing | Object | Inanimate |  | 
-| painting | Thing | Object | Inanimate |  | 
-| panel | Thing | Object | Inanimate |  | 
-| paper | Thing | Object | Inanimate |  | 
-| PC | Thing | Object | Inanimate |  | 
-| phone | Thing | Object | Inanimate |  | 
-| photo | Thing | Object | Inanimate |  | 
-| picture | Thing | Object | Inanimate |  | 
-| pile | Thing | Object | Inanimate |  | 
-| pipe | Thing | Object | Inanimate |  | 
-| planet | Thing | Object | Inanimate |  | 
-| plastic | Thing | Object | Inanimate |  | 
-| plate | Thing | Object | Inanimate |  | 
-| platform | Thing | Object | Inanimate |  | 
-| pocket | Thing | Object | Inanimate |  | 
-| pole | Thing | Object | Inanimate |  | 
-| pollution | Thing | Object | Inanimate |  | 
-| portrait | Thing | Object | Inanimate |  | 
-| pot | Thing | Object | Inanimate |  | 
-| powder | Thing | Object | Inanimate |  | 
-| present | Thing | Object | Inanimate |  | 
-| radio | Thing | Object | Inanimate |  | 
-| rail | Thing | Object | Inanimate |  | 
-| rain | Thing | Object | Inanimate |  | 
-| record | Thing | Object | Inanimate |  | 
-| rifle | Thing | Object | Inanimate |  | 
-| rock | Thing | Object | Inanimate |  | 
-| rope | Thing | Object | Inanimate |  | 
-| sand | Thing | Object | Inanimate |  | 
-| satellite | Thing | Object | Inanimate |  | 
-| screen | Thing | Object | Inanimate |  | 
-| sheet | Thing | Object | Inanimate |  | 
-| shelf | Thing | Object | Inanimate |  | 
-| shell | Thing | Object | Inanimate |  | 
-| shit | Thing | Object | Inanimate |  | 
-| silver | Thing | Object | Inanimate |  | 
-| sink | Thing | Object | Inanimate |  | 
-| snow | Thing | Object | Inanimate |  | 
-| software | Thing | Object | Inanimate |  | 
-| soil | Thing | Object | Inanimate |  | 
-| staff | Thing | Object | Inanimate |  | 
-| steel | Thing | Object | Inanimate |  | 
-| stone | Thing | Object | Inanimate |  | 
-| string | Thing | Object | Inanimate |  | 
-| sun | Thing | Object | Inanimate |  | 
-| supply | Thing | Object | Inanimate |  | 
-| supporter | Thing | Object | Inanimate |  | 
-| surface | Thing | Object | Inanimate |  | 
-| switch | Thing | Object | Inanimate |  | 
-| system | Thing | Object | Inanimate |  | 
-| table | Thing | Object | Inanimate |  | 
-| tablespoon | Thing | Object | Inanimate |  | 
-| tap | Thing | Object | Inanimate |  | 
-| tape | Thing | Object | Inanimate |  | 
-| tea | Thing | Object | Inanimate |  | 
-| teaspoon | Thing | Object | Inanimate |  | 
-| telephone | Thing | Object | Inanimate |  | 
-| telescope | Thing | Object | Inanimate |  | 
-| tent | Thing | Object | Inanimate |  | 
-| ticket | Thing | Object | Inanimate |  | 
-| tip | Thing | Object | Inanimate |  | 
-| tire | Thing | Object | Inanimate |  | 
-| tissue | Thing | Object | Inanimate |  | 
-| toy | Thing | Object | Inanimate |  | 
-| track | Thing | Object | Inanimate |  | 
-| traffic | Thing | Object | Inanimate |  | 
-| tube | Thing | Object | Inanimate |  | 
-| video | Thing | Object | Inanimate |  | 
-| virus | Thing | Object | Inanimate |  | 
-| wall | Thing | Object | Inanimate |  | 
-| wave | Thing | Object | Inanimate |  | 
-| weapon | Thing | Object | Inanimate |  | 
-| wheel | Thing | Object | Inanimate |  | 
-| wind | Thing | Object | Inanimate |  | 
-| window | Thing | Object | Inanimate |  | 
-| wing | Thing | Object | Inanimate |  | 
-| wire | Thing | Object | Inanimate |  | 
-| wound | Thing | Object | Inanimate |  | 
-| writing | Thing | Object | Inanimate |  | 
-| building | Thing | Space | Location | Building | 
-| cabin | Thing | Space | Location | Building | 
-| campus | Thing | Space | Location | Building | 
-| church | Thing | Space | Location | Building | 
-| clinic | Thing | Space | Location | Building | 
-| college | Thing | Space | Location | Building | 
-| facility | Thing | Space | Location | Building | 
-| factory | Thing | Space | Location | Building | 
-| farm | Thing | Space | Location | Building | 
-| flat | Thing | Space | Location | Building | 
-| headquarters | Thing | Space | Location | Building | 
-| home | Thing | Space | Location | Building | 
-| hospital | Thing | Space | Location | Building | 
-| hotel | Thing | Space | Location | Building | 
-| house | Thing | Space | Location | Building | 
-| jail | Thing | Space | Location | Building | 
-| laboratory | Thing | Space | Location | Building | 
-| library | Thing | Space | Location | Building | 
-| mall | Thing | Space | Location | Building | 
-| museum | Thing | Space | Location | Building | 
-| office | Thing | Space | Location | Building | 
-| prison | Thing | Space | Location | Building | 
-| restaurant | Thing | Space | Location | Building | 
-| school | Thing | Space | Location | Building | 
-| shop | Thing | Space | Location | Building | 
-| station | Thing | Space | Location | Building | 
-| store | Thing | Space | Location | Building | 
-| studio | Thing | Space | Location | Building | 
-| theater | Thing | Space | Location | Building | 
-| tower | Thing | Space | Location | Building | 
-| university | Thing | Space | Location | Building | 
-| airport | Thing | Space | Location | Building | 
-| apartment | Thing | Space | Location | Building | 
-| bank | Thing | Space | Location | Building | 
-| bar | Thing | Space | Location | Building | 
-| center | Thing | Space | Location | Building | 
-| shelter | Thing | Space | Location | Building | 
-| bridge | Thing | Space | Location | City | 
-| city | Thing | Space | Location | City | 
-| downtown | Thing | Space | Location | City | 
-| highway | Thing | Space | Location | City | 
-| neighborhood | Thing | Space | Location | City | 
-| park | Thing | Space | Location | City | 
-| passage | Thing | Space | Location | City | 
-| port | Thing | Space | Location | City | 
-| road | Thing | Space | Location | City | 
-| street | Thing | Space | Location | City | 
-| town | Thing | Space | Location | City | 
-| tunnel | Thing | Space | Location | City | 
-| village | Thing | Space | Location | City | 
-| beach | Thing | Space | Location | Outdoor | 
-| camp | Thing | Space | Location | Outdoor | 
-| coast | Thing | Space | Location | Outdoor | 
-| desert | Thing | Space | Location | Outdoor | 
-| earth | Thing | Space | Location | Outdoor | 
-| field | Thing | Space | Location | Outdoor | 
-| forest | Thing | Space | Location | Outdoor | 
-| garden | Thing | Space | Location | Outdoor | 
-| heaven | Thing | Space | Location | Outdoor | 
-| hell | Thing | Space | Location | Outdoor | 
-| hill | Thing | Space | Location | Outdoor | 
-| horizon | Thing | Space | Location | Outdoor | 
-| island | Thing | Space | Location | Outdoor | 
-| lake | Thing | Space | Location | Outdoor | 
-| land | Thing | Space | Location | Outdoor | 
-| landscape | Thing | Space | Location | Outdoor | 
-| mountain | Thing | Space | Location | Outdoor | 
-| ocean | Thing | Space | Location | Outdoor | 
-| plot | Thing | Space | Location | Outdoor | 
-| region | Thing | Space | Location | Outdoor | 
-| river | Thing | Space | Location | Outdoor | 
-| sea | Thing | Space | Location | Outdoor | 
-| shore | Thing | Space | Location | Outdoor | 
-| site | Thing | Space | Location | Outdoor | 
-| sky | Thing | Space | Location | Outdoor | 
-| space | Thing | Space | Location | Outdoor | 
-| territory | Thing | Space | Location | Outdoor | 
-| universe | Thing | Space | Location | Outdoor | 
-| valley | Thing | Space | Location | Outdoor | 
-| wood | Thing | Space | Location | Outdoor | 
-| world | Thing | Space | Location | Outdoor | 
-| bathroom | Thing | Space | Location | Room | 
-| bedroom | Thing | Space | Location | Room | 
-| ceiling | Thing | Space | Location | Room | 
-| classroom | Thing | Space | Location | Room | 
-| deck | Thing | Space | Location | Room | 
-| elevator | Thing | Space | Location | Room | 
-| floor | Thing | Space | Location | Room | 
-| garage | Thing | Space | Location | Room | 
-| ground | Thing | Space | Location | Room | 
-| hall | Thing | Space | Location | Room | 
-| kitchen | Thing | Space | Location | Room | 
-| lift | Thing | Space | Location | Room | 
-| roof | Thing | Space | Location | Room | 
-| room | Thing | Space | Location | Room | 
-| stage | Thing | Space | Location | Room | 
-| pool | Thing | Space | Location | Room | 
-| seat | Thing | Space | Location | Room | 
-| anywhere | Thing | Space | Location |  | 
-| area | Thing | Space | Location |  | 
-| everywhere | Thing | Space | Location |  | 
-| location | Thing | Space | Location |  | 
-| near | Thing | Space | Location |  | 
-| nearby | Thing | Space | Location |  | 
-| nowhere | Thing | Space | Location |  | 
-| place | Thing | Space | Location |  | 
-| sector | Thing | Space | Location |  | 
-| somewhere | Thing | Space | Location |  | 
-| spot | Thing | Space | Location |  | 
-| zone | Thing | Space | Location |  | 
-| entrance | Thing | Space | Path |  | 
-| north | Thing | Space | Path |  | 
-| outside | Thing | Space | Path |  | 
-| porch | Thing | Space | Path |  | 
-| south | Thing | Space | Path |  | 
-| direction | Thing | Space | Path |  | 
-| door | Thing | Space | Path |  | 
-| east | Thing | Space | Path |  | 
-| gate | Thing | Space | Path |  | 
-| path | Thing | Space | Path |  | 
-| stair | Thing | Space | Path |  | 
-| way | Thing | Space | Path |  | 
-| west | Thing | Space | Path |  | 
-| capable | Thing | Abstract | State | Inherent | 
-| cheap | Thing | Abstract | State | Inherent | 
-| dangerous | Thing | Abstract | State | Inherent | 
-| different | Thing | Abstract | State | Inherent | 
-| difficult | Thing | Abstract | State | Inherent | 
-| easy | Thing | Abstract | State | Inherent | 
-| excellent | Thing | Abstract | State | Inherent | 
-| expensive | Thing | Abstract | State | Inherent | 
-| extreme | Thing | Abstract | State | Inherent | 
-| fine | Thing | Abstract | State | Inherent | 
-| free | Thing | Abstract | State | Inherent | 
-| good | Thing | Abstract | State | Inherent | 
-| guilty | Thing | Abstract | State | Inherent | 
-| heavy | Thing | Abstract | State | Inherent | 
-| holy | Thing | Abstract | State | Inherent | 
-| honest | Thing | Abstract | State | Inherent | 
-| huge | Thing | Abstract | State | Inherent | 
-| identity | Thing | Abstract | State | Inherent | 
-| illegal | Thing | Abstract | State | Inherent | 
-| impossible | Thing | Abstract | State | Inherent | 
-| impressive | Thing | Abstract | State | Inherent | 
-| incredible | Thing | Abstract | State | Inherent | 
-| innocent | Thing | Abstract | State | Inherent | 
-| large | Thing | Abstract | State | Inherent | 
-| legal | Thing | Abstract | State | Inherent | 
-| nice | Thing | Abstract | State | Inherent | 
-| official | Thing | Abstract | State | Inherent | 
-| painful | Thing | Abstract | State | Inherent | 
-| perfect | Thing | Abstract | State | Inherent | 
-| powerful | Thing | Abstract | State | Inherent | 
-| private | Thing | Abstract | State | Inherent | 
-| public | Thing | Abstract | State | Inherent | 
-| quick | Thing | Abstract | State | Inherent | 
-| rare | Thing | Abstract | State | Inherent | 
-| real | Thing | Abstract | State | Inherent | 
-| regular | Thing | Abstract | State | Inherent | 
-| relevant | Thing | Abstract | State | Inherent | 
-| require | Thing | Abstract | State | Inherent | 
-| responsible | Thing | Abstract | State | Inherent | 
-| rough | Thing | Abstract | State | Inherent | 
-| sacred | Thing | Abstract | State | Inherent | 
-| seem | Thing | Abstract | State | Inherent | 
-| simple | Thing | Abstract | State | Inherent | 
-| smooth | Thing | Abstract | State | Inherent | 
-| solid | Thing | Abstract | State | Inherent | 
-| steady | Thing | Abstract | State | Inherent | 
-| strange | Thing | Abstract | State | Inherent | 
-| stupid | Thing | Abstract | State | Inherent | 
-| sudden | Thing | Abstract | State | Inherent | 
-| super | Thing | Abstract | State | Inherent | 
-| surprising | Thing | Abstract | State | Inherent | 
-| sweet | Thing | Abstract | State | Inherent | 
-| tall | Thing | Abstract | State | Inherent | 
-| temporary | Thing | Abstract | State | Inherent | 
-| terrible | Thing | Abstract | State | Inherent | 
-| thick | Thing | Abstract | State | Inherent | 
-| thin | Thing | Abstract | State | Inherent | 
-| tight | Thing | Abstract | State | Inherent | 
-| tough | Thing | Abstract | State | Inherent | 
-| tremendous | Thing | Abstract | State | Inherent | 
-| true | Thing | Abstract | State | Inherent | 
-| unique | Thing | Abstract | State | Inherent | 
-| unusual | Thing | Abstract | State | Inherent | 
-| urban | Thing | Abstract | State | Inherent | 
-| valuable | Thing | Abstract | State | Inherent | 
-| variable | Thing | Abstract | State | Inherent | 
-| vast | Thing | Abstract | State | Inherent | 
-| violent | Thing | Abstract | State | Inherent | 
-| weak | Thing | Abstract | State | Inherent | 
-| weight | Thing | Abstract | State | Inherent | 
-| wide | Thing | Abstract | State | Inherent | 
-| widespread | Thing | Abstract | State | Inherent | 
-| wise | Thing | Abstract | State | Inherent | 
-| wonderful | Thing | Abstract | State | Inherent | 
-| wooden | Thing | Abstract | State | Inherent | 
-| worth | Thing | Abstract | State | Inherent | 
-| wrong | Thing | Abstract | State | Inherent | 
-| cancer | Thing | Abstract | State | Medical | 
-| cholesterol | Thing | Abstract | State | Medical | 
-| disease | Thing | Abstract | State | Medical | 
-| DNA | Thing | Abstract | State | Medical | 
-| healthy | Thing | Abstract | State | Medical | 
-| ill | Thing | Abstract | State | Medical | 
-| sick | Thing | Abstract | State | Medical | 
-| careful | Thing | Abstract | State | Mental | 
-| concerned | Thing | Abstract | State | Mental | 
-| complete | Thing | Abstract | State | Permanent | 
-| dead | Thing | Abstract | State | Permanent | 
-| old | Thing | Abstract | State | Permanent | 
-| permanent | Thing | Abstract | State | Permanent | 
-| proud | Thing | Abstract | State | Permanent | 
-| successful | Thing | Abstract | State | Permanent | 
-| broken | Thing | Abstract | State | Temporary | 
-| busy | Thing | Abstract | State | Temporary | 
-| clean | Thing | Abstract | State | Temporary | 
-| clear | Thing | Abstract | State | Temporary | 
-| contain | Thing | Abstract | State | Temporary | 
-| deserve | Thing | Abstract | State | Temporary | 
-| dirty | Thing | Abstract | State | Temporary | 
-| emergency | Thing | Abstract | State | Temporary | 
-| famous | Thing | Abstract | State | Temporary | 
-| fast | Thing | Abstract | State | Temporary | 
-| fat | Thing | Abstract | State | Temporary | 
-| fresh | Thing | Abstract | State | Temporary | 
-| high | Thing | Abstract | State | Temporary | 
-| homeless | Thing | Abstract | State | Temporary | 
-| hot | Thing | Abstract | State | Temporary | 
-| important | Thing | Abstract | State | Temporary | 
-| intense | Thing | Abstract | State | Temporary | 
-| interested | Thing | Abstract | State | Temporary | 
-| interesting | Thing | Abstract | State | Temporary | 
-| married | Thing | Abstract | State | Temporary | 
-| naked | Thing | Abstract | State | Temporary | 
-| necessary | Thing | Abstract | State | Temporary | 
-| normal | Thing | Abstract | State | Temporary | 
-| okay | Thing | Abstract | State | Temporary | 
-| ongoing | Thing | Abstract | State | Temporary | 
-| online | Thing | Abstract | State | Temporary | 
-| owe | Thing | Abstract | State | Temporary | 
-| own | Thing | Abstract | State | Temporary | 
-| poor | Thing | Abstract | State | Temporary | 
-| positive | Thing | Abstract | State | Temporary | 
-| possess | Thing | Abstract | State | Temporary | 
-| possible | Thing | Abstract | State | Temporary | 
-| preference | Thing | Abstract | State | Temporary | 
-| pregnant | Thing | Abstract | State | Temporary | 
-| pretty | Thing | Abstract | State | Temporary | 
-| pure | Thing | Abstract | State | Temporary | 
-| quiet | Thing | Abstract | State | Temporary | 
-| rapid | Thing | Abstract | State | Temporary | 
-| raw | Thing | Abstract | State | Temporary | 
-| recent | Thing | Abstract | State | Temporary | 
-| rich | Thing | Abstract | State | Temporary | 
-| scared | Thing | Abstract | State | Temporary | 
-| sharp | Thing | Abstract | State | Temporary | 
-| short | Thing | Abstract | State | Temporary | 
-| silent | Thing | Abstract | State | Temporary | 
-| slow | Thing | Abstract | State | Temporary | 
-| small | Thing | Abstract | State | Temporary | 
-| stable | Thing | Abstract | State | Temporary | 
-| still | Thing | Abstract | State | Temporary | 
-| strong | Thing | Abstract | State | Temporary | 
-| sufficient | Thing | Abstract | State | Temporary | 
-| supposed | Thing | Abstract | State | Temporary | 
-| tension | Thing | Abstract | State | Temporary | 
-| tiny | Thing | Abstract | State | Temporary | 
-| ugly | Thing | Abstract | State | Temporary | 
-| unable | Thing | Abstract | State | Temporary | 
-| value | Thing | Abstract | State | Temporary | 
-| visible | Thing | Abstract | State | Temporary | 
-| vulnerable | Thing | Abstract | State | Temporary | 
-| warm | Thing | Abstract | State | Temporary | 
-| wealthy | Thing | Abstract | State | Temporary | 
-| wet | Thing | Abstract | State | Temporary | 
-| young | Thing | Abstract | State | Temporary | 
-| flower | Thing | Object | Vegetal |  | 
-| grass | Thing | Object | Vegetal |  | 
-| lawn | Thing | Object | Vegetal |  | 
-| leaf | Thing | Object | Vegetal |  | 
-| pine | Thing | Object | Vegetal |  | 
-| plant | Thing | Object | Vegetal |  | 
-| rose | Thing | Object | Vegetal |  | 
-| seed | Thing | Object | Vegetal |  | 
-| tobacco | Thing | Object | Vegetal |  | 
-| tomato | Thing | Object | Vegetal |  | 
-| tree | Thing | Object | Vegetal |  | 
-| vegetable | Thing | Object | Vegetal |  | 
-| bike | Thing | Space | Vehicle |  | 
-| helicopter | Thing | Space | Vehicle |  | 
-| aircraft | Thing | Space | Vehicle |  | 
-| boat | Thing | Space | Vehicle |  | 
-| bus | Thing | Space | Vehicle |  | 
-| car | Thing | Space | Vehicle |  | 
-| jet | Thing | Space | Vehicle |  | 
-| plane | Thing | Space | Vehicle |  | 
-| ship | Thing | Space | Vehicle |  | 
-| tank | Thing | Space | Vehicle |  | 
-| train | Thing | Space | Vehicle |  | 
-| truck | Thing | Space | Vehicle |  | 
-| vehicle | Thing | Space | Vehicle |  | 
-| act |  |  |  |  | 
-| action |  |  |  |  | 
-| activity |  |  |  |  | 
-| cooking |  |  |  |  | 
-| dispute |  |  |  |  | 
-| representative |  |  |  |  | 
-| a |  |  |  |  | 
-| abandon |  |  |  |  | 
-| ability |  |  |  |  | 
-| able |  |  |  |  | 
-| abortion |  |  |  |  | 
-| about |  |  |  |  | 
-| above |  |  |  |  | 
-| abroad |  |  |  |  | 
-| absence |  |  |  |  | 
-| absolute |  |  |  |  | 
-| absolutely |  |  |  |  | 
-| absorb |  |  |  |  | 
-| abuse |  |  |  |  | 
-| academic |  |  |  |  | 
-| accept |  |  |  |  | 
-| access |  |  |  |  | 
-| accident |  |  |  |  | 
-| accompany |  |  |  |  | 
-| accomplish |  |  |  |  | 
-| according |  |  |  |  | 
-| accurate |  |  |  |  | 
-| accuse |  |  |  |  | 
-| achieve |  |  |  |  | 
-| achievement |  |  |  |  | 
-| acknowledge |  |  |  |  | 
-| acquire |  |  |  |  | 
-| across |  |  |  |  | 
-| active |  |  |  |  | 
-| actual |  |  |  |  | 
-| actually |  |  |  |  | 
-| ad |  |  |  |  | 
-| adapt |  |  |  |  | 
-| add |  |  |  |  | 
-| addition |  |  |  |  | 
-| additional |  |  |  |  | 
-| adequate |  |  |  |  | 
-| adjust |  |  |  |  | 
-| adjustment |  |  |  |  | 
-| administration |  |  |  |  | 
-| admire |  |  |  |  | 
-| admission |  |  |  |  | 
-| admit |  |  |  |  | 
-| adopt |  |  |  |  | 
-| advance |  |  |  |  | 
-| advanced |  |  |  |  | 
-| advantage |  |  |  |  | 
-| adventure |  |  |  |  | 
-| advertising |  |  |  |  | 
-| advise |  |  |  |  | 
-| adviser |  |  |  |  | 
-| advocate |  |  |  |  | 
-| affair |  |  |  |  | 
-| affect |  |  |  |  | 
-| afford |  |  |  |  | 
-| afraid |  |  |  |  | 
-| African |  |  |  |  | 
-| African-American |  |  |  |  | 
-| after |  |  |  |  | 
-| again |  |  |  |  | 
-| against |  |  |  |  | 
-| agency |  |  |  |  | 
-| agenda |  |  |  |  | 
-| ago |  |  |  |  | 
-| agree |  |  |  |  | 
-| agricultural |  |  |  |  | 
-| ah |  |  |  |  | 
-| ahead |  |  |  |  | 
-| aid |  |  |  |  | 
-| aide |  |  |  |  | 
-| AIDS |  |  |  |  | 
-| aim |  |  |  |  | 
-| airline |  |  |  |  | 
-| all | Thing |  |  |  | 
-| alliance |  |  |  |  | 
-| allow |  |  |  |  | 
-| ally |  |  |  |  | 
-| almost |  |  |  |  | 
-| alone |  |  |  |  | 
-| along |  |  |  |  | 
-| already |  |  |  |  | 
-| also |  |  |  |  | 
-| alter |  |  |  |  | 
-| alternative |  |  |  |  | 
-| although |  |  |  |  | 
-| always |  |  |  |  | 
-| AM |  |  |  |  | 
-| amazing |  |  |  |  | 
-| American |  |  |  |  | 
-| among |  |  |  |  | 
-| amount |  |  |  |  | 
-| analysis |  |  |  |  | 
-| analyze |  |  |  |  | 
-| ancient |  |  |  |  | 
-| and |  |  |  |  | 
-| angle |  |  |  |  | 
-| announce |  |  |  |  | 
-| annual |  |  |  |  | 
-| another |  |  |  |  | 
-| anticipate |  |  |  |  | 
-| any |  |  |  |  | 
-| anymore |  |  |  |  | 
-| anything | Thing |  |  |  | 
-| anyway |  |  |  |  | 
-| apart |  |  |  |  | 
-| apparent |  |  |  |  | 
-| apparently |  |  |  |  | 
-| appeal |  |  |  |  | 
-| appear |  |  |  |  | 
-| application |  |  |  |  | 
-| apply |  |  |  |  | 
-| appoint |  |  |  |  | 
-| appreciate |  |  |  |  | 
-| approach |  |  |  |  | 
-| appropriate |  |  |  |  | 
-| approve |  |  |  |  | 
-| approximately |  |  |  |  | 
-| Arab |  |  |  |  | 
-| argue |  |  |  |  | 
-| arise |  |  |  |  | 
-| armed |  |  |  |  | 
-| around |  |  |  |  | 
-| arrange |  |  |  |  | 
-| arrangement |  |  |  |  | 
-| arrest |  |  |  |  | 
-| arrive |  |  |  |  | 
-| art | Thing |  |  |  | 
-| article |  |  |  |  | 
-| artistic |  |  |  |  | 
-| as |  |  |  |  | 
-| Asian |  |  |  |  | 
-| aside |  |  |  |  | 
-| ask |  |  |  |  | 
-| asleep |  |  |  |  | 
-| aspect |  |  |  |  | 
-| assert |  |  |  |  | 
-| assess |  |  |  |  | 
-| assessment |  |  |  |  | 
-| asset |  |  |  |  | 
-| assign |  |  |  |  | 
-| assignment |  |  |  |  | 
-| assist |  |  |  |  | 
-| assistance |  |  |  |  | 
-| assistant |  |  |  |  | 
-| associate |  |  |  |  | 
-| association |  |  |  |  | 
-| assume |  |  |  |  | 
-| assumption |  |  |  |  | 
-| assure |  |  |  |  | 
-| at |  |  |  |  | 
-| athletic |  |  |  |  | 
-| atmosphere |  |  |  |  | 
-| attach |  |  |  |  | 
-| attend |  |  |  |  | 
-| attention |  |  |  |  | 
-| attitude |  |  |  |  | 
-| attract |  |  |  |  | 
-| attribute |  |  |  |  | 
-| audience |  |  |  |  | 
-| authority |  |  |  |  | 
-| auto |  |  |  |  | 
-| available |  |  |  |  | 
-| average |  |  |  |  | 
-| avoid |  |  |  |  | 
-| aware |  |  |  |  | 
-| awareness |  |  |  |  | 
-| away |  |  |  |  | 
-| awful |  |  |  |  | 
-| back |  |  |  |  | 
-| background |  |  |  |  | 
-| bad |  |  |  |  | 
-| badly |  |  |  |  | 
-| balance |  |  |  |  | 
-| ban |  |  |  |  | 
-| band |  |  |  |  | 
-| barely |  |  |  |  | 
-| base |  |  |  |  | 
-| basic |  |  |  |  | 
-| basically |  |  |  |  | 
-| basis |  |  |  |  | 
-| be |  |  |  |  | 
-| beat |  |  |  |  | 
-| because |  |  |  |  | 
-| become |  |  |  |  | 
-| before |  |  |  |  | 
-| begin |  |  |  |  | 
-| behavior |  |  |  |  | 
-| behind |  |  |  |  | 
-| being |  |  |  |  | 
-| believe |  |  |  |  | 
-| belong |  |  |  |  | 
-| below |  |  |  |  | 
-| bend |  |  |  |  | 
-| beneath |  |  |  |  | 
-| beside |  |  |  |  | 
-| besides |  |  |  |  | 
-| best |  |  |  |  | 
-| better |  |  |  |  | 
-| between |  |  |  |  | 
-| beyond |  |  |  |  | 
-| Bible |  |  |  |  | 
-| big |  |  |  |  | 
-| billion |  |  |  |  | 
-| bind |  |  |  |  | 
-| biological |  |  |  |  | 
-| bit |  |  |  |  | 
-| blind |  |  |  |  | 
-| block |  |  |  |  | 
-| blow |  |  |  |  | 
-| bond |  |  |  |  | 
-| border |  |  |  |  | 
-| born |  |  |  |  | 
-| borrow |  |  |  |  | 
-| both |  |  |  |  | 
-| bother |  |  |  |  | 
-| bottom |  |  |  |  | 
-| boundary |  |  |  |  | 
-| branch |  |  |  |  | 
-| breath |  |  |  |  | 
-| brief |  |  |  |  | 
-| briefly |  |  |  |  | 
-| brilliant |  |  |  |  | 
-| bring |  |  |  |  | 
-| British |  |  |  |  | 
-| broad |  |  |  |  | 
-| budget |  |  |  |  | 
-| bunch |  |  |  |  | 
-| burden |  |  |  |  | 
-| but |  |  |  |  | 
-| by |  |  |  |  | 
-| Canadian |  |  |  |  | 
-| candidate |  |  |  |  | 
-| cap |  |  |  |  | 
-| carbon |  |  |  |  | 
-| career |  |  |  |  | 
-| carefully |  |  |  |  | 
-| carrier |  |  |  |  | 
-| case |  |  |  |  | 
-| cast |  |  |  |  | 
-| Catholic |  |  |  |  | 
-| cell |  |  |  |  | 
-| central |  |  |  |  | 
-| century |  |  |  |  | 
-| certain |  |  |  |  | 
-| certainly |  |  |  |  | 
-| chamber |  |  |  |  | 
-| changing |  |  |  |  | 
-| character |  |  |  |  | 
-| characteristic |  |  |  |  | 
-| characterize |  |  |  |  | 
-| charity |  |  |  |  | 
-| chart |  |  |  |  | 
-| chemical |  |  |  |  | 
-| childhood |  |  |  |  | 
-| Chinese |  |  |  |  | 
-| choose |  |  |  |  | 
-| Christian |  |  |  |  | 
-| circle |  |  |  |  | 
-| cite |  |  |  |  | 
-| class |  |  |  |  | 
-| classic |  |  |  |  | 
-| clearly |  |  |  |  | 
-| climate |  |  |  |  | 
-| clinical |  |  |  |  | 
-| closely |  |  |  |  | 
-| closer |  |  |  |  | 
-| cluster |  |  |  |  | 
-| coal |  |  |  |  | 
-| coalition |  |  |  |  | 
-| cognitive |  |  |  |  | 
-| collapse |  |  |  |  | 
-| collection | Thing |  |  |  | 
-| collective |  |  |  |  | 
-| colonial |  |  |  |  | 
-| column |  |  |  |  | 
-| combination |  |  |  |  | 
-| combine |  |  |  |  | 
-| comfort |  |  |  |  | 
-| command |  |  |  |  | 
-| comment |  |  |  |  | 
-| commitment |  |  |  |  | 
-| common |  |  |  |  | 
-| communication |  |  |  |  | 
-| comparison |  |  |  |  | 
-| compete |  |  |  |  | 
-| competitive |  |  |  |  | 
-| complaint |  |  |  |  | 
-| completely |  |  |  |  | 
-| complex |  |  |  |  | 
-| complicated |  |  |  |  | 
-| component |  |  |  |  | 
-| compose |  |  |  |  | 
-| composition |  |  |  |  | 
-| comprehensive |  |  |  |  | 
-| concentrate |  |  |  |  | 
-| concentration |  |  |  |  | 
-| concern |  |  |  |  | 
-| conclude |  |  |  |  | 
-| conclusion |  |  |  |  | 
-| concrete |  |  |  |  | 
-| condition |  |  |  |  | 
-| conduct |  |  |  |  | 
-| confidence |  |  |  |  | 
-| confident |  |  |  |  | 
-| confirm |  |  |  |  | 
-| confront |  |  |  |  | 
-| Congress |  |  |  |  | 
-| congressional |  |  |  |  | 
-| consensus |  |  |  |  | 
-| conservative |  |  |  |  | 
-| considerable |  |  |  |  | 
-| consideration |  |  |  |  | 
-| consist |  |  |  |  | 
-| consistent |  |  |  |  | 
-| constant |  |  |  |  | 
-| constantly |  |  |  |  | 
-| constitute |  |  |  |  | 
-| constitutional |  |  |  |  | 
-| construct |  |  |  |  | 
-| construction |  |  |  |  | 
-| consume |  |  |  |  | 
-| consumption |  |  |  |  | 
-| contact |  |  |  |  | 
-| contemporary |  |  |  |  | 
-| context |  |  |  |  | 
-| continue |  |  |  |  | 
-| continued |  |  |  |  | 
-| contrast |  |  |  |  | 
-| contribute |  |  |  |  | 
-| contribution |  |  |  |  | 
-| control |  |  |  |  | 
-| controversial |  |  |  |  | 
-| controversy |  |  |  |  | 
-| convention |  |  |  |  | 
-| conventional |  |  |  |  | 
-| convert |  |  |  |  | 
-| conviction |  |  |  |  | 
-| cooperation |  |  |  |  | 
-| cope |  |  |  |  | 
-| core |  |  |  |  | 
-| corner |  |  |  |  | 
-| corporate |  |  |  |  | 
-| correspondent |  |  |  |  | 
-| could |  |  |  |  | 
-| council |  |  |  |  | 
-| counselor |  |  |  |  | 
-| count |  |  |  |  | 
-| counter |  |  |  |  | 
-| country |  |  |  |  | 
-| county |  |  |  |  | 
-| course |  |  |  |  | 
-| court |  |  |  |  | 
-| cover |  |  |  |  | 
-| coverage |  |  |  |  | 
-| crack |  |  |  |  | 
-| craft |  |  |  |  | 
-| crash |  |  |  |  | 
-| creation |  |  |  |  | 
-| creative |  |  |  |  | 
-| credit |  |  |  |  | 
-| crisis |  |  |  |  | 
-| criteria |  |  |  |  | 
-| critic |  |  |  |  | 
-| critical |  |  |  |  | 
-| criticism |  |  |  |  | 
-| criticize |  |  |  |  | 
-| cross |  |  |  |  | 
-| crucial |  |  |  |  | 
-| cultural |  |  |  |  | 
-| culture |  |  |  |  | 
-| curious |  |  |  |  | 
-| current |  |  |  |  | 
-| currently |  |  |  |  | 
-| curriculum |  |  |  |  | 
-| custom |  |  |  |  | 
-| cycle |  |  |  |  | 
-| daily |  |  |  |  | 
-| damage |  |  |  |  | 
-| danger |  |  |  |  | 
-| date |  |  |  |  | 
-| day |  |  |  |  | 
-| dear |  |  |  |  | 
-| debate |  |  |  |  | 
-| debt |  |  |  |  | 
-| decade |  |  |  |  | 
-| declare |  |  |  |  | 
-| decline |  |  |  |  | 
-| decrease |  |  |  |  | 
-| deep |  |  |  |  | 
-| deeply |  |  |  |  | 
-| defendant |  |  |  |  | 
-| defense |  |  |  |  | 
-| defensive |  |  |  |  | 
-| deficit |  |  |  |  | 
-| definitely |  |  |  |  | 
-| degree |  |  |  |  | 
-| delay |  |  |  |  | 
-| democracy |  |  |  |  | 
-| Democrat |  |  |  |  | 
-| democratic |  |  |  |  | 
-| demonstrate |  |  |  |  | 
-| demonstration |  |  |  |  | 
-| department |  |  |  |  | 
-| depend |  |  |  |  | 
-| dependent |  |  |  |  | 
-| depending |  |  |  |  | 
-| depict |  |  |  |  | 
-| depression |  |  |  |  | 
-| depth |  |  |  |  | 
-| derive |  |  |  |  | 
-| despite |  |  |  |  | 
-| destruction |  |  |  |  | 
-| detail |  |  |  |  | 
-| detailed |  |  |  |  | 
-| detect |  |  |  |  | 
-| determine |  |  |  |  | 
-| develop |  |  |  |  | 
-| developing |  |  |  |  | 
-| development |  |  |  |  | 
-| devote |  |  |  |  | 
-| diet |  |  |  |  | 
-| differ |  |  |  |  | 
-| difference |  |  |  |  | 
-| differently |  |  |  |  | 
-| difficulty |  |  |  |  | 
-| digital |  |  |  |  | 
-| dimension |  |  |  |  | 
-| direct |  |  |  |  | 
-| directly |  |  |  |  | 
-| disability |  |  |  |  | 
-| discipline |  |  |  |  | 
-| discourse |  |  |  |  | 
-| discovery |  |  |  |  | 
-| discrimination |  |  |  |  | 
-| dismiss |  |  |  |  | 
-| disorder |  |  |  |  | 
-| distance |  |  |  |  | 
-| distant |  |  |  |  | 
-| distinct |  |  |  |  | 
-| distinction |  |  |  |  | 
-| distinguish |  |  |  |  | 
-| distribute |  |  |  |  | 
-| distribution |  |  |  |  | 
-| district |  |  |  |  | 
-| diverse |  |  |  |  | 
-| diversity |  |  |  |  | 
-| divide |  |  |  |  | 
-| division |  |  |  |  | 
-| divorce |  |  |  |  | 
-| do |  |  |  |  | 
-| domestic |  |  |  |  | 
-| dominant |  |  |  |  | 
-| dominate |  |  |  |  | 
-| double |  |  |  |  | 
-| doubt |  |  |  |  | 
-| down |  |  |  |  | 
-| dozen |  |  |  |  | 
-| draft |  |  |  |  | 
-| drag |  |  |  |  | 
-| drama |  |  |  |  | 
-| dramatic |  |  |  |  | 
-| dramatically |  |  |  |  | 
-| dry |  |  |  |  | 
-| due |  |  |  |  | 
-| during |  |  |  |  | 
-| each |  |  |  |  | 
-| eager |  |  |  |  | 
-| early |  |  |  |  | 
-| earnings |  |  |  |  | 
-| ease |  |  |  |  | 
-| easily |  |  |  |  | 
-| eastern |  |  |  |  | 
-| economic |  |  |  |  | 
-| economics |  |  |  |  | 
-| economy |  |  |  |  | 
-| edge |  |  |  |  | 
-| edition |  |  |  |  | 
-| editor |  |  |  |  | 
-| educate |  |  |  |  | 
-| education |  |  |  |  | 
-| educational |  |  |  |  | 
-| educator |  |  |  |  | 
-| effective |  |  |  |  | 
-| effectively |  |  |  |  | 
-| efficiency |  |  |  |  | 
-| efficient |  |  |  |  | 
-| effort |  |  |  |  | 
-| eight |  |  |  |  | 
-| either |  |  |  |  | 
-| electric |  |  |  |  | 
-| electronic |  |  |  |  | 
-| element |  |  |  |  | 
-| elementary |  |  |  |  | 
-| eliminate |  |  |  |  | 
-| elite |  |  |  |  | 
-| else |  |  |  |  | 
-| elsewhere |  |  |  |  | 
-| embrace |  |  |  |  | 
-| emerge |  |  |  |  | 
-| emission |  |  |  |  | 
-| emphasis |  |  |  |  | 
-| emphasize |  |  |  |  | 
-| employment |  |  |  |  | 
-| empty |  |  |  |  | 
-| enforcement |  |  |  |  | 
-| engage |  |  |  |  | 
-| engineering |  |  |  |  | 
-| English |  |  |  |  | 
-| enhance |  |  |  |  | 
-| enormous |  |  |  |  | 
-| enough |  |  |  |  | 
-| ensure |  |  |  |  | 
-| enterprise |  |  |  |  | 
-| entertainment |  |  |  |  | 
-| entire |  |  |  |  | 
-| entirely |  |  |  |  | 
-| entry |  |  |  |  | 
-| environment |  |  |  |  | 
-| environmental |  |  |  |  | 
-| episode |  |  |  |  | 
-| equal |  |  |  |  | 
-| equally |  |  |  |  | 
-| era |  |  |  |  | 
-| error |  |  |  |  | 
-| especially |  |  |  |  | 
-| essay |  |  |  |  | 
-| essential |  |  |  |  | 
-| essentially |  |  |  |  | 
-| establish |  |  |  |  | 
-| establishment |  |  |  |  | 
-| estate |  |  |  |  | 
-| estimate |  |  |  |  | 
-| etc |  |  |  |  | 
-| ethics |  |  |  |  | 
-| ethnic |  |  |  |  | 
-| European |  |  |  |  | 
-| even |  |  |  |  | 
-| eventually |  |  |  |  | 
-| ever |  |  |  |  | 
-| every |  |  |  |  | 
-| everything | Thing |  |  |  | 
-| evolution |  |  |  |  | 
-| evolve |  |  |  |  | 
-| exact |  |  |  |  | 
-| exactly |  |  |  |  | 
-| examination |  |  |  |  | 
-| example |  |  |  |  | 
-| exceed |  |  |  |  | 
-| except |  |  |  |  | 
-| exception |  |  |  |  | 
-| executive |  |  |  |  | 
-| exercise |  |  |  |  | 
-| exhibit |  |  |  |  | 
-| exhibition |  |  |  |  | 
-| exist |  |  |  |  | 
-| existing |  |  |  |  | 
-| expand |  |  |  |  | 
-| expansion |  |  |  |  | 
-| expense |  |  |  |  | 
-| experiment |  |  |  |  | 
-| explode |  |  |  |  | 
-| expose |  |  |  |  | 
-| exposure |  |  |  |  | 
-| express |  |  |  |  | 
-| expression |  |  |  |  | 
-| extend |  |  |  |  | 
-| extension |  |  |  |  | 
-| extensive |  |  |  |  | 
-| extent |  |  |  |  | 
-| external |  |  |  |  | 
-| extra |  |  |  |  | 
-| extraordinary |  |  |  |  | 
-| extremely |  |  |  |  | 
-| factor |  |  |  |  | 
-| faculty |  |  |  |  | 
-| fade |  |  |  |  | 
-| fail |  |  |  |  | 
-| fair |  |  |  |  | 
-| fairly |  |  |  |  | 
-| faith |  |  |  |  | 
-| fall |  |  |  |  | 
-| familiar |  |  |  |  | 
-| far |  |  |  |  | 
-| fate |  |  |  |  | 
-| fault |  |  |  |  | 
-| favorite |  |  |  |  | 
-| feature |  |  |  |  | 
-| federal |  |  |  |  | 
-| fellow |  |  |  |  | 
-| few |  |  |  |  | 
-| fewer |  |  |  |  | 
-| fiction |  |  |  |  | 
-| fifteen |  |  |  |  | 
-| fifth |  |  |  |  | 
-| fifty |  |  |  |  | 
-| figure |  |  |  |  | 
-| final |  |  |  |  | 
-| finally |  |  |  |  | 
-| finance |  |  |  |  | 
-| financial |  |  |  |  | 
-| finish |  |  |  |  | 
-| firm |  |  |  |  | 
-| first |  |  |  |  | 
-| fit |  |  |  |  | 
-| fitness |  |  |  |  | 
-| five |  |  |  |  | 
-| float |  |  |  |  | 
-| flow |  |  |  |  | 
-| focus |  |  |  |  | 
-| following |  |  |  |  | 
-| for |  |  |  |  | 
-| force |  |  |  |  | 
-| foreign |  |  |  |  | 
-| forever |  |  |  |  | 
-| forget |  |  |  |  | 
-| form |  |  |  |  | 
-| formal |  |  |  |  | 
-| formation |  |  |  |  | 
-| former |  |  |  |  | 
-| formula |  |  |  |  | 
-| forth |  |  |  |  | 
-| fortune |  |  |  |  | 
-| forward |  |  |  |  | 
-| found |  |  |  |  | 
-| foundation |  |  |  |  | 
-| four |  |  |  |  | 
-| fourth |  |  |  |  | 
-| frame |  |  |  |  | 
-| framework |  |  |  |  | 
-| freeze |  |  |  |  | 
-| French |  |  |  |  | 
-| frequency |  |  |  |  | 
-| frequent |  |  |  |  | 
-| frequently |  |  |  |  | 
-| friendly |  |  |  |  | 
-| friendship |  |  |  |  | 
-| from |  |  |  |  | 
-| front |  |  |  |  | 
-| full |  |  |  |  | 
-| fully |  |  |  |  | 
-| function |  |  |  |  | 
-| fund |  |  |  |  | 
-| fundamental |  |  |  |  | 
-| funding |  |  |  |  | 
-| funny |  |  |  |  | 
-| furthermore |  |  |  |  | 
-| gain |  |  |  |  | 
-| galaxy |  |  |  |  | 
-| gallery |  |  |  |  | 
-| gap |  |  |  |  | 
-| gay |  |  |  |  | 
-| gaze |  |  |  |  | 
-| gender |  |  |  |  | 
-| gene |  |  |  |  | 
-| general |  |  |  |  | 
-| generally |  |  |  |  | 
-| generate |  |  |  |  | 
-| generation |  |  |  |  | 
-| genetic |  |  |  |  | 
-| gently |  |  |  |  | 
-| German |  |  |  |  | 
-| gesture |  |  |  |  | 
-| giant |  |  |  |  | 
-| gifted |  |  |  |  | 
-| given |  |  |  |  | 
-| glance |  |  |  |  | 
-| global |  |  |  |  | 
-| goal |  |  |  |  | 
-| golden |  |  |  |  | 
-| government |  |  |  |  | 
-| grade |  |  |  |  | 
-| gradually |  |  |  |  | 
-| grain |  |  |  |  | 
-| grand |  |  |  |  | 
-| great |  |  |  |  | 
-| greatest |  |  |  |  | 
-| grow |  |  |  |  | 
-| growing |  |  |  |  | 
-| growth |  |  |  |  | 
-| guarantee |  |  |  |  | 
-| guess |  |  |  |  | 
-| guide |  |  |  |  | 
-| guideline |  |  |  |  | 
-| habit |  |  |  |  | 
-| habitat |  |  |  |  | 
-| half |  |  |  |  | 
-| handful |  |  |  |  | 
-| happen |  |  |  |  | 
-| hard |  |  |  |  | 
-| hardly |  |  |  |  | 
-| have |  |  |  |  | 
-| he |  |  |  |  | 
-| headline |  |  |  |  | 
-| hearing |  |  |  |  | 
-| heavily |  |  |  |  | 
-| hello |  |  |  |  | 
-| helpful |  |  |  |  | 
-| her |  |  |  |  | 
-| here |  |  |  |  | 
-| herself |  |  |  |  | 
-| hey |  |  |  |  | 
-| hi |  |  |  |  | 
-| highlight |  |  |  |  | 
-| highly |  |  |  |  | 
-| him |  |  |  |  | 
-| himself |  |  |  |  | 
-| hip |  |  |  |  | 
-| his |  |  |  |  | 
-| historic |  |  |  |  | 
-| historical |  |  |  |  | 
-| history |  |  |  |  | 
-| hour |  |  |  |  | 
-| housing |  |  |  |  | 
-| how |  |  |  |  | 
-| however |  |  |  |  | 
-| hundred |  |  |  |  | 
-| I |  |  |  |  | 
-| ideal |  |  |  |  | 
-| identification |  |  |  |  | 
-| ie |  |  |  |  | 
-| if |  |  |  |  | 
-| illustrate |  |  |  |  | 
-| imagination |  |  |  |  | 
-| immediate |  |  |  |  | 
-| immediately |  |  |  |  | 
-| immigrant |  |  |  |  | 
-| immigration |  |  |  |  | 
-| impact |  |  |  |  | 
-| implement |  |  |  |  | 
-| impression |  |  |  |  | 
-| improvement |  |  |  |  | 
-| in |  |  |  |  | 
-| incident |  |  |  |  | 
-| include |  |  |  |  | 
-| including |  |  |  |  | 
-| incorporate |  |  |  |  | 
-| increased |  |  |  |  | 
-| increasing |  |  |  |  | 
-| increasingly |  |  |  |  | 
-| indeed |  |  |  |  | 
-| independence |  |  |  |  | 
-| independent |  |  |  |  | 
-| Indian |  |  |  |  | 
-| indication |  |  |  |  | 
-| industrial |  |  |  |  | 
-| industry |  |  |  |  | 
-| inflation |  |  |  |  | 
-| inform |  |  |  |  | 
-| initial |  |  |  |  | 
-| initially |  |  |  |  | 
-| initiative |  |  |  |  | 
-| inner |  |  |  |  | 
-| inside |  |  |  |  | 
-| insight |  |  |  |  | 
-| inspire |  |  |  |  | 
-| instance |  |  |  |  | 
-| instead |  |  |  |  | 
-| institution |  |  |  |  | 
-| institutional |  |  |  |  | 
-| instrument |  |  |  |  | 
-| insurance |  |  |  |  | 
-| intellectual |  |  |  |  | 
-| intensity |  |  |  |  | 
-| interest |  |  |  |  | 
-| internal |  |  |  |  | 
-| international |  |  |  |  | 
-| interpret |  |  |  |  | 
-| interpretation |  |  |  |  | 
-| intervention |  |  |  |  | 
-| into |  |  |  |  | 
-| introduction |  |  |  |  | 
-| invasion |  |  |  |  | 
-| involve |  |  |  |  | 
-| involved |  |  |  |  | 
-| involvement |  |  |  |  | 
-| Iraqi |  |  |  |  | 
-| Irish |  |  |  |  | 
-| Islamic |  |  |  |  | 
-| Israeli |  |  |  |  | 
-| issue |  |  |  |  | 
-| it |  |  |  |  | 
-| Italian |  |  |  |  | 
-| its |  |  |  |  | 
-| itself |  |  |  |  | 
-| Japanese |  |  |  |  | 
-| Jew |  |  |  |  | 
-| Jewish |  |  |  |  | 
-| joint |  |  |  |  | 
-| journal |  |  |  |  | 
-| journey |  |  |  |  | 
-| judgment |  |  |  |  | 
-| junior |  |  |  |  | 
-| just |  |  |  |  | 
-| justify |  |  |  |  | 
-| killing |  |  |  |  | 
-| kind |  |  |  |  | 
-| know |  |  |  |  | 
-| lab |  |  |  |  | 
-| labor |  |  |  |  | 
-| lack |  |  |  |  | 
-| language |  |  |  |  | 
-| largely |  |  |  |  | 
-| last |  |  |  |  | 
-| late |  |  |  |  | 
-| later |  |  |  |  | 
-| Latin |  |  |  |  | 
-| latter |  |  |  |  | 
-| layer |  |  |  |  | 
-| lead |  |  |  |  | 
-| leadership |  |  |  |  | 
-| leading |  |  |  |  | 
-| lean |  |  |  |  | 
-| learning |  |  |  |  | 
-| least |  |  |  |  | 
-| left |  |  |  |  | 
-| legacy |  |  |  |  | 
-| legend |  |  |  |  | 
-| legislation |  |  |  |  | 
-| legitimate |  |  |  |  | 
-| length |  |  |  |  | 
-| less |  |  |  |  | 
-| lesson |  |  |  |  | 
-| let |  |  |  |  | 
-| level |  |  |  |  | 
-| liberal |  |  |  |  | 
-| license |  |  |  |  | 
-| lifestyle |  |  |  |  | 
-| lifetime |  |  |  |  | 
-| like |  |  |  |  | 
-| likely |  |  |  |  | 
-| limit |  |  |  |  | 
-| limitation |  |  |  |  | 
-| limited |  |  |  |  | 
-| line |  |  |  |  | 
-| link |  |  |  |  | 
-| list |  |  |  |  | 
-| literally |  |  |  |  | 
-| literary |  |  |  |  | 
-| literature |  |  |  |  | 
-| little |  |  |  |  | 
-| living |  |  |  |  | 
-| load |  |  |  |  | 
-| loan |  |  |  |  | 
-| local |  |  |  |  | 
-| locate |  |  |  |  | 
-| long |  |  |  |  | 
-| long-term |  |  |  |  | 
-| loose |  |  |  |  | 
-| lose |  |  |  |  | 
-| loss |  |  |  |  | 
-| lost |  |  |  |  | 
-| lot |  |  |  |  | 
-| lots |  |  |  |  | 
-| loud |  |  |  |  | 
-| lovely |  |  |  |  | 
-| low |  |  |  |  | 
-| lower |  |  |  |  | 
-| main |  |  |  |  | 
-| mainly |  |  |  |  | 
-| maintain |  |  |  |  | 
-| maintenance |  |  |  |  | 
-| major |  |  |  |  | 
-| majority |  |  |  |  | 
-| maker |  |  |  |  | 
-| manage |  |  |  |  | 
-| management |  |  |  |  | 
-| manner |  |  |  |  | 
-| manufacturing |  |  |  |  | 
-| many |  |  |  |  | 
-| margin |  |  |  |  | 
-| mark |  |  |  |  | 
-| market |  |  |  |  | 
-| marketing |  |  |  |  | 
-| marriage |  |  |  |  | 
-| mass |  |  |  |  | 
-| massive |  |  |  |  | 
-| master |  |  |  |  | 
-| math |  |  |  |  | 
-| maybe |  |  |  |  | 
-| mean |  |  |  |  | 
-| meanwhile |  |  |  |  | 
-| measure |  |  |  |  | 
-| measurement |  |  |  |  | 
-| medical |  |  |  |  | 
-| medicine |  |  |  |  | 
-| medium |  |  |  |  | 
-| member | Thing |  |  |  | 
-| membership |  |  |  |  | 
-| mention |  |  |  |  | 
-| mere |  |  |  |  | 
-| merely |  |  |  |  | 
-| Mexican |  |  |  |  | 
-| middle |  |  |  |  | 
-| million |  |  |  |  | 
-| mine |  |  |  |  | 
-| minor |  |  |  |  | 
-| minority |  |  |  |  | 
-| minute |  |  |  |  | 
-| miss |  |  |  |  | 
-| mix |  |  |  |  | 
-| mixture |  |  |  |  | 
-| mm-hmm |  |  |  |  | 
-| mode |  |  |  |  | 
-| model |  |  |  |  | 
-| moderate |  |  |  |  | 
-| modern |  |  |  |  | 
-| modest |  |  |  |  | 
-| month |  |  |  |  | 
-| more |  |  |  |  | 
-| moreover |  |  |  |  | 
-| mortgage |  |  |  |  | 
-| most |  |  |  |  | 
-| mostly |  |  |  |  | 
-| motion |  |  |  |  | 
-| motivation |  |  |  |  | 
-| movement |  |  |  |  | 
-| Mr |  |  |  |  | 
-| Mrs |  |  |  |  | 
-| Ms |  |  |  |  | 
-| much |  |  |  |  | 
-| multiple |  |  |  |  | 
-| musical |  |  |  |  | 
-| Muslim |  |  |  |  | 
-| mutual |  |  |  |  | 
-| my |  |  |  |  | 
-| narrative |  |  |  |  | 
-| narrow |  |  |  |  | 
-| national |  |  |  |  | 
-| native |  |  |  |  | 
-| natural |  |  |  |  | 
-| naturally |  |  |  |  | 
-| nearly |  |  |  |  | 
-| necessarily |  |  |  |  | 
-| negative |  |  |  |  | 
-| neither |  |  |  |  | 
-| nerve |  |  |  |  | 
-| never |  |  |  |  | 
-| nevertheless |  |  |  |  | 
-| new |  |  |  |  | 
-| newly |  |  |  |  | 
-| next |  |  |  |  | 
-| nine |  |  |  |  | 
-| no |  |  |  |  | 
-| nomination |  |  |  |  | 
-| none | Thing |  |  |  | 
-| nonetheless |  |  |  |  | 
-| nor |  |  |  |  | 
-| normally |  |  |  |  | 
-| northern |  |  |  |  | 
-| not |  |  |  |  | 
-| nothing | Thing |  |  |  | 
-| novel |  |  |  |  | 
-| nuclear |  |  |  |  | 
-| numerous |  |  |  |  | 
-| objective |  |  |  |  | 
-| observation |  |  |  |  | 
-| obvious |  |  |  |  | 
-| obviously |  |  |  |  | 
-| occasion |  |  |  |  | 
-| occasionally |  |  |  |  | 
-| occupy |  |  |  |  | 
-| occur |  |  |  |  | 
-| odd |  |  |  |  | 
-| odds |  |  |  |  | 
-| of |  |  |  |  | 
-| off |  |  |  |  | 
-| offensive |  |  |  |  | 
-| often |  |  |  |  | 
-| oh |  |  |  |  | 
-| ok |  |  |  |  | 
-| Olympic |  |  |  |  | 
-| on |  |  |  |  | 
-| one |  |  |  |  | 
-| only |  |  |  |  | 
-| onto |  |  |  |  | 
-| opening |  |  |  |  | 
-| operate |  |  |  |  | 
-| operating |  |  |  |  | 
-| opinion |  |  |  |  | 
-| oppose |  |  |  |  | 
-| opposite |  |  |  |  | 
-| opposition |  |  |  |  | 
-| option |  |  |  |  | 
-| or |  |  |  |  | 
-| order |  |  |  |  | 
-| ordinary |  |  |  |  | 
-| organic |  |  |  |  | 
-| organize |  |  |  |  | 
-| orientation |  |  |  |  | 
-| origin |  |  |  |  | 
-| original |  |  |  |  | 
-| originally |  |  |  |  | 
-| other |  |  |  |  | 
-| others |  |  |  |  | 
-| otherwise |  |  |  |  | 
-| ought |  |  |  |  | 
-| our |  |  |  |  | 
-| out |  |  |  |  | 
-| outcome |  |  |  |  | 
-| over |  |  |  |  | 
-| overall |  |  |  |  | 
-| overlook |  |  |  |  | 
-| pace |  |  |  |  | 
-| pack |  |  |  |  | 
-| package |  |  |  |  | 
-| page |  |  |  |  | 
-| pair |  |  |  |  | 
-| pale |  |  |  |  | 
-| Palestinian |  |  |  |  | 
-| pan |  |  |  |  | 
-| parking |  |  |  |  | 
-| part | Thing |  |  |  | 
-| participation |  |  |  |  | 
-| particular |  |  |  |  | 
-| particularly |  |  |  |  | 
-| partly |  |  |  |  | 
-| partnership |  |  |  |  | 
-| past |  |  |  |  | 
-| patch |  |  |  |  | 
-| patient |  |  |  |  | 
-| pattern |  |  |  |  | 
-| pause |  |  |  |  | 
-| payment |  |  |  |  | 
-| peak |  |  |  |  | 
-| peer |  |  |  |  | 
-| penalty |  |  |  |  | 
-| per |  |  |  |  | 
-| percentage |  |  |  |  | 
-| perfectly |  |  |  |  | 
-| performance |  |  |  |  | 
-| perhaps |  |  |  |  | 
-| period |  |  |  |  | 
-| personal |  |  |  |  | 
-| personally |  |  |  |  | 
-| personnel |  |  |  |  | 
-| perspective |  |  |  |  | 
-| persuade |  |  |  |  | 
-| phase |  |  |  |  | 
-| phenomenon |  |  |  |  | 
-| philosophy |  |  |  |  | 
-| phrase |  |  |  |  | 
-| physical |  |  |  |  | 
-| physically |  |  |  |  | 
-| piece | Thing |  |  |  | 
-| pitch |  |  |  |  | 
-| please |  |  |  |  | 
-| plenty |  |  |  |  | 
-| plus |  |  |  |  | 
-| political |  |  |  |  | 
-| politically |  |  |  |  | 
-| pop |  |  |  |  | 
-| popular |  |  |  |  | 
-| population |  |  |  |  | 
-| portion |  |  |  |  | 
-| position |  |  |  |  | 
-| possibility |  |  |  |  | 
-| possibly |  |  |  |  | 
-| potential |  |  |  |  | 
-| potentially |  |  |  |  | 
-| pound |  |  |  |  | 
-| pour |  |  |  |  | 
-| poverty |  |  |  |  | 
-| practical |  |  |  |  | 
-| precisely |  |  |  |  | 
-| prefer |  |  |  |  | 
-| pregnancy |  |  |  |  | 
-| preparation |  |  |  |  | 
-| presence |  |  |  |  | 
-| presentation |  |  |  |  | 
-| preserve |  |  |  |  | 
-| presidential |  |  |  |  | 
-| pressure |  |  |  |  | 
-| prevent |  |  |  |  | 
-| previous |  |  |  |  | 
-| previously |  |  |  |  | 
-| pride |  |  |  |  | 
-| primarily |  |  |  |  | 
-| primary |  |  |  |  | 
-| prime |  |  |  |  | 
-| principal |  |  |  |  | 
-| principle |  |  |  |  | 
-| prior |  |  |  |  | 
-| privacy |  |  |  |  | 
-| probably |  |  |  |  | 
-| problem |  |  |  |  | 
-| product | Thing |  |  |  | 
-| production |  |  |  |  | 
-| profession |  |  |  |  | 
-| progress |  |  |  |  | 
-| prominent |  |  |  |  | 
-| promote |  |  |  |  | 
-| prompt |  |  |  |  | 
-| proper |  |  |  |  | 
-| properly |  |  |  |  | 
-| property |  |  |  |  | 
-| proportion |  |  |  |  | 
-| proposed |  |  |  |  | 
-| prospect |  |  |  |  | 
-| protection |  |  |  |  | 
-| protein |  |  |  |  | 
-| provider | Thing |  |  |  | 
-| province |  |  |  |  | 
-| provision |  |  |  |  | 
-| psychological |  |  |  |  | 
-| psychology |  |  |  |  | 
-| publication |  |  |  |  | 
-| publicly |  |  |  |  | 
-| quarter |  |  |  |  | 
-| quickly |  |  |  |  | 
-| quietly |  |  |  |  | 
-| quite |  |  |  |  | 
-| race |  |  |  |  | 
-| racial |  |  |  |  | 
-| radical |  |  |  |  | 
-| rapidly |  |  |  |  | 
-| rarely |  |  |  |  | 
-| rate |  |  |  |  | 
-| rather |  |  |  |  | 
-| ratio |  |  |  |  | 
-| reaction |  |  |  |  | 
-| reading |  |  |  |  | 
-| ready |  |  |  |  | 
-| reality | Thing |  |  |  | 
-| realize |  |  |  |  | 
-| really |  |  |  |  | 
-| reasonable |  |  |  |  | 
-| recall |  |  |  |  | 
-| recently |  |  |  |  | 
-| recognition |  |  |  |  | 
-| recommendation |  |  |  |  | 
-| recovery |  |  |  |  | 
-| reduction |  |  |  |  | 
-| refer |  |  |  |  | 
-| reflect |  |  |  |  | 
-| reform |  |  |  |  | 
-| regard |  |  |  |  | 
-| regarding |  |  |  |  | 
-| regardless |  |  |  |  | 
-| regime |  |  |  |  | 
-| regional |  |  |  |  | 
-| regularly |  |  |  |  | 
-| regulation |  |  |  |  | 
-| relatively |  |  |  |  | 
-| religious |  |  |  |  | 
-| rely |  |  |  |  | 
-| remaining |  |  |  |  | 
-| remarkable |  |  |  |  | 
-| remote |  |  |  |  | 
-| repeatedly |  |  |  |  | 
-| representation |  |  |  |  | 
-| Republican |  |  |  |  | 
-| requirement |  |  |  |  | 
-| resemble |  |  |  |  | 
-| resistance |  |  |  |  | 
-| resolution |  |  |  |  | 
-| resolve |  |  |  |  | 
-| resort |  |  |  |  | 
-| resource |  |  |  |  | 
-| respond |  |  |  |  | 
-| respondent |  |  |  |  | 
-| response |  |  |  |  | 
-| responsibility |  |  |  |  | 
-| restore |  |  |  |  | 
-| restriction |  |  |  |  | 
-| retain |  |  |  |  | 
-| retire |  |  |  |  | 
-| retirement |  |  |  |  | 
-| review |  |  |  |  | 
-| revolution |  |  |  |  | 
-| rid |  |  |  |  | 
-| rise |  |  |  |  | 
-| risk |  |  |  |  | 
-| roll |  |  |  |  | 
-| romantic |  |  |  |  | 
-| root |  |  |  |  | 
-| roughly |  |  |  |  | 
-| round |  |  |  |  | 
-| route |  |  |  |  | 
-| routine |  |  |  |  | 
-| row |  |  |  |  | 
-| rub |  |  |  |  | 
-| rule |  |  |  |  | 
-| running |  |  |  |  | 
-| rural |  |  |  |  | 
-| Russian |  |  |  |  | 
-| safe |  |  |  |  | 
-| safety |  |  |  |  | 
-| sake |  |  |  |  | 
-| sales |  |  |  |  | 
-| same |  |  |  |  | 
-| sample |  |  |  |  | 
-| sanction |  |  |  |  | 
-| satisfaction |  |  |  |  | 
-| satisfy |  |  |  |  | 
-| saving |  |  |  |  | 
-| scale |  |  |  |  | 
-| scenario |  |  |  |  | 
-| scene |  |  |  |  | 
-| schedule |  |  |  |  | 
-| scheme |  |  |  |  | 
-| scholar |  |  |  |  | 
-| scholarship |  |  |  |  | 
-| science |  |  |  |  | 
-| scientific |  |  |  |  | 
-| scope |  |  |  |  | 
-| score |  |  |  |  | 
-| script |  |  |  |  | 
-| season |  |  |  |  | 
-| second |  |  |  |  | 
-| secretary |  |  |  |  | 
-| section |  |  |  |  | 
-| secure |  |  |  |  | 
-| security |  |  |  |  | 
-| seek |  |  |  |  | 
-| segment |  |  |  |  | 
-| seize |  |  |  |  | 
-| select |  |  |  |  | 
-| selection |  |  |  |  | 
-| sell |  |  |  |  | 
-| Senate |  |  |  |  | 
-| senior |  |  |  |  | 
-| sensitive |  |  |  |  | 
-| separate |  |  |  |  | 
-| sequence |  |  |  |  | 
-| series |  |  |  |  | 
-| serious |  |  |  |  | 
-| seriously |  |  |  |  | 
-| serve |  |  |  |  | 
-| service |  |  |  |  | 
-| session |  |  |  |  | 
-| setting |  |  |  |  | 
-| settlement |  |  |  |  | 
-| seven |  |  |  |  | 
-| several |  |  |  |  | 
-| severe |  |  |  |  | 
-| sexual |  |  |  |  | 
-| shade |  |  |  |  | 
-| shall |  |  |  |  | 
-| shape |  |  |  |  | 
-| she |  |  |  |  | 
-| shift |  |  |  |  | 
-| shooting |  |  |  |  | 
-| shopping |  |  |  |  | 
-| shortly |  |  |  |  | 
-| should |  |  |  |  | 
-| shrug |  |  |  |  | 
-| side |  |  |  |  | 
-| sigh |  |  |  |  | 
-| significance |  |  |  |  | 
-| significant |  |  |  |  | 
-| significantly |  |  |  |  | 
-| similar |  |  |  |  | 
-| similarly |  |  |  |  | 
-| simply |  |  |  |  | 
-| since |  |  |  |  | 
-| single |  |  |  |  | 
-| sir |  |  |  |  | 
-| six |  |  |  |  | 
-| size |  |  |  |  | 
-| ski |  |  |  |  | 
-| slice |  |  |  |  | 
-| slide |  |  |  |  | 
-| slight |  |  |  |  | 
-| slightly |  |  |  |  | 
-| slip |  |  |  |  | 
-| slowly |  |  |  |  | 
-| smart |  |  |  |  | 
-| snap |  |  |  |  | 
-| so |  |  |  |  | 
-| so-called |  |  |  |  | 
-| social |  |  |  |  | 
-| soft |  |  |  |  | 
-| solar |  |  |  |  | 
-| solution |  |  |  |  | 
-| solve |  |  |  |  | 
-| some |  |  |  |  | 
-| something | Thing |  |  |  | 
-| somewhat |  |  |  |  | 
-| soon |  |  |  |  | 
-| sophisticated |  |  |  |  | 
-| sorry |  |  |  |  | 
-| sort |  |  |  |  | 
-| source |  |  |  |  | 
-| southern |  |  |  |  | 
-| Soviet |  |  |  |  | 
-| Spanish |  |  |  |  | 
-| special |  |  |  |  | 
-| species |  |  |  |  | 
-| specific |  |  |  |  | 
-| specifically |  |  |  |  | 
-| speed |  |  |  |  | 
-| spending |  |  |  |  | 
-| spiritual |  |  |  |  | 
-| spokesman |  |  |  |  | 
-| square |  |  |  |  | 
-| squeeze |  |  |  |  | 
-| stability |  |  |  |  | 
-| stake |  |  |  |  | 
-| standard |  |  |  |  | 
-| standing |  |  |  |  | 
-| state |  |  |  |  | 
-| statement |  |  |  |  | 
-| statistics |  |  |  |  | 
-| status |  |  |  |  | 
-| step |  |  |  |  | 
-| stock |  |  |  |  | 
-| storage |  |  |  |  | 
-| straight |  |  |  |  | 
-| strategic |  |  |  |  | 
-| strategy |  |  |  |  | 
-| strength |  |  |  |  | 
-| strengthen |  |  |  |  | 
-| stroke |  |  |  |  | 
-| strongly |  |  |  |  | 
-| structure |  |  |  |  | 
-| stuff | Thing |  |  |  | 
-| style |  |  |  |  | 
-| subject |  |  |  |  | 
-| subsequent |  |  |  |  | 
-| substance |  |  |  |  | 
-| substantial |  |  |  |  | 
-| successfully |  |  |  |  | 
-| such |  |  |  |  | 
-| suddenly |  |  |  |  | 
-| summit |  |  |  |  | 
-| Supreme |  |  |  |  | 
-| sure |  |  |  |  | 
-| surely |  |  |  |  | 
-| surprisingly |  |  |  |  | 
-| survey |  |  |  |  | 
-| survival |  |  |  |  | 
-| sustain |  |  |  |  | 
-| sweep |  |  |  |  | 
-| swing |  |  |  |  | 
-| symbol |  |  |  |  | 
-| talent |  |  |  |  | 
-| taxpayer |  |  |  |  | 
-| technical |  |  |  |  | 
-| technique |  |  |  |  | 
-| technology |  |  |  |  | 
-| ten |  |  |  |  | 
-| tendency |  |  |  |  | 
-| term |  |  |  |  | 
-| terms |  |  |  |  | 
-| terrorism |  |  |  |  | 
-| test |  |  |  |  | 
-| testing |  |  |  |  | 
-| than |  |  |  |  | 
-| thank |  |  |  |  | 
-| that |  |  |  |  | 
-| the |  |  |  |  | 
-| their |  |  |  |  | 
-| them |  |  |  |  | 
-| theme |  |  |  |  | 
-| themselves |  |  |  |  | 
-| then |  |  |  |  | 
-| there |  |  |  |  | 
-| therefore |  |  |  |  | 
-| these |  |  |  |  | 
-| they |  |  |  |  | 
-| thing | Thing |  |  |  | 
-| thinking |  |  |  |  | 
-| third |  |  |  |  | 
-| thirty |  |  |  |  | 
-| this |  |  |  |  | 
-| those |  |  |  |  | 
-| though |  |  |  |  | 
-| thousand |  |  |  |  | 
-| three |  |  |  |  | 
-| through |  |  |  |  | 
-| throughout |  |  |  |  | 
-| thus |  |  |  |  | 
-| to |  |  |  |  | 
-| today |  |  |  |  | 
-| together |  |  |  |  | 
-| tomorrow |  |  |  |  | 
-| tone |  |  |  |  | 
-| tonight |  |  |  |  | 
-| too |  |  |  |  | 
-| tool |  |  |  |  | 
-| top |  |  |  |  | 
-| total |  |  |  |  | 
-| totally |  |  |  |  | 
-| tour |  |  |  |  | 
-| toward |  |  |  |  | 
-| towards |  |  |  |  | 
-| tradition |  |  |  |  | 
-| traditional |  |  |  |  | 
-| tragedy |  |  |  |  | 
-| transportation |  |  |  |  | 
-| treaty |  |  |  |  | 
-| truly |  |  |  |  | 
-| twelve |  |  |  |  | 
-| twenty |  |  |  |  | 
-| twice |  |  |  |  | 
-| two |  |  |  |  | 
-| typical |  |  |  |  | 
-| typically |  |  |  |  | 
-| ultimate |  |  |  |  | 
-| ultimately |  |  |  |  | 
-| under |  |  |  |  | 
-| undergo |  |  |  |  | 
-| unfortunately |  |  |  |  | 
-| union |  |  |  |  | 
-| United |  |  |  |  | 
-| universal |  |  |  |  | 
-| unknown |  |  |  |  | 
-| unless |  |  |  |  | 
-| unlike |  |  |  |  | 
-| unlikely |  |  |  |  | 
-| until |  |  |  |  | 
-| up |  |  |  |  | 
-| upon |  |  |  |  | 
-| upper |  |  |  |  | 
-| us |  |  |  |  | 
-| used |  |  |  |  | 
-| useful |  |  |  |  | 
-| usual |  |  |  |  | 
-| usually |  |  |  |  | 
-| utility |  |  |  |  | 
-| variety |  |  |  |  | 
-| various |  |  |  |  | 
-| venture |  |  |  |  | 
-| version |  |  |  |  | 
-| versus |  |  |  |  | 
-| very |  |  |  |  | 
-| vessel |  |  |  |  | 
-| via |  |  |  |  | 
-| view |  |  |  |  | 
-| viewer |  |  |  |  | 
-| violence |  |  |  |  | 
-| virtually |  |  |  |  | 
-| virtue |  |  |  |  | 
-| visual |  |  |  |  | 
-| vital |  |  |  |  | 
-| volume |  |  |  |  | 
-| vs |  |  |  |  | 
-| we |  |  |  |  | 
-| wealth |  |  |  |  | 
-| week |  |  |  |  | 
-| weekend |  |  |  |  | 
-| weekly |  |  |  |  | 
-| weigh |  |  |  |  | 
-| welfare |  |  |  |  | 
-| well |  |  |  |  | 
-| western |  |  |  |  | 
-| what |  |  |  |  | 
-| whatever |  |  |  |  | 
-| when |  |  |  |  | 
-| whenever |  |  |  |  | 
-| where |  |  |  |  | 
-| whereas |  |  |  |  | 
-| whether |  |  |  |  | 
-| which |  |  |  |  | 
-| while |  |  |  |  | 
-| who |  |  |  |  | 
-| whole |  |  |  |  | 
-| whom |  |  |  |  | 
-| whose |  |  |  |  | 
-| why |  |  |  |  | 
-| widely |  |  |  |  | 
-| wild |  |  |  |  | 
-| willing |  |  |  |  | 
-| winter |  |  |  |  | 
-| wisdom |  |  |  |  | 
-| with |  |  |  |  | 
-| within |  |  |  |  | 
-| without |  |  |  |  | 
-| wonder |  |  |  |  | 
-| working |  |  |  |  | 
-| works |  |  |  |  | 
-| would |  |  |  |  | 
-| yard |  |  |  |  | 
-| yeah |  |  |  |  | 
-| year |  |  |  |  | 
-| yes |  |  |  |  | 
-| yesterday |  |  |  |  | 
-| yet |  |  |  |  | 
-| you |  |  |  |  | 
-| your |  |  |  |  | 
-| yours |  |  |  |  | 
-| yourself |  |  |  |  | 
-| agent | Thing | Agent |  |  | 
-| competitor | Thing | Agent |  |  | 
-| creature | Thing | Agent |  |  | 
-| female | Thing | Agent |  |  | 
-| individual | Thing | Agent |  |  | 
-| lucky | Thing | Agent |  |  | 
-| male | Thing | Agent |  |  | 
-| parent | Thing | Agent |  |  | 
-| participant | Thing | Agent |  |  | 
-| partner | Thing | Agent |  |  | 
-| producer | Thing | Agent |  |  | 
+| WORD | CATS 1 | CATS 2 | CATS 3 | CATS 4 | POS | 
+|---|---|---|---|---|---|
+| may | Thing | Occurrence | Action | Action modifier | verb | 
+| might | Thing | Occurrence | Action | Action modifier | verb | 
+| must | Thing | Occurrence | Action | Action modifier | verb | 
+| need | Thing | Occurrence | Action | Action modifier | verb | 
+| try | Thing | Occurrence | Action | Action modifier | verb | 
+| bomb | Thing | Occurrence | Action | High level action | noun | 
+| charge | Thing | Occurrence | Action | High level action | noun | 
+| copy | Thing | Occurrence | Action | High level action | noun | 
+| deal | Thing | Occurrence | Action | High level action | noun | 
+| dining | Thing | Occurrence | Action | High level action | noun | 
+| exchange | Thing | Occurrence | Action | High level action | noun | 
+| fish | Thing | Occurrence | Action | High level action | noun | 
+| graduate | Thing | Occurrence | Action | High level action | noun | 
+| joke | Thing | Occurrence | Action | High level action | noun | 
+| photograph | Thing | Occurrence | Action | High level action | noun | 
+| post | Thing | Occurrence | Action | High level action | noun | 
+| practice | Thing | Occurrence | Action | High level action | noun | 
+| print | Thing | Occurrence | Action | High level action | noun | 
+| protest | Thing | Occurrence | Action | High level action | noun | 
+| record | Thing | Occurrence | Action | High level action | noun | 
+| request | Thing | Occurrence | Action | High level action | noun | 
+| rest | Thing | Occurrence | Action | High level action | noun | 
+| search | Thing | Occurrence | Action | High level action | noun | 
+| strip | Thing | Occurrence | Action | High level action | noun | 
+| study | Thing | Occurrence | Action | High level action | noun | 
+| suicide | Thing | Occurrence | Action | High level action | noun | 
+| trade | Thing | Occurrence | Action | High level action | noun | 
+| trick | Thing | Occurrence | Action | High level action | noun | 
+| volunteer | Thing | Occurrence | Action | High level action | noun | 
+| wage | Thing | Occurrence | Action | High level action | noun | 
+| address | Thing | Occurrence | Action | High level action | verb | 
+| bake | Thing | Occurrence | Action | High level action | verb | 
+| bet | Thing | Occurrence | Action | High level action | verb | 
+| blame | Thing | Occurrence | Action | High level action | verb | 
+| build | Thing | Occurrence | Action | High level action | verb | 
+| burn | Thing | Occurrence | Action | High level action | verb | 
+| bury | Thing | Occurrence | Action | High level action | verb | 
+| buy | Thing | Occurrence | Action | High level action | verb | 
+| calculate | Thing | Occurrence | Action | High level action | verb | 
+| call | Thing | Occurrence | Action | High level action | verb | 
+| capture | Thing | Occurrence | Action | High level action | verb | 
+| celebrate | Thing | Occurrence | Action | High level action | verb | 
+| change | Thing | Occurrence | Action | High level action | verb | 
+| chase | Thing | Occurrence | Action | High level action | verb | 
+| claim | Thing | Occurrence | Action | High level action | verb | 
+| collect | Thing | Occurrence | Action | High level action | verb | 
+| commit | Thing | Occurrence | Action | High level action | verb | 
+| communicate | Thing | Occurrence | Action | High level action | verb | 
+| compare | Thing | Occurrence | Action | High level action | verb | 
+| complain | Thing | Occurrence | Action | High level action | verb | 
+| connect | Thing | Occurrence | Action | High level action | verb | 
+| convince | Thing | Occurrence | Action | High level action | verb | 
+| cook | Thing | Occurrence | Action | High level action | verb | 
+| create | Thing | Occurrence | Action | High level action | verb | 
+| cut | Thing | Occurrence | Action | High level action | verb | 
+| dare | Thing | Occurrence | Action | High level action | verb | 
+| defeat | Thing | Occurrence | Action | High level action | verb | 
+| defend | Thing | Occurrence | Action | High level action | verb | 
+| define | Thing | Occurrence | Action | High level action | verb | 
+| deliver | Thing | Occurrence | Action | High level action | verb | 
+| deny | Thing | Occurrence | Action | High level action | verb | 
+| describe | Thing | Occurrence | Action | High level action | verb | 
+| destroy | Thing | Occurrence | Action | High level action | verb | 
+| disappear | Thing | Occurrence | Action | High level action | verb | 
+| discover | Thing | Occurrence | Action | High level action | verb | 
+| discuss | Thing | Occurrence | Action | High level action | verb | 
+| earn | Thing | Occurrence | Action | High level action | verb | 
+| elect | Thing | Occurrence | Action | High level action | verb | 
+| employ | Thing | Occurrence | Action | High level action | verb | 
+| enable | Thing | Occurrence | Action | High level action | verb | 
+| encourage | Thing | Occurrence | Action | High level action | verb | 
+| enter | Thing | Occurrence | Action | High level action | verb | 
+| escape | Thing | Occurrence | Action | High level action | verb | 
+| explain | Thing | Occurrence | Action | High level action | verb | 
+| explore | Thing | Occurrence | Action | High level action | verb | 
+| feed | Thing | Occurrence | Action | High level action | verb | 
+| fill | Thing | Occurrence | Action | High level action | verb | 
+| fix | Thing | Occurrence | Action | High level action | verb | 
+| follow | Thing | Occurrence | Action | High level action | verb | 
+| gather | Thing | Occurrence | Action | High level action | verb | 
+| get | Thing | Occurrence | Action | High level action | verb | 
+| grant | Thing | Occurrence | Action | High level action | verb | 
+| help | Thing | Occurrence | Action | High level action | verb | 
+| hide | Thing | Occurrence | Action | High level action | verb | 
+| hire | Thing | Occurrence | Action | High level action | verb | 
+| hunt | Thing | Occurrence | Action | High level action | verb | 
+| hurt | Thing | Occurrence | Action | High level action | verb | 
+| impose | Thing | Occurrence | Action | High level action | verb | 
+| improve | Thing | Occurrence | Action | High level action | verb | 
+| increase | Thing | Occurrence | Action | High level action | verb | 
+| indicate | Thing | Occurrence | Action | High level action | verb | 
+| insist | Thing | Occurrence | Action | High level action | verb | 
+| install | Thing | Occurrence | Action | High level action | verb | 
+| intend | Thing | Occurrence | Action | High level action | verb | 
+| introduce | Thing | Occurrence | Action | High level action | verb | 
+| invest | Thing | Occurrence | Action | High level action | verb | 
+| investigate | Thing | Occurrence | Action | High level action | verb | 
+| invite | Thing | Occurrence | Action | High level action | verb | 
+| join | Thing | Occurrence | Action | High level action | verb | 
+| kill | Thing | Occurrence | Action | High level action | verb | 
+| launch | Thing | Occurrence | Action | High level action | verb | 
+| leave | Thing | Occurrence | Action | High level action | verb | 
+| lie | Thing | Occurrence | Action | High level action | verb | 
+| lock | Thing | Occurrence | Action | High level action | verb | 
+| make | Thing | Occurrence | Action | High level action | verb | 
+| marry | Thing | Occurrence | Action | High level action | verb | 
+| meet | Thing | Occurrence | Action | High level action | verb | 
+| mount | Thing | Occurrence | Action | High level action | verb | 
+| negotiate | Thing | Occurrence | Action | High level action | verb | 
+| observe | Thing | Occurrence | Action | High level action | verb | 
+| obtain | Thing | Occurrence | Action | High level action | verb | 
+| offer | Thing | Occurrence | Action | High level action | verb | 
+| participate | Thing | Occurrence | Action | High level action | verb | 
+| pass | Thing | Occurrence | Action | High level action | verb | 
+| pay | Thing | Occurrence | Action | High level action | verb | 
+| perform | Thing | Occurrence | Action | High level action | verb | 
+| permit | Thing | Occurrence | Action | High level action | verb | 
+| play | Thing | Occurrence | Action | High level action | verb | 
+| portray | Thing | Occurrence | Action | High level action | verb | 
+| pose | Thing | Occurrence | Action | High level action | verb | 
+| prepare | Thing | Occurrence | Action | High level action | verb | 
+| pretend | Thing | Occurrence | Action | High level action | verb | 
+| proceed | Thing | Occurrence | Action | High level action | verb | 
+| produce | Thing | Occurrence | Action | High level action | verb | 
+| promise | Thing | Occurrence | Action | High level action | verb | 
+| propose | Thing | Occurrence | Action | High level action | verb | 
+| protect | Thing | Occurrence | Action | High level action | verb | 
+| prove | Thing | Occurrence | Action | High level action | verb | 
+| provide | Thing | Occurrence | Action | High level action | verb | 
+| publish | Thing | Occurrence | Action | High level action | verb | 
+| purchase | Thing | Occurrence | Action | High level action | verb | 
+| pursue | Thing | Occurrence | Action | High level action | verb | 
+| quit | Thing | Occurrence | Action | High level action | verb | 
+| quote | Thing | Occurrence | Action | High level action | verb | 
+| raise | Thing | Occurrence | Action | High level action | verb | 
+| receive | Thing | Occurrence | Action | High level action | verb | 
+| recommend | Thing | Occurrence | Action | High level action | verb | 
+| recruit | Thing | Occurrence | Action | High level action | verb | 
+| reduce | Thing | Occurrence | Action | High level action | verb | 
+| register | Thing | Occurrence | Action | High level action | verb | 
+| regulate | Thing | Occurrence | Action | High level action | verb | 
+| reinforce | Thing | Occurrence | Action | High level action | verb | 
+| release | Thing | Occurrence | Action | High level action | verb | 
+| remain | Thing | Occurrence | Action | High level action | verb | 
+| remind | Thing | Occurrence | Action | High level action | verb | 
+| remove | Thing | Occurrence | Action | High level action | verb | 
+| repeat | Thing | Occurrence | Action | High level action | verb | 
+| replace | Thing | Occurrence | Action | High level action | verb | 
+| reply | Thing | Occurrence | Action | High level action | verb | 
+| report | Thing | Occurrence | Action | High level action | verb | 
+| return | Thing | Occurrence | Action | High level action | verb | 
+| reveal | Thing | Occurrence | Action | High level action | verb | 
+| save | Thing | Occurrence | Action | High level action | verb | 
+| send | Thing | Occurrence | Action | High level action | verb | 
+| set | Thing | Occurrence | Action | High level action | verb | 
+| settle | Thing | Occurrence | Action | High level action | verb | 
+| share | Thing | Occurrence | Action | High level action | verb | 
+| show | Thing | Occurrence | Action | High level action | verb | 
+| shut | Thing | Occurrence | Action | High level action | verb | 
+| spend | Thing | Occurrence | Action | High level action | verb | 
+| split | Thing | Occurrence | Action | High level action | verb | 
+| spread | Thing | Occurrence | Action | High level action | verb | 
+| start | Thing | Occurrence | Action | High level action | verb | 
+| stay | Thing | Occurrence | Action | High level action | verb | 
+| steal | Thing | Occurrence | Action | High level action | verb | 
+| stir | Thing | Occurrence | Action | High level action | verb | 
+| stop | Thing | Occurrence | Action | High level action | verb | 
+| struggle | Thing | Occurrence | Action | High level action | verb | 
+| submit | Thing | Occurrence | Action | High level action | verb | 
+| sue | Thing | Occurrence | Action | High level action | verb | 
+| suggest | Thing | Occurrence | Action | High level action | verb | 
+| swear | Thing | Occurrence | Action | High level action | verb | 
+| teach | Thing | Occurrence | Action | High level action | verb | 
+| tell | Thing | Occurrence | Action | High level action | verb | 
+| testify | Thing | Occurrence | Action | High level action | verb | 
+| threaten | Thing | Occurrence | Action | High level action | verb | 
+| trace | Thing | Occurrence | Action | High level action | verb | 
+| transfer | Thing | Occurrence | Action | High level action | verb | 
+| translate | Thing | Occurrence | Action | High level action | verb | 
+| travel | Thing | Occurrence | Action | High level action | verb | 
+| treat | Thing | Occurrence | Action | High level action | verb | 
+| turn | Thing | Occurrence | Action | High level action | verb | 
+| urge | Thing | Occurrence | Action | High level action | verb | 
+| use | Thing | Occurrence | Action | High level action | verb | 
+| violate | Thing | Occurrence | Action | High level action | verb | 
+| visit | Thing | Occurrence | Action | High level action | verb | 
+| vote | Thing | Occurrence | Action | High level action | verb | 
+| wait | Thing | Occurrence | Action | High level action | verb | 
+| warn | Thing | Occurrence | Action | High level action | verb | 
+| wash | Thing | Occurrence | Action | High level action | verb | 
+| welcome | Thing | Occurrence | Action | High level action | verb | 
+| wipe | Thing | Occurrence | Action | High level action | verb | 
+| withdraw | Thing | Occurrence | Action | High level action | verb | 
+| work | Thing | Occurrence | Action | High level action | verb | 
+| wrap | Thing | Occurrence | Action | High level action | verb | 
+| write | Thing | Occurrence | Action | High level action | verb | 
+| yield | Thing | Occurrence | Action | High level action | verb | 
+| care | Thing | Occurrence | Action | Mental action | noun | 
+| plan | Thing | Occurrence | Action | Mental action | noun | 
+| consider | Thing | Occurrence | Action | Mental action | verb | 
+| decide | Thing | Occurrence | Action | Mental action | verb | 
+| disagree | Thing | Occurrence | Action | Mental action | verb | 
+| enjoy | Thing | Occurrence | Action | Mental action | verb | 
+| evaluate | Thing | Occurrence | Action | Mental action | verb | 
+| expect | Thing | Occurrence | Action | Mental action | verb | 
+| identify | Thing | Occurrence | Action | Mental action | verb | 
+| ignore | Thing | Occurrence | Action | Mental action | verb | 
+| imagine | Thing | Occurrence | Action | Mental action | verb | 
+| learn | Thing | Occurrence | Action | Mental action | verb | 
+| pick | Thing | Occurrence | Action | Mental action | verb | 
+| predict | Thing | Occurrence | Action | Mental action | verb | 
+| refuse | Thing | Occurrence | Action | Mental action | verb | 
+| reject | Thing | Occurrence | Action | Mental action | verb | 
+| relate | Thing | Occurrence | Action | Mental action | verb | 
+| relax | Thing | Occurrence | Action | Mental action | verb | 
+| remember | Thing | Occurrence | Action | Mental action | verb | 
+| resist | Thing | Occurrence | Action | Mental action | verb | 
+| suppose | Thing | Occurrence | Action | Mental action | verb | 
+| think | Thing | Occurrence | Action | Mental action | verb | 
+| trust | Thing | Occurrence | Action | Mental action | verb | 
+| understand | Thing | Occurrence | Action | Mental action | verb | 
+| want | Thing | Occurrence | Action | Mental action | verb | 
+| wish | Thing | Occurrence | Action | Mental action | verb | 
+| worry | Thing | Occurrence | Action | Mental action | verb | 
+| attack | Thing | Occurrence | Action | Physical action | noun | 
+| dance | Thing | Occurrence | Action | Physical action | noun | 
+| bite | Thing | Occurrence | Action | Physical action | verb | 
+| break | Thing | Occurrence | Action | Physical action | verb | 
+| breathe | Thing | Occurrence | Action | Physical action | verb | 
+| carry | Thing | Occurrence | Action | Physical action | verb | 
+| catch | Thing | Occurrence | Action | Physical action | verb | 
+| climb | Thing | Occurrence | Action | Physical action | verb | 
+| close | Thing | Occurrence | Action | Physical action | verb | 
+| come | Thing | Occurrence | Action | Physical action | verb | 
+| dig | Thing | Occurrence | Action | Physical action | verb | 
+| draw | Thing | Occurrence | Action | Physical action | verb | 
+| drive | Thing | Occurrence | Action | Physical action | verb | 
+| drop | Thing | Occurrence | Action | Physical action | verb | 
+| eat | Thing | Occurrence | Action | Physical action | verb | 
+| examine | Thing | Occurrence | Action | Physical action | verb | 
+| fight | Thing | Occurrence | Action | Physical action | verb | 
+| flee | Thing | Occurrence | Action | Physical action | verb | 
+| give | Thing | Occurrence | Action | Physical action | verb | 
+| go | Thing | Occurrence | Action | Physical action | verb | 
+| grab | Thing | Occurrence | Action | Physical action | verb | 
+| hang | Thing | Occurrence | Action | Physical action | verb | 
+| hit | Thing | Occurrence | Action | Physical action | verb | 
+| hold | Thing | Occurrence | Action | Physical action | verb | 
+| jump | Thing | Occurrence | Action | Physical action | verb | 
+| kick | Thing | Occurrence | Action | Physical action | verb | 
+| kiss | Thing | Occurrence | Action | Physical action | verb | 
+| knock | Thing | Occurrence | Action | Physical action | verb | 
+| laugh | Thing | Occurrence | Action | Physical action | verb | 
+| lay | Thing | Occurrence | Action | Physical action | verb | 
+| listen | Thing | Occurrence | Action | Physical action | verb | 
+| look | Thing | Occurrence | Action | Physical action | verb | 
+| move | Thing | Occurrence | Action | Physical action | verb | 
+| nod | Thing | Occurrence | Action | Physical action | verb | 
+| open | Thing | Occurrence | Action | Physical action | verb | 
+| pray | Thing | Occurrence | Action | Physical action | verb | 
+| pull | Thing | Occurrence | Action | Physical action | verb | 
+| push | Thing | Occurrence | Action | Physical action | verb | 
+| put | Thing | Occurrence | Action | Physical action | verb | 
+| read | Thing | Occurrence | Action | Physical action | verb | 
+| ride | Thing | Occurrence | Action | Physical action | verb | 
+| run | Thing | Occurrence | Action | Physical action | verb | 
+| rush | Thing | Occurrence | Action | Physical action | verb | 
+| say | Thing | Occurrence | Action | Physical action | verb | 
+| scream | Thing | Occurrence | Action | Physical action | verb | 
+| shake | Thing | Occurrence | Action | Physical action | verb | 
+| shoot | Thing | Occurrence | Action | Physical action | verb | 
+| shout | Thing | Occurrence | Action | Physical action | verb | 
+| sing | Thing | Occurrence | Action | Physical action | verb | 
+| sit | Thing | Occurrence | Action | Physical action | verb | 
+| smile | Thing | Occurrence | Action | Physical action | verb | 
+| smoke | Thing | Occurrence | Action | Physical action | verb | 
+| speak | Thing | Occurrence | Action | Physical action | verb | 
+| stand | Thing | Occurrence | Action | Physical action | verb | 
+| stare | Thing | Occurrence | Action | Physical action | verb | 
+| stretch | Thing | Occurrence | Action | Physical action | verb | 
+| strike | Thing | Occurrence | Action | Physical action | verb | 
+| swim | Thing | Occurrence | Action | Physical action | verb | 
+| take | Thing | Occurrence | Action | Physical action | verb | 
+| talk | Thing | Occurrence | Action | Physical action | verb | 
+| throw | Thing | Occurrence | Action | Physical action | verb | 
+| toss | Thing | Occurrence | Action | Physical action | verb | 
+| touch | Thing | Occurrence | Action | Physical action | verb | 
+| walk | Thing | Occurrence | Action | Physical action | verb | 
+| wander | Thing | Occurrence | Action | Physical action | verb | 
+| wear | Thing | Occurrence | Action | Physical action | verb | 
+| whisper | Thing | Occurrence | Action | Physical action | verb | 
+| yell | Thing | Occurrence | Action | Physical action | verb | 
+| cause | Thing | Occurrence | Action | Unintentional action | verb | 
+| contain | Thing | Occurrence | Action | Unintentional action | verb | 
+| deserve | Thing | Occurrence | Action | Unintentional action | verb | 
+| die | Thing | Occurrence | Action | Unintentional action | verb | 
+| feel | Thing | Occurrence | Action | Unintentional action | verb | 
+| find | Thing | Occurrence | Action | Unintentional action | verb | 
+| hear | Thing | Occurrence | Action | Unintentional action | verb | 
+| imply | Thing | Occurrence | Action | Unintentional action | verb | 
+| impress | Thing | Occurrence | Action | Unintentional action | verb | 
+| live | Thing | Occurrence | Action | Unintentional action | verb | 
+| notice | Thing | Occurrence | Action | Unintentional action | verb | 
+| overcome | Thing | Occurrence | Action | Unintentional action | verb | 
+| owe | Thing | Occurrence | Action | Unintentional action | verb | 
+| possess | Thing | Occurrence | Action | Unintentional action | verb | 
+| qualify | Thing | Occurrence | Action | Unintentional action | verb | 
+| reach | Thing | Occurrence | Action | Unintentional action | verb | 
+| react | Thing | Occurrence | Action | Unintentional action | verb | 
+| recognize | Thing | Occurrence | Action | Unintentional action | verb | 
+| recover | Thing | Occurrence | Action | Unintentional action | verb | 
+| represent | Thing | Occurrence | Action | Unintentional action | verb | 
+| shine | Thing | Occurrence | Action | Unintentional action | verb | 
+| sleep | Thing | Occurrence | Action | Unintentional action | verb | 
+| smell | Thing | Occurrence | Action | Unintentional action | verb | 
+| spin | Thing | Occurrence | Action | Unintentional action | verb | 
+| stick | Thing | Occurrence | Action | Unintentional action | verb | 
+| succeed | Thing | Occurrence | Action | Unintentional action | verb | 
+| suffer | Thing | Occurrence | Action | Unintentional action | verb | 
+| support | Thing | Occurrence | Action | Unintentional action | verb | 
+| surround | Thing | Occurrence | Action | Unintentional action | verb | 
+| survive | Thing | Occurrence | Action | Unintentional action | verb | 
+| tend | Thing | Occurrence | Action | Unintentional action | verb | 
+| transform | Thing | Occurrence | Action | Unintentional action | verb | 
+| vary | Thing | Occurrence | Action | Unintentional action | verb | 
+| wake | Thing | Occurrence | Action | Unintentional action | verb | 
+| win | Thing | Occurrence | Action | Unintentional action | verb | 
+| cat | Thing | Agent | Animal | Domestic | noun | 
+| dog | Thing | Agent | Animal | Domestic | noun | 
+| pet | Thing | Agent | Animal | Domestic | noun | 
+| chicken | Thing | Agent | Animal | Farm | noun | 
+| cow | Thing | Agent | Animal | Farm | noun | 
+| horse | Thing | Agent | Animal | Farm | noun | 
+| bird | Thing | Agent | Animal | Wild | noun | 
+| deer | Thing | Agent | Animal | Wild | noun | 
+| fish | Thing | Agent | Animal | Wild | noun | 
+| mouse | Thing | Agent | Animal | Wild | noun | 
+| bear | Thing | Agent | Animal | Wild | verb | 
+| fly | Thing | Agent | Animal | Wild | verb | 
+| animal | Thing | Agent | Animal |  | noun | 
+| average | Thing | Abstract | Concept | Logical | adjective | 
+| bad | Thing | Abstract | Concept | Logical | adjective | 
+| basic | Thing | Abstract | Concept | Logical | adjective | 
+| best | Thing | Abstract | Concept | Logical | adjective | 
+| better | Thing | Abstract | Concept | Logical | adjective | 
+| correct | Thing | Abstract | Concept | Logical | adjective | 
+| false | Thing | Abstract | Concept | Logical | adjective | 
+| moral | Thing | Abstract | Concept | Logical | adjective | 
+| somehow | Thing | Abstract | Concept | Logical | adverb | 
+| advice | Thing | Abstract | Concept | Logical | noun | 
+| agreement | Thing | Abstract | Concept | Logical | noun | 
+| answer | Thing | Abstract | Concept | Logical | noun | 
+| approval | Thing | Abstract | Concept | Logical | noun | 
+| belief | Thing | Abstract | Concept | Logical | noun | 
+| category | Thing | Abstract | Concept | Logical | noun | 
+| choice | Thing | Abstract | Concept | Logical | noun | 
+| clue | Thing | Abstract | Concept | Logical | noun | 
+| commission | Thing | Abstract | Concept | Logical | noun | 
+| concept | Thing | Abstract | Concept | Logical | noun | 
+| consciousness | Thing | Abstract | Concept | Logical | noun | 
+| consequence | Thing | Abstract | Concept | Logical | noun | 
+| contract | Thing | Abstract | Concept | Logical | noun | 
+| data | Thing | Abstract | Concept | Logical | noun | 
+| decision | Thing | Abstract | Concept | Logical | noun | 
+| definition | Thing | Abstract | Concept | Logical | noun | 
+| demand | Thing | Abstract | Concept | Logical | noun | 
+| description | Thing | Abstract | Concept | Logical | noun | 
+| duty | Thing | Abstract | Concept | Logical | noun | 
+| evaluation | Thing | Abstract | Concept | Logical | noun | 
+| explanation | Thing | Abstract | Concept | Logical | noun | 
+| fact | Thing | Abstract | Concept | Logical | noun | 
+| failure | Thing | Abstract | Concept | Logical | noun | 
+| freedom | Thing | Abstract | Concept | Logical | noun | 
+| game | Thing | Abstract | Concept | Logical | noun | 
+| group | Thing | Abstract | Concept | Logical | noun | 
+| hypothesis | Thing | Abstract | Concept | Logical | noun | 
+| idea | Thing | Abstract | Concept | Logical | noun | 
+| implication | Thing | Abstract | Concept | Logical | noun | 
+| influence | Thing | Abstract | Concept | Logical | noun | 
+| information | Thing | Abstract | Concept | Logical | noun | 
+| inquiry | Thing | Abstract | Concept | Logical | noun | 
+| instruction | Thing | Abstract | Concept | Logical | noun | 
+| intelligence | Thing | Abstract | Concept | Logical | noun | 
+| intention | Thing | Abstract | Concept | Logical | noun | 
+| knowledge | Thing | Abstract | Concept | Logical | noun | 
+| meaning | Thing | Abstract | Concept | Logical | noun | 
+| method | Thing | Abstract | Concept | Logical | noun | 
+| name | Thing | Abstract | Concept | Logical | noun | 
+| notion | Thing | Abstract | Concept | Logical | noun | 
+| number | Thing | Abstract | Concept | Logical | noun | 
+| obligation | Thing | Abstract | Concept | Logical | noun | 
+| permission | Thing | Abstract | Concept | Logical | noun | 
+| plan | Thing | Abstract | Concept | Logical | noun | 
+| policy | Thing | Abstract | Concept | Logical | noun | 
+| priority | Thing | Abstract | Concept | Logical | noun | 
+| procedure | Thing | Abstract | Concept | Logical | noun | 
+| program | Thing | Abstract | Concept | Logical | noun | 
+| project | Thing | Abstract | Concept | Logical | noun | 
+| proof | Thing | Abstract | Concept | Logical | noun | 
+| proposal | Thing | Abstract | Concept | Logical | noun | 
+| purpose | Thing | Abstract | Concept | Logical | noun | 
+| quality | Thing | Abstract | Concept | Logical | noun | 
+| question | Thing | Abstract | Concept | Logical | noun | 
+| range | Thing | Abstract | Concept | Logical | noun | 
+| rank | Thing | Abstract | Concept | Logical | noun | 
+| reason | Thing | Abstract | Concept | Logical | noun | 
+| recipe | Thing | Abstract | Concept | Logical | noun | 
+| reference | Thing | Abstract | Concept | Logical | noun | 
+| relation | Thing | Abstract | Concept | Logical | noun | 
+| result | Thing | Abstract | Concept | Logical | noun | 
+| role | Thing | Abstract | Concept | Logical | noun | 
+| self | Thing | Abstract | Concept | Logical | noun | 
+| sentence | Thing | Abstract | Concept | Logical | noun | 
+| signal | Thing | Abstract | Concept | Logical | noun | 
+| situation | Thing | Abstract | Concept | Logical | noun | 
+| success | Thing | Abstract | Concept | Logical | noun | 
+| suggestion | Thing | Abstract | Concept | Logical | noun | 
+| task | Thing | Abstract | Concept | Logical | noun | 
+| theory | Thing | Abstract | Concept | Logical | noun | 
+| thought | Thing | Abstract | Concept | Logical | noun | 
+| title | Thing | Abstract | Concept | Logical | noun | 
+| topic | Thing | Abstract | Concept | Logical | noun | 
+| truth | Thing | Abstract | Concept | Logical | noun | 
+| type | Thing | Abstract | Concept | Logical | noun | 
+| understanding | Thing | Abstract | Concept | Logical | noun | 
+| unit | Thing | Abstract | Concept | Logical | noun | 
+| alive | Thing | Abstract | Concept | Medical | adjective | 
+| health | Thing | Abstract | Concept | Medical | noun | 
+| symptom | Thing | Abstract | Concept | Medical | noun | 
+| commercial | Thing | Abstract | Concept | Money | adjective | 
+| account | Thing | Abstract | Concept | Money | noun | 
+| benefit | Thing | Abstract | Concept | Money | noun | 
+| brand | Thing | Abstract | Concept | Money | noun | 
+| business | Thing | Abstract | Concept | Money | noun | 
+| campaign | Thing | Abstract | Concept | Money | noun | 
+| capital | Thing | Abstract | Concept | Money | noun | 
+| fee | Thing | Abstract | Concept | Money | noun | 
+| job | Thing | Abstract | Concept | Money | noun | 
+| occupation | Thing | Abstract | Concept | Money | noun | 
+| price | Thing | Abstract | Concept | Money | noun | 
+| profit | Thing | Abstract | Concept | Money | noun | 
+| revenue | Thing | Abstract | Concept | Money | noun | 
+| salary | Thing | Abstract | Concept | Money | noun | 
+| tax | Thing | Abstract | Concept | Money | noun | 
+| everyday | Thing | Abstract | Concept | Time | adjective | 
+| now | Thing | Abstract | Concept | Time | adverb | 
+| sometimes | Thing | Abstract | Concept | Time | adverb | 
+| afternoon | Thing | Abstract | Concept | Time | noun | 
+| age | Thing | Abstract | Concept | Time | noun | 
+| appointment | Thing | Abstract | Concept | Time | noun | 
+| autumn | Thing | Abstract | Concept | Time | noun | 
+| beginning | Thing | Abstract | Concept | Time | noun | 
+| end | Thing | Abstract | Concept | Time | noun | 
+| evening | Thing | Abstract | Concept | Time | noun | 
+| future | Thing | Abstract | Concept | Time | noun | 
+| holiday | Thing | Abstract | Concept | Time | noun | 
+| moment | Thing | Abstract | Concept | Time | noun | 
+| morning | Thing | Abstract | Concept | Time | noun | 
+| night | Thing | Abstract | Concept | Time | noun | 
+| spring | Thing | Abstract | Concept | Time | noun | 
+| summer | Thing | Abstract | Concept | Time | noun | 
+| time | Thing | Abstract | Concept | Time | noun | 
+| winter | Thing | Abstract | Concept | Time | noun | 
+| big | Thing | Abstract | Concept |  | adjective | 
+| once | Thing | Abstract | Concept |  | adverb | 
+| right | Thing | Abstract | Concept |  | adverb | 
+| award | Thing | Abstract | Concept |  | noun | 
+| capability | Thing | Abstract | Concept |  | noun | 
+| capacity | Thing | Abstract | Concept |  | noun | 
+| challenge | Thing | Abstract | Concept |  | noun | 
+| chance | Thing | Abstract | Concept |  | noun | 
+| channel | Thing | Abstract | Concept |  | noun | 
+| chapter | Thing | Abstract | Concept |  | noun | 
+| circumstance | Thing | Abstract | Concept |  | noun | 
+| code | Thing | Abstract | Concept |  | noun | 
+| comedy | Thing | Abstract | Concept |  | noun | 
+| conflict | Thing | Abstract | Concept |  | noun | 
+| connection | Thing | Abstract | Concept |  | noun | 
+| cost | Thing | Abstract | Concept |  | noun | 
+| effect | Thing | Abstract | Concept |  | noun | 
+| existence | Thing | Abstract | Concept |  | noun | 
+| fashion | Thing | Abstract | Concept |  | noun | 
+| favor | Thing | Abstract | Concept |  | noun | 
+| finding | Thing | Abstract | Concept |  | noun | 
+| height | Thing | Abstract | Concept |  | noun | 
+| honor | Thing | Abstract | Concept |  | noun | 
+| importance | Thing | Abstract | Concept |  | noun | 
+| incentive | Thing | Abstract | Concept |  | noun | 
+| item | Thing | Abstract | Concept |  | noun | 
+| justice | Thing | Abstract | Concept |  | noun | 
+| law | Thing | Abstract | Concept |  | noun | 
+| life | Thing | Abstract | Concept |  | noun | 
+| luck | Thing | Abstract | Concept |  | noun | 
+| media | Thing | Abstract | Concept |  | noun | 
+| mess | Thing | Abstract | Concept |  | noun | 
+| meter | Thing | Abstract | Concept |  | noun | 
+| mission | Thing | Abstract | Concept |  | noun | 
+| mistake | Thing | Abstract | Concept |  | noun | 
+| mystery | Thing | Abstract | Concept |  | noun | 
+| myth | Thing | Abstract | Concept |  | noun | 
+| nature | Thing | Abstract | Concept |  | noun | 
+| news | Thing | Abstract | Concept |  | noun | 
+| opportunity | Thing | Abstract | Concept |  | noun | 
+| peace | Thing | Abstract | Concept |  | noun | 
+| poetry | Thing | Abstract | Concept |  | noun | 
+| point | Thing | Abstract | Concept |  | noun | 
+| politics | Thing | Abstract | Concept |  | noun | 
+| poll | Thing | Abstract | Concept |  | noun | 
+| power | Thing | Abstract | Concept |  | noun | 
+| prayer | Thing | Abstract | Concept |  | noun | 
+| prescription | Thing | Abstract | Concept |  | noun | 
+| profile | Thing | Abstract | Concept |  | noun | 
+| punishment | Thing | Abstract | Concept |  | noun | 
+| rating | Thing | Abstract | Concept |  | noun | 
+| relationship | Thing | Abstract | Concept |  | noun | 
+| religion | Thing | Abstract | Concept |  | noun | 
+| reputation | Thing | Abstract | Concept |  | noun | 
+| research | Thing | Abstract | Concept |  | noun | 
+| reservation | Thing | Abstract | Concept |  | noun | 
+| respect | Thing | Abstract | Concept |  | noun | 
+| secret | Thing | Abstract | Concept |  | noun | 
+| shot | Thing | Abstract | Concept |  | noun | 
+| sin | Thing | Abstract | Concept |  | noun | 
+| skill | Thing | Abstract | Concept |  | noun | 
+| soul | Thing | Abstract | Concept |  | noun | 
+| spirit | Thing | Abstract | Concept |  | noun | 
+| sport | Thing | Abstract | Concept |  | noun | 
+| story | Thing | Abstract | Concept |  | noun | 
+| stream | Thing | Abstract | Concept |  | noun | 
+| tactic | Thing | Abstract | Concept |  | noun | 
+| tale | Thing | Abstract | Concept |  | noun | 
+| target | Thing | Abstract | Concept |  | noun | 
+| teaching | Thing | Abstract | Concept |  | noun | 
+| testimony | Thing | Abstract | Concept |  | noun | 
+| text | Thing | Abstract | Concept |  | noun | 
+| thanks | Thing | Abstract | Concept |  | noun | 
+| threat | Thing | Abstract | Concept |  | noun | 
+| trail | Thing | Abstract | Concept |  | noun | 
+| transformation | Thing | Abstract | Concept |  | noun | 
+| transition | Thing | Abstract | Concept |  | noun | 
+| trend | Thing | Abstract | Concept |  | noun | 
+| trouble | Thing | Abstract | Concept |  | noun | 
+| waste | Thing | Abstract | Concept |  | noun | 
+| weather | Thing | Abstract | Concept |  | noun | 
+| word | Thing | Abstract | Concept |  | noun | 
+| youth | Thing | Abstract | Concept |  | noun | 
+| anniversary | Thing | Occurrence | Event | Celebration | noun | 
+| birthday | Thing | Occurrence | Event | Celebration | noun | 
+| celebration | Thing | Occurrence | Event | Celebration | noun | 
+| Christmas | Thing | Occurrence | Event | Celebration | noun | 
+| party | Thing | Occurrence | Event | Celebration | noun | 
+| wedding | Thing | Occurrence | Event | Celebration | noun | 
+| breakfast | Thing | Occurrence | Event | Daily | noun | 
+| conversation | Thing | Occurrence | Event | Daily | noun | 
+| dialogue | Thing | Occurrence | Event | Daily | noun | 
+| dinner | Thing | Occurrence | Event | Daily | noun | 
+| discussion | Thing | Occurrence | Event | Daily | noun | 
+| interaction | Thing | Occurrence | Event | Daily | noun | 
+| shower | Thing | Occurrence | Event | Daily | noun | 
+| surprise | Thing | Occurrence | Event | Daily | noun | 
+| vacation | Thing | Occurrence | Event | Daily | noun | 
+| birth | Thing | Occurrence | Event | Life | noun | 
+| crime | Thing | Occurrence | Event | Life | noun | 
+| death | Thing | Occurrence | Event | Life | noun | 
+| disaster | Thing | Occurrence | Event | Life | noun | 
+| funeral | Thing | Occurrence | Event | Life | noun | 
+| miracle | Thing | Occurrence | Event | Life | noun | 
+| murder | Thing | Occurrence | Event | Life | noun | 
+| surgery | Thing | Occurrence | Event | Life | noun | 
+| therapy | Thing | Occurrence | Event | Life | noun | 
+| treatment | Thing | Occurrence | Event | Life | noun | 
+| war | Thing | Occurrence | Event | Life | noun | 
+| baseball | Thing | Occurrence | Event | Sport | noun | 
+| basketball | Thing | Occurrence | Event | Sport | noun | 
+| championship | Thing | Occurrence | Event | Sport | noun | 
+| competition | Thing | Occurrence | Event | Sport | noun | 
+| football | Thing | Occurrence | Event | Sport | noun | 
+| golf | Thing | Occurrence | Event | Sport | noun | 
+| soccer | Thing | Occurrence | Event | Sport | noun | 
+| tennis | Thing | Occurrence | Event | Sport | noun | 
+| tournament | Thing | Occurrence | Event | Sport | noun | 
+| training | Thing | Occurrence | Event | Sport | noun | 
+| argument | Thing | Occurrence | Event |  | noun | 
+| arrival | Thing | Occurrence | Event |  | noun | 
+| assault | Thing | Occurrence | Event |  | noun | 
+| battle | Thing | Occurrence | Event |  | noun | 
+| boom | Thing | Occurrence | Event |  | noun | 
+| ceremony | Thing | Occurrence | Event |  | noun | 
+| concert | Thing | Occurrence | Event |  | noun | 
+| conference | Thing | Occurrence | Event |  | noun | 
+| contest | Thing | Occurrence | Event |  | noun | 
+| delivery | Thing | Occurrence | Event |  | noun | 
+| election | Thing | Occurrence | Event |  | noun | 
+| event | Thing | Occurrence | Event |  | noun | 
+| explosion | Thing | Occurrence | Event |  | noun | 
+| flight | Thing | Occurrence | Event |  | noun | 
+| interview | Thing | Occurrence | Event |  | noun | 
+| investigation | Thing | Occurrence | Event |  | noun | 
+| meeting | Thing | Occurrence | Event |  | noun | 
+| negotiation | Thing | Occurrence | Event |  | noun | 
+| operation | Thing | Occurrence | Event |  | noun | 
+| process | Thing | Occurrence | Event |  | noun | 
+| sale | Thing | Occurrence | Event |  | noun | 
+| scandal | Thing | Occurrence | Event |  | noun | 
+| storm | Thing | Occurrence | Event |  | noun | 
+| trial | Thing | Occurrence | Event |  | noun | 
+| trip | Thing | Occurrence | Event |  | noun | 
+| variation | Thing | Occurrence | Event |  | noun | 
+| victory | Thing | Occurrence | Event |  | noun | 
+| violation | Thing | Occurrence | Event |  | noun | 
+| warning | Thing | Occurrence | Event |  | noun | 
+| workshop | Thing | Occurrence | Event |  | noun | 
+| encounter | Thing | Occurrence | Event |  | verb | 
+| fight | Thing | Occurrence | Event |  | verb | 
+| angry | Thing | Abstract | Feeling | Emotion | adjective | 
+| awful | Thing | Abstract | Feeling | Emotion | adjective | 
+| crazy | Thing | Abstract | Feeling | Emotion | adjective | 
+| desperate | Thing | Abstract | Feeling | Emotion | adjective | 
+| emotional | Thing | Abstract | Feeling | Emotion | adjective | 
+| exciting | Thing | Abstract | Feeling | Emotion | adjective | 
+| fun | Thing | Abstract | Feeling | Emotion | adjective | 
+| glad | Thing | Abstract | Feeling | Emotion | adjective | 
+| happy | Thing | Abstract | Feeling | Emotion | adjective | 
+| mad | Thing | Abstract | Feeling | Emotion | adjective | 
+| nervous | Thing | Abstract | Feeling | Emotion | adjective | 
+| sad | Thing | Abstract | Feeling | Emotion | adjective | 
+| surprised | Thing | Abstract | Feeling | Emotion | adjective | 
+| tired | Thing | Abstract | Feeling | Emotion | adjective | 
+| worried | Thing | Abstract | Feeling | Emotion | adjective | 
+| anger | Thing | Abstract | Feeling | Emotion | noun | 
+| anxiety | Thing | Abstract | Feeling | Emotion | noun | 
+| confusion | Thing | Abstract | Feeling | Emotion | noun | 
+| courage | Thing | Abstract | Feeling | Emotion | noun | 
+| desire | Thing | Abstract | Feeling | Emotion | noun | 
+| emotion | Thing | Abstract | Feeling | Emotion | noun | 
+| fear | Thing | Abstract | Feeling | Emotion | noun | 
+| frustration | Thing | Abstract | Feeling | Emotion | noun | 
+| horror | Thing | Abstract | Feeling | Emotion | noun | 
+| humor | Thing | Abstract | Feeling | Emotion | noun | 
+| joy | Thing | Abstract | Feeling | Emotion | noun | 
+| mood | Thing | Abstract | Feeling | Emotion | noun | 
+| passion | Thing | Abstract | Feeling | Emotion | noun | 
+| relief | Thing | Abstract | Feeling | Emotion | noun | 
+| shock | Thing | Abstract | Feeling | Emotion | noun | 
+| stress | Thing | Abstract | Feeling | Emotion | noun | 
+| tear | Thing | Abstract | Feeling | Emotion | noun | 
+| terror | Thing | Abstract | Feeling | Emotion | noun | 
+| cry | Thing | Abstract | Feeling | Emotion | verb | 
+| hate | Thing | Abstract | Feeling | Emotion | verb | 
+| hope | Thing | Abstract | Feeling | Emotion | verb | 
+| love | Thing | Abstract | Feeling | Emotion | verb | 
+| black | Thing | Abstract | Feeling | Senses | adjective | 
+| blue | Thing | Abstract | Feeling | Senses | adjective | 
+| bright | Thing | Abstract | Feeling | Senses | adjective | 
+| brown | Thing | Abstract | Feeling | Senses | adjective | 
+| cold | Thing | Abstract | Feeling | Senses | adjective | 
+| comfortable | Thing | Abstract | Feeling | Senses | adjective | 
+| cool | Thing | Abstract | Feeling | Senses | adjective | 
+| dark | Thing | Abstract | Feeling | Senses | adjective | 
+| gray | Thing | Abstract | Feeling | Senses | adjective | 
+| green | Thing | Abstract | Feeling | Senses | adjective | 
+| hungry | Thing | Abstract | Feeling | Senses | adjective | 
+| mental | Thing | Abstract | Feeling | Senses | adjective | 
+| orange | Thing | Abstract | Feeling | Senses | adjective | 
+| pink | Thing | Abstract | Feeling | Senses | adjective | 
+| red | Thing | Abstract | Feeling | Senses | adjective | 
+| white | Thing | Abstract | Feeling | Senses | adjective | 
+| yellow | Thing | Abstract | Feeling | Senses | adjective | 
+| appearance | Thing | Abstract | Feeling | Senses | noun | 
+| color | Thing | Abstract | Feeling | Senses | noun | 
+| darkness | Thing | Abstract | Feeling | Senses | noun | 
+| film | Thing | Abstract | Feeling | Senses | noun | 
+| flavor | Thing | Abstract | Feeling | Senses | noun | 
+| light | Thing | Abstract | Feeling | Senses | noun | 
+| mind | Thing | Abstract | Feeling | Senses | noun | 
+| movie | Thing | Abstract | Feeling | Senses | noun | 
+| music | Thing | Abstract | Feeling | Senses | noun | 
+| pain | Thing | Abstract | Feeling | Senses | noun | 
+| perception | Thing | Abstract | Feeling | Senses | noun | 
+| pleasure | Thing | Abstract | Feeling | Senses | noun | 
+| sense | Thing | Abstract | Feeling | Senses | noun | 
+| sex | Thing | Abstract | Feeling | Senses | noun | 
+| shadow | Thing | Abstract | Feeling | Senses | noun | 
+| sight | Thing | Abstract | Feeling | Senses | noun | 
+| silence | Thing | Abstract | Feeling | Senses | noun | 
+| speech | Thing | Abstract | Feeling | Senses | noun | 
+| taste | Thing | Abstract | Feeling | Senses | noun | 
+| temperature | Thing | Abstract | Feeling | Senses | noun | 
+| vision | Thing | Abstract | Feeling | Senses | noun | 
+| voice | Thing | Abstract | Feeling | Senses | noun | 
+| perceive | Thing | Abstract | Feeling | Senses | verb | 
+| see | Thing | Abstract | Feeling | Senses | verb | 
+| sound | Thing | Abstract | Feeling | Senses | verb | 
+| watch | Thing | Abstract | Feeling | Senses | verb | 
+| aggressive | Thing | Abstract | Feeling |  | adjective | 
+| attractive | Thing | Abstract | Feeling |  | adjective | 
+| beautiful | Thing | Abstract | Feeling |  | adjective | 
+| beauty | Thing | Abstract | Feeling |  | noun | 
+| design | Thing | Abstract | Feeling |  | noun | 
+| dream | Thing | Abstract | Feeling |  | noun | 
+| expectation | Thing | Abstract | Feeling |  | noun | 
+| experience | Thing | Abstract | Feeling |  | noun | 
+| fantasy | Thing | Abstract | Feeling |  | noun | 
+| feeling | Thing | Abstract | Feeling |  | noun | 
+| memory | Thing | Abstract | Feeling |  | noun | 
+| message | Thing | Abstract | Feeling |  | noun | 
+| offense | Thing | Abstract | Feeling |  | noun | 
+| personality | Thing | Abstract | Feeling |  | noun | 
+| poem | Thing | Abstract | Feeling |  | noun | 
+| reflection | Thing | Abstract | Feeling |  | noun | 
+| rhythm | Thing | Abstract | Feeling |  | noun | 
+| sign | Thing | Abstract | Feeling |  | noun | 
+| song | Thing | Abstract | Feeling |  | noun | 
+| will | Thing | Abstract | Feeling |  | verb | 
+| elderly | Thing | Agent | Human | Age | adjective | 
+| adolescent | Thing | Agent | Human | Age | noun | 
+| adult | Thing | Agent | Human | Age | noun | 
+| baby | Thing | Agent | Human | Age | noun | 
+| boy | Thing | Agent | Human | Age | noun | 
+| child | Thing | Agent | Human | Age | noun | 
+| girl | Thing | Agent | Human | Age | noun | 
+| infant | Thing | Agent | Human | Age | noun | 
+| kid | Thing | Agent | Human | Age | noun | 
+| man | Thing | Agent | Human | Age | noun | 
+| teen | Thing | Agent | Human | Age | noun | 
+| teenager | Thing | Agent | Human | Age | noun | 
+| woman | Thing | Agent | Human | Age | noun | 
+| boyfriend | Thing | Agent | Human | Family | noun | 
+| brother | Thing | Agent | Human | Family | noun | 
+| couple | Thing | Agent | Human | Family | noun | 
+| cousin | Thing | Agent | Human | Family | noun | 
+| dad | Thing | Agent | Human | Family | noun | 
+| daughter | Thing | Agent | Human | Family | noun | 
+| family | Thing | Agent | Human | Family | noun | 
+| father | Thing | Agent | Human | Family | noun | 
+| friend | Thing | Agent | Human | Family | noun | 
+| girlfriend | Thing | Agent | Human | Family | noun | 
+| grandfather | Thing | Agent | Human | Family | noun | 
+| grandmother | Thing | Agent | Human | Family | noun | 
+| husband | Thing | Agent | Human | Family | noun | 
+| lover | Thing | Agent | Human | Family | noun | 
+| mom | Thing | Agent | Human | Family | noun | 
+| mother | Thing | Agent | Human | Family | noun | 
+| relative | Thing | Agent | Human | Family | noun | 
+| sister | Thing | Agent | Human | Family | noun | 
+| son | Thing | Agent | Human | Family | noun | 
+| twin | Thing | Agent | Human | Family | noun | 
+| uncle | Thing | Agent | Human | Family | noun | 
+| wife | Thing | Agent | Human | Family | noun | 
+| activist | Thing | Agent | Human | Hobby | noun | 
+| artist | Thing | Agent | Human | Hobby | noun | 
+| author | Thing | Agent | Human | Hobby | noun | 
+| fighter | Thing | Agent | Human | Hobby | noun | 
+| hunter | Thing | Agent | Human | Hobby | noun | 
+| jury | Thing | Agent | Human | Hobby | noun | 
+| musician | Thing | Agent | Human | Hobby | noun | 
+| poet | Thing | Agent | Human | Hobby | noun | 
+| reader | Thing | Agent | Human | Hobby | noun | 
+| tourist | Thing | Agent | Human | Hobby | noun | 
+| writer | Thing | Agent | Human | Hobby | noun | 
+| civilian | Thing | Agent | Human | Individual | adjective | 
+| buyer | Thing | Agent | Human | Individual | noun | 
+| champion | Thing | Agent | Human | Individual | noun | 
+| citizen | Thing | Agent | Human | Individual | noun | 
+| client | Thing | Agent | Human | Individual | noun | 
+| consumer | Thing | Agent | Human | Individual | noun | 
+| customer | Thing | Agent | Human | Individual | noun | 
+| enemy | Thing | Agent | Human | Individual | noun | 
+| neighbor | Thing | Agent | Human | Individual | noun | 
+| anybody | Thing | Agent | Human | Individual | pronoun | 
+| anyone | Thing | Agent | Human | Individual | pronoun | 
+| criminal | Thing | Agent | Human | Occupation | adjective | 
+| professional | Thing | Agent | Human | Occupation | adjective | 
+| actor | Thing | Agent | Human | Occupation | noun | 
+| actress | Thing | Agent | Human | Occupation | noun | 
+| administrator | Thing | Agent | Human | Occupation | noun | 
+| analyst | Thing | Agent | Human | Occupation | noun | 
+| architect | Thing | Agent | Human | Occupation | noun | 
+| athlete | Thing | Agent | Human | Occupation | noun | 
+| attorney | Thing | Agent | Human | Occupation | noun | 
+| boss | Thing | Agent | Human | Occupation | noun | 
+| captain | Thing | Agent | Human | Occupation | noun | 
+| celebrity | Thing | Agent | Human | Occupation | noun | 
+| CEO | Thing | Agent | Human | Occupation | noun | 
+| chairman | Thing | Agent | Human | Occupation | noun | 
+| chef | Thing | Agent | Human | Occupation | noun | 
+| chief | Thing | Agent | Human | Occupation | noun | 
+| coach | Thing | Agent | Human | Occupation | noun | 
+| colleague | Thing | Agent | Human | Occupation | noun | 
+| commander | Thing | Agent | Human | Occupation | noun | 
+| consultant | Thing | Agent | Human | Occupation | noun | 
+| cop | Thing | Agent | Human | Occupation | noun | 
+| dealer | Thing | Agent | Human | Occupation | noun | 
+| deputy | Thing | Agent | Human | Occupation | noun | 
+| designer | Thing | Agent | Human | Occupation | noun | 
+| director | Thing | Agent | Human | Occupation | noun | 
+| doctor | Thing | Agent | Human | Occupation | noun | 
+| driver | Thing | Agent | Human | Occupation | noun | 
+| economist | Thing | Agent | Human | Occupation | noun | 
+| employee | Thing | Agent | Human | Occupation | noun | 
+| employer | Thing | Agent | Human | Occupation | noun | 
+| engineer | Thing | Agent | Human | Occupation | noun | 
+| expert | Thing | Agent | Human | Occupation | noun | 
+| farmer | Thing | Agent | Human | Occupation | noun | 
+| governor | Thing | Agent | Human | Occupation | noun | 
+| guard | Thing | Agent | Human | Occupation | noun | 
+| historian | Thing | Agent | Human | Occupation | noun | 
+| instructor | Thing | Agent | Human | Occupation | noun | 
+| investigator | Thing | Agent | Human | Occupation | noun | 
+| investor | Thing | Agent | Human | Occupation | noun | 
+| journalist | Thing | Agent | Human | Occupation | noun | 
+| judge | Thing | Agent | Human | Occupation | noun | 
+| killer | Thing | Agent | Human | Occupation | noun | 
+| king | Thing | Agent | Human | Occupation | noun | 
+| lawyer | Thing | Agent | Human | Occupation | noun | 
+| leader | Thing | Agent | Human | Occupation | noun | 
+| manager | Thing | Agent | Human | Occupation | noun | 
+| manufacturer | Thing | Agent | Human | Occupation | noun | 
+| mayor | Thing | Agent | Human | Occupation | noun | 
+| minister | Thing | Agent | Human | Occupation | noun | 
+| nurse | Thing | Agent | Human | Occupation | noun | 
+| observer | Thing | Agent | Human | Occupation | noun | 
+| officer | Thing | Agent | Human | Occupation | noun | 
+| operator | Thing | Agent | Human | Occupation | noun | 
+| painter | Thing | Agent | Human | Occupation | noun | 
+| photographer | Thing | Agent | Human | Occupation | noun | 
+| physician | Thing | Agent | Human | Occupation | noun | 
+| pilot | Thing | Agent | Human | Occupation | noun | 
+| politician | Thing | Agent | Human | Occupation | noun | 
+| president | Thing | Agent | Human | Occupation | noun | 
+| priest | Thing | Agent | Human | Occupation | noun | 
+| prisoner | Thing | Agent | Human | Occupation | noun | 
+| professor | Thing | Agent | Human | Occupation | noun | 
+| prosecutor | Thing | Agent | Human | Occupation | noun | 
+| psychologist | Thing | Agent | Human | Occupation | noun | 
+| publisher | Thing | Agent | Human | Occupation | noun | 
+| quarterback | Thing | Agent | Human | Occupation | noun | 
+| reporter | Thing | Agent | Human | Occupation | noun | 
+| researcher | Thing | Agent | Human | Occupation | noun | 
+| scientist | Thing | Agent | Human | Occupation | noun | 
+| senator | Thing | Agent | Human | Occupation | noun | 
+| singer | Thing | Agent | Human | Occupation | noun | 
+| slave | Thing | Agent | Human | Occupation | noun | 
+| soldier | Thing | Agent | Human | Occupation | noun | 
+| specialist | Thing | Agent | Human | Occupation | noun | 
+| star | Thing | Agent | Human | Occupation | noun | 
+| student | Thing | Agent | Human | Occupation | noun | 
+| teacher | Thing | Agent | Human | Occupation | noun | 
+| terrorist | Thing | Agent | Human | Occupation | noun | 
+| worker | Thing | Agent | Human | Occupation | noun | 
+| Organized group | Thing | Agent | Human | Organized group | - | 
+| military | Thing | Agent | Human | Organized group | adjective | 
+| army | Thing | Agent | Human | Organized group | noun | 
+| committee | Thing | Agent | Human | Organized group | noun | 
+| community | Thing | Agent | Human | Organized group | noun | 
+| company | Thing | Agent | Human | Organized group | noun | 
+| corporation | Thing | Agent | Human | Organized group | noun | 
+| crew | Thing | Agent | Human | Organized group | noun | 
+| crowd | Thing | Agent | Human | Organized group | noun | 
+| gang | Thing | Agent | Human | Organized group | noun | 
+| household | Thing | Agent | Human | Organized group | noun | 
+| league | Thing | Agent | Human | Organized group | noun | 
+| nation | Thing | Agent | Human | Organized group | noun | 
+| people | Thing | Agent | Human | Organized group | noun | 
+| police | Thing | Agent | Human | Organized group | noun | 
+| press | Thing | Agent | Human | Organized group | noun | 
+| society | Thing | Agent | Human | Organized group | noun | 
+| team | Thing | Agent | Human | Organized group | noun | 
+| tribe | Thing | Agent | Human | Organized group | noun | 
+| troop | Thing | Agent | Human | Organized group | noun | 
+| everybody | Thing | Agent | Human | Unorganized group | pronoun | 
+| everyone | Thing | Agent | Human | Unorganized group | pronoun | 
+| human | Thing | Agent | Human |  | adjective | 
+| folk | Thing | Agent | Human |  | noun | 
+| founder | Thing | Agent | Human |  | noun | 
+| gentleman | Thing | Agent | Human |  | noun | 
+| ghost | Thing | Agent | Human |  | noun | 
+| God | Thing | Agent | Human |  | noun | 
+| guest | Thing | Agent | Human |  | noun | 
+| guy | Thing | Agent | Human |  | noun | 
+| hero | Thing | Agent | Human |  | noun | 
+| host | Thing | Agent | Human |  | noun | 
+| lady | Thing | Agent | Human |  | noun | 
+| opponent | Thing | Agent | Human |  | noun | 
+| owner | Thing | Agent | Human |  | noun | 
+| passenger | Thing | Agent | Human |  | noun | 
+| person | Thing | Agent | Human |  | noun | 
+| player | Thing | Agent | Human |  | noun | 
+| refugee | Thing | Agent | Human |  | noun | 
+| resident | Thing | Agent | Human |  | noun | 
+| speaker | Thing | Agent | Human |  | noun | 
+| stranger | Thing | Agent | Human |  | noun | 
+| survivor | Thing | Agent | Human |  | noun | 
+| user | Thing | Agent | Human |  | noun | 
+| veteran | Thing | Agent | Human |  | noun | 
+| victim | Thing | Agent | Human |  | noun | 
+| visitor | Thing | Agent | Human |  | noun | 
+| voter | Thing | Agent | Human |  | noun | 
+| winner | Thing | Agent | Human |  | noun | 
+| witness | Thing | Agent | Human |  | noun | 
+| me | Thing | Agent | Human |  | pronoun | 
+| myself | Thing | Agent | Human |  | pronoun | 
+| nobody | Thing | Agent | Human |  | pronoun | 
+| ourselves | Thing | Agent | Human |  | pronoun | 
+| somebody | Thing | Agent | Human |  | pronoun | 
+| someone | Thing | Agent | Human |  | pronoun | 
+| suspect | Thing | Agent | Human |  | verb | 
+| blood | Thing | Object | Inanimate | Body part | noun | 
+| body | Thing | Object | Inanimate | Body part | noun | 
+| bone | Thing | Object | Inanimate | Body part | noun | 
+| ear | Thing | Object | Inanimate | Body part | noun | 
+| eye | Thing | Object | Inanimate | Body part | noun | 
+| face | Thing | Object | Inanimate | Body part | noun | 
+| finger | Thing | Object | Inanimate | Body part | noun | 
+| flesh | Thing | Object | Inanimate | Body part | noun | 
+| foot | Thing | Object | Inanimate | Body part | noun | 
+| hair | Thing | Object | Inanimate | Body part | noun | 
+| hand | Thing | Object | Inanimate | Body part | noun | 
+| hat | Thing | Object | Inanimate | Body part | noun | 
+| head | Thing | Object | Inanimate | Body part | noun | 
+| heart | Thing | Object | Inanimate | Body part | noun | 
+| heel | Thing | Object | Inanimate | Body part | noun | 
+| knee | Thing | Object | Inanimate | Body part | noun | 
+| lap | Thing | Object | Inanimate | Body part | noun | 
+| leg | Thing | Object | Inanimate | Body part | noun | 
+| lip | Thing | Object | Inanimate | Body part | noun | 
+| lung | Thing | Object | Inanimate | Body part | noun | 
+| mouth | Thing | Object | Inanimate | Body part | noun | 
+| muscle | Thing | Object | Inanimate | Body part | noun | 
+| neck | Thing | Object | Inanimate | Body part | noun | 
+| nose | Thing | Object | Inanimate | Body part | noun | 
+| palm | Thing | Object | Inanimate | Body part | noun | 
+| shoulder | Thing | Object | Inanimate | Body part | noun | 
+| skin | Thing | Object | Inanimate | Body part | noun | 
+| stomach | Thing | Object | Inanimate | Body part | noun | 
+| tail | Thing | Object | Inanimate | Body part | noun | 
+| throat | Thing | Object | Inanimate | Body part | noun | 
+| toe | Thing | Object | Inanimate | Body part | noun | 
+| tongue | Thing | Object | Inanimate | Body part | noun | 
+| tooth | Thing | Object | Inanimate | Body part | noun | 
+| belt | Thing | Object | Inanimate | Clothe | noun | 
+| boot | Thing | Object | Inanimate | Clothe | noun | 
+| clothes | Thing | Object | Inanimate | Clothe | noun | 
+| clothing | Thing | Object | Inanimate | Clothe | noun | 
+| coat | Thing | Object | Inanimate | Clothe | noun | 
+| glove | Thing | Object | Inanimate | Clothe | noun | 
+| jacket | Thing | Object | Inanimate | Clothe | noun | 
+| lawsuit | Thing | Object | Inanimate | Clothe | noun | 
+| pant | Thing | Object | Inanimate | Clothe | noun | 
+| ring | Thing | Object | Inanimate | Clothe | noun | 
+| shirt | Thing | Object | Inanimate | Clothe | noun | 
+| shoe | Thing | Object | Inanimate | Clothe | noun | 
+| suit | Thing | Object | Inanimate | Clothe | noun | 
+| uniform | Thing | Object | Inanimate | Clothe | noun | 
+| dress | Thing | Object | Inanimate | Clothe | verb | 
+| tie | Thing | Object | Inanimate | Clothe | verb | 
+| apple | Thing | Object | Inanimate | Food | noun | 
+| bean | Thing | Object | Inanimate | Food | noun | 
+| beer | Thing | Object | Inanimate | Food | noun | 
+| bread | Thing | Object | Inanimate | Food | noun | 
+| butter | Thing | Object | Inanimate | Food | noun | 
+| cake | Thing | Object | Inanimate | Food | noun | 
+| cheese | Thing | Object | Inanimate | Food | noun | 
+| chocolate | Thing | Object | Inanimate | Food | noun | 
+| cookie | Thing | Object | Inanimate | Food | noun | 
+| corn | Thing | Object | Inanimate | Food | noun | 
+| egg | Thing | Object | Inanimate | Food | noun | 
+| food | Thing | Object | Inanimate | Food | noun | 
+| fruit | Thing | Object | Inanimate | Food | noun | 
+| garlic | Thing | Object | Inanimate | Food | noun | 
+| honey | Thing | Object | Inanimate | Food | noun | 
+| ingredient | Thing | Object | Inanimate | Food | noun | 
+| juice | Thing | Object | Inanimate | Food | noun | 
+| lemon | Thing | Object | Inanimate | Food | noun | 
+| lunch | Thing | Object | Inanimate | Food | noun | 
+| meal | Thing | Object | Inanimate | Food | noun | 
+| meat | Thing | Object | Inanimate | Food | noun | 
+| milk | Thing | Object | Inanimate | Food | noun | 
+| nut | Thing | Object | Inanimate | Food | noun | 
+| onion | Thing | Object | Inanimate | Food | noun | 
+| pepper | Thing | Object | Inanimate | Food | noun | 
+| pie | Thing | Object | Inanimate | Food | noun | 
+| potato | Thing | Object | Inanimate | Food | noun | 
+| rice | Thing | Object | Inanimate | Food | noun | 
+| salad | Thing | Object | Inanimate | Food | noun | 
+| salt | Thing | Object | Inanimate | Food | noun | 
+| sauce | Thing | Object | Inanimate | Food | noun | 
+| soup | Thing | Object | Inanimate | Food | noun | 
+| sugar | Thing | Object | Inanimate | Food | noun | 
+| water | Thing | Object | Inanimate | Food | noun | 
+| wine | Thing | Object | Inanimate | Food | noun | 
+| drink | Thing | Object | Inanimate | Food | verb | 
+| bed | Thing | Object | Inanimate | Furniture | noun | 
+| bench | Thing | Object | Inanimate | Furniture | noun | 
+| cabinet | Thing | Object | Inanimate | Furniture | noun | 
+| couch | Thing | Object | Inanimate | Furniture | noun | 
+| furniture | Thing | Object | Inanimate | Furniture | noun | 
+| oven | Thing | Object | Inanimate | Furniture | noun | 
+| piano | Thing | Object | Inanimate | Furniture | noun | 
+| television | Thing | Object | Inanimate | Furniture | noun | 
+| TV | Thing | Object | Inanimate | Furniture | noun | 
+| key | Thing | Object | Inanimate |  | adjective | 
+| acid | Thing | Object | Inanimate |  | noun | 
+| air | Thing | Object | Inanimate |  | noun | 
+| album | Thing | Object | Inanimate |  | noun | 
+| alcohol | Thing | Object | Inanimate |  | noun | 
+| arm | Thing | Object | Inanimate |  | noun | 
+| bag | Thing | Object | Inanimate |  | noun | 
+| ball | Thing | Object | Inanimate |  | noun | 
+| barrel | Thing | Object | Inanimate |  | noun | 
+| barrier | Thing | Object | Inanimate |  | noun | 
+| basket | Thing | Object | Inanimate |  | noun | 
+| battery | Thing | Object | Inanimate |  | noun | 
+| bell | Thing | Object | Inanimate |  | noun | 
+| bill | Thing | Object | Inanimate |  | noun | 
+| blade | Thing | Object | Inanimate |  | noun | 
+| blanket | Thing | Object | Inanimate |  | noun | 
+| board | Thing | Object | Inanimate |  | noun | 
+| bomb | Thing | Object | Inanimate |  | noun | 
+| book | Thing | Object | Inanimate |  | noun | 
+| bottle | Thing | Object | Inanimate |  | noun | 
+| bowl | Thing | Object | Inanimate |  | noun | 
+| box | Thing | Object | Inanimate |  | noun | 
+| brain | Thing | Object | Inanimate |  | noun | 
+| breast | Thing | Object | Inanimate |  | noun | 
+| brick | Thing | Object | Inanimate |  | noun | 
+| buck | Thing | Object | Inanimate |  | noun | 
+| bullet | Thing | Object | Inanimate |  | noun | 
+| button | Thing | Object | Inanimate |  | noun | 
+| cable | Thing | Object | Inanimate |  | noun | 
+| camera | Thing | Object | Inanimate |  | noun | 
+| card | Thing | Object | Inanimate |  | noun | 
+| cash | Thing | Object | Inanimate |  | noun | 
+| chain | Thing | Object | Inanimate |  | noun | 
+| chair | Thing | Object | Inanimate |  | noun | 
+| cheek | Thing | Object | Inanimate |  | noun | 
+| chest | Thing | Object | Inanimate |  | noun | 
+| chip | Thing | Object | Inanimate |  | noun | 
+| cigarette | Thing | Object | Inanimate |  | noun | 
+| clock | Thing | Object | Inanimate |  | noun | 
+| cloud | Thing | Object | Inanimate |  | noun | 
+| club | Thing | Object | Inanimate |  | noun | 
+| coffee | Thing | Object | Inanimate |  | noun | 
+| computer | Thing | Object | Inanimate |  | noun | 
+| container | Thing | Object | Inanimate |  | noun | 
+| content | Thing | Object | Inanimate |  | noun | 
+| cotton | Thing | Object | Inanimate |  | noun | 
+| cream | Thing | Object | Inanimate |  | noun | 
+| crop | Thing | Object | Inanimate |  | noun | 
+| cup | Thing | Object | Inanimate |  | noun | 
+| desk | Thing | Object | Inanimate |  | noun | 
+| device | Thing | Object | Inanimate |  | noun | 
+| dirt | Thing | Object | Inanimate |  | noun | 
+| dish | Thing | Object | Inanimate |  | noun | 
+| document | Thing | Object | Inanimate |  | noun | 
+| drawing | Thing | Object | Inanimate |  | noun | 
+| drug | Thing | Object | Inanimate |  | noun | 
+| dust | Thing | Object | Inanimate |  | noun | 
+| electricity | Thing | Object | Inanimate |  | noun | 
+| e-mail | Thing | Object | Inanimate |  | noun | 
+| energy | Thing | Object | Inanimate |  | noun | 
+| engine | Thing | Object | Inanimate |  | noun | 
+| equipment | Thing | Object | Inanimate |  | noun | 
+| evidence | Thing | Object | Inanimate |  | noun | 
+| fabric | Thing | Object | Inanimate |  | noun | 
+| fan | Thing | Object | Inanimate |  | noun | 
+| fence | Thing | Object | Inanimate |  | noun | 
+| fiber | Thing | Object | Inanimate |  | noun | 
+| file | Thing | Object | Inanimate |  | noun | 
+| fire | Thing | Object | Inanimate |  | noun | 
+| flag | Thing | Object | Inanimate |  | noun | 
+| flame | Thing | Object | Inanimate |  | noun | 
+| fuel | Thing | Object | Inanimate |  | noun | 
+| gas | Thing | Object | Inanimate |  | noun | 
+| gear | Thing | Object | Inanimate |  | noun | 
+| gift | Thing | Object | Inanimate |  | noun | 
+| glass | Thing | Object | Inanimate |  | noun | 
+| gold | Thing | Object | Inanimate |  | noun | 
+| grave | Thing | Object | Inanimate |  | noun | 
+| grocery | Thing | Object | Inanimate |  | noun | 
+| gun | Thing | Object | Inanimate |  | noun | 
+| heat | Thing | Object | Inanimate |  | noun | 
+| heritage | Thing | Object | Inanimate |  | noun | 
+| hole | Thing | Object | Inanimate |  | noun | 
+| ice | Thing | Object | Inanimate |  | noun | 
+| illness | Thing | Object | Inanimate |  | noun | 
+| image | Thing | Object | Inanimate |  | noun | 
+| income | Thing | Object | Inanimate |  | noun | 
+| index | Thing | Object | Inanimate |  | noun | 
+| infection | Thing | Object | Inanimate |  | noun | 
+| injury | Thing | Object | Inanimate |  | noun | 
+| Internet | Thing | Object | Inanimate |  | noun | 
+| investment | Thing | Object | Inanimate |  | noun | 
+| iron | Thing | Object | Inanimate |  | noun | 
+| knife | Thing | Object | Inanimate |  | noun | 
+| label | Thing | Object | Inanimate |  | noun | 
+| leather | Thing | Object | Inanimate |  | noun | 
+| letter | Thing | Object | Inanimate |  | noun | 
+| machine | Thing | Object | Inanimate |  | noun | 
+| magazine | Thing | Object | Inanimate |  | noun | 
+| mail | Thing | Object | Inanimate |  | noun | 
+| makeup | Thing | Object | Inanimate |  | noun | 
+| map | Thing | Object | Inanimate |  | noun | 
+| mask | Thing | Object | Inanimate |  | noun | 
+| material | Thing | Object | Inanimate |  | noun | 
+| matter | Thing | Object | Inanimate |  | noun | 
+| mechanism | Thing | Object | Inanimate |  | noun | 
+| medication | Thing | Object | Inanimate |  | noun | 
+| menu | Thing | Object | Inanimate |  | noun | 
+| metal | Thing | Object | Inanimate |  | noun | 
+| mirror | Thing | Object | Inanimate |  | noun | 
+| missile | Thing | Object | Inanimate |  | noun | 
+| money | Thing | Object | Inanimate |  | noun | 
+| moon | Thing | Object | Inanimate |  | noun | 
+| motor | Thing | Object | Inanimate |  | noun | 
+| net | Thing | Object | Inanimate |  | noun | 
+| network | Thing | Object | Inanimate |  | noun | 
+| newspaper | Thing | Object | Inanimate |  | noun | 
+| noise | Thing | Object | Inanimate |  | noun | 
+| object | Thing | Object | Inanimate |  | noun | 
+| oil | Thing | Object | Inanimate |  | noun | 
+| painting | Thing | Object | Inanimate |  | noun | 
+| panel | Thing | Object | Inanimate |  | noun | 
+| paper | Thing | Object | Inanimate |  | noun | 
+| PC | Thing | Object | Inanimate |  | noun | 
+| phone | Thing | Object | Inanimate |  | noun | 
+| photo | Thing | Object | Inanimate |  | noun | 
+| picture | Thing | Object | Inanimate |  | noun | 
+| pile | Thing | Object | Inanimate |  | noun | 
+| pipe | Thing | Object | Inanimate |  | noun | 
+| planet | Thing | Object | Inanimate |  | noun | 
+| plastic | Thing | Object | Inanimate |  | noun | 
+| plate | Thing | Object | Inanimate |  | noun | 
+| platform | Thing | Object | Inanimate |  | noun | 
+| pocket | Thing | Object | Inanimate |  | noun | 
+| pole | Thing | Object | Inanimate |  | noun | 
+| pollution | Thing | Object | Inanimate |  | noun | 
+| portrait | Thing | Object | Inanimate |  | noun | 
+| pot | Thing | Object | Inanimate |  | noun | 
+| powder | Thing | Object | Inanimate |  | noun | 
+| radio | Thing | Object | Inanimate |  | noun | 
+| rail | Thing | Object | Inanimate |  | noun | 
+| rain | Thing | Object | Inanimate |  | noun | 
+| record | Thing | Object | Inanimate |  | noun | 
+| rifle | Thing | Object | Inanimate |  | noun | 
+| rock | Thing | Object | Inanimate |  | noun | 
+| rope | Thing | Object | Inanimate |  | noun | 
+| sand | Thing | Object | Inanimate |  | noun | 
+| satellite | Thing | Object | Inanimate |  | noun | 
+| screen | Thing | Object | Inanimate |  | noun | 
+| sheet | Thing | Object | Inanimate |  | noun | 
+| shelf | Thing | Object | Inanimate |  | noun | 
+| shell | Thing | Object | Inanimate |  | noun | 
+| shit | Thing | Object | Inanimate |  | noun | 
+| silver | Thing | Object | Inanimate |  | noun | 
+| snow | Thing | Object | Inanimate |  | noun | 
+| software | Thing | Object | Inanimate |  | noun | 
+| soil | Thing | Object | Inanimate |  | noun | 
+| staff | Thing | Object | Inanimate |  | noun | 
+| steel | Thing | Object | Inanimate |  | noun | 
+| stone | Thing | Object | Inanimate |  | noun | 
+| string | Thing | Object | Inanimate |  | noun | 
+| sun | Thing | Object | Inanimate |  | noun | 
+| supply | Thing | Object | Inanimate |  | noun | 
+| supporter | Thing | Object | Inanimate |  | noun | 
+| surface | Thing | Object | Inanimate |  | noun | 
+| system | Thing | Object | Inanimate |  | noun | 
+| table | Thing | Object | Inanimate |  | noun | 
+| tablespoon | Thing | Object | Inanimate |  | noun | 
+| tape | Thing | Object | Inanimate |  | noun | 
+| tea | Thing | Object | Inanimate |  | noun | 
+| teaspoon | Thing | Object | Inanimate |  | noun | 
+| telephone | Thing | Object | Inanimate |  | noun | 
+| telescope | Thing | Object | Inanimate |  | noun | 
+| tent | Thing | Object | Inanimate |  | noun | 
+| ticket | Thing | Object | Inanimate |  | noun | 
+| tip | Thing | Object | Inanimate |  | noun | 
+| tissue | Thing | Object | Inanimate |  | noun | 
+| toy | Thing | Object | Inanimate |  | noun | 
+| track | Thing | Object | Inanimate |  | noun | 
+| traffic | Thing | Object | Inanimate |  | noun | 
+| tube | Thing | Object | Inanimate |  | noun | 
+| video | Thing | Object | Inanimate |  | noun | 
+| virus | Thing | Object | Inanimate |  | noun | 
+| wall | Thing | Object | Inanimate |  | noun | 
+| wave | Thing | Object | Inanimate |  | noun | 
+| weapon | Thing | Object | Inanimate |  | noun | 
+| wheel | Thing | Object | Inanimate |  | noun | 
+| wind | Thing | Object | Inanimate |  | noun | 
+| window | Thing | Object | Inanimate |  | noun | 
+| wing | Thing | Object | Inanimate |  | noun | 
+| wire | Thing | Object | Inanimate |  | noun | 
+| wound | Thing | Object | Inanimate |  | noun | 
+| writing | Thing | Object | Inanimate |  | noun | 
+| brush | Thing | Object | Inanimate |  | verb | 
+| can | Thing | Object | Inanimate |  | verb | 
+| check | Thing | Object | Inanimate |  | verb | 
+| display | Thing | Object | Inanimate |  | verb | 
+| handle | Thing | Object | Inanimate |  | verb | 
+| keep | Thing | Object | Inanimate |  | verb | 
+| match | Thing | Object | Inanimate |  | verb | 
+| monitor | Thing | Object | Inanimate |  | verb | 
+| note | Thing | Object | Inanimate |  | verb | 
+| paint | Thing | Object | Inanimate |  | verb | 
+| present | Thing | Object | Inanimate |  | verb | 
+| sink | Thing | Object | Inanimate |  | verb | 
+| switch | Thing | Object | Inanimate |  | verb | 
+| tap | Thing | Object | Inanimate |  | verb | 
+| tire | Thing | Object | Inanimate |  | verb | 
+| flat | Thing | Space | Location | Building | adjective | 
+| airport | Thing | Space | Location | Building | noun | 
+| apartment | Thing | Space | Location | Building | noun | 
+| bank | Thing | Space | Location | Building | noun | 
+| bar | Thing | Space | Location | Building | noun | 
+| building | Thing | Space | Location | Building | noun | 
+| cabin | Thing | Space | Location | Building | noun | 
+| campus | Thing | Space | Location | Building | noun | 
+| center | Thing | Space | Location | Building | noun | 
+| church | Thing | Space | Location | Building | noun | 
+| clinic | Thing | Space | Location | Building | noun | 
+| college | Thing | Space | Location | Building | noun | 
+| facility | Thing | Space | Location | Building | noun | 
+| factory | Thing | Space | Location | Building | noun | 
+| farm | Thing | Space | Location | Building | noun | 
+| headquarters | Thing | Space | Location | Building | noun | 
+| home | Thing | Space | Location | Building | noun | 
+| hospital | Thing | Space | Location | Building | noun | 
+| hotel | Thing | Space | Location | Building | noun | 
+| house | Thing | Space | Location | Building | noun | 
+| jail | Thing | Space | Location | Building | noun | 
+| laboratory | Thing | Space | Location | Building | noun | 
+| library | Thing | Space | Location | Building | noun | 
+| mall | Thing | Space | Location | Building | noun | 
+| museum | Thing | Space | Location | Building | noun | 
+| office | Thing | Space | Location | Building | noun | 
+| prison | Thing | Space | Location | Building | noun | 
+| restaurant | Thing | Space | Location | Building | noun | 
+| school | Thing | Space | Location | Building | noun | 
+| shelter | Thing | Space | Location | Building | noun | 
+| shop | Thing | Space | Location | Building | noun | 
+| station | Thing | Space | Location | Building | noun | 
+| store | Thing | Space | Location | Building | noun | 
+| studio | Thing | Space | Location | Building | noun | 
+| theater | Thing | Space | Location | Building | noun | 
+| tower | Thing | Space | Location | Building | noun | 
+| university | Thing | Space | Location | Building | noun | 
+| downtown | Thing | Space | Location | City | adjective | 
+| bridge | Thing | Space | Location | City | noun | 
+| city | Thing | Space | Location | City | noun | 
+| highway | Thing | Space | Location | City | noun | 
+| neighborhood | Thing | Space | Location | City | noun | 
+| park | Thing | Space | Location | City | noun | 
+| passage | Thing | Space | Location | City | noun | 
+| port | Thing | Space | Location | City | noun | 
+| road | Thing | Space | Location | City | noun | 
+| street | Thing | Space | Location | City | noun | 
+| town | Thing | Space | Location | City | noun | 
+| tunnel | Thing | Space | Location | City | noun | 
+| village | Thing | Space | Location | City | noun | 
+| beach | Thing | Space | Location | Outdoor | noun | 
+| camp | Thing | Space | Location | Outdoor | noun | 
+| coast | Thing | Space | Location | Outdoor | noun | 
+| desert | Thing | Space | Location | Outdoor | noun | 
+| earth | Thing | Space | Location | Outdoor | noun | 
+| field | Thing | Space | Location | Outdoor | noun | 
+| forest | Thing | Space | Location | Outdoor | noun | 
+| garden | Thing | Space | Location | Outdoor | noun | 
+| heaven | Thing | Space | Location | Outdoor | noun | 
+| hell | Thing | Space | Location | Outdoor | noun | 
+| hill | Thing | Space | Location | Outdoor | noun | 
+| horizon | Thing | Space | Location | Outdoor | noun | 
+| island | Thing | Space | Location | Outdoor | noun | 
+| lake | Thing | Space | Location | Outdoor | noun | 
+| land | Thing | Space | Location | Outdoor | noun | 
+| landscape | Thing | Space | Location | Outdoor | noun | 
+| mountain | Thing | Space | Location | Outdoor | noun | 
+| ocean | Thing | Space | Location | Outdoor | noun | 
+| plot | Thing | Space | Location | Outdoor | noun | 
+| region | Thing | Space | Location | Outdoor | noun | 
+| river | Thing | Space | Location | Outdoor | noun | 
+| sea | Thing | Space | Location | Outdoor | noun | 
+| shore | Thing | Space | Location | Outdoor | noun | 
+| site | Thing | Space | Location | Outdoor | noun | 
+| sky | Thing | Space | Location | Outdoor | noun | 
+| space | Thing | Space | Location | Outdoor | noun | 
+| territory | Thing | Space | Location | Outdoor | noun | 
+| universe | Thing | Space | Location | Outdoor | noun | 
+| valley | Thing | Space | Location | Outdoor | noun | 
+| wood | Thing | Space | Location | Outdoor | noun | 
+| world | Thing | Space | Location | Outdoor | noun | 
+| bathroom | Thing | Space | Location | Room | noun | 
+| bedroom | Thing | Space | Location | Room | noun | 
+| ceiling | Thing | Space | Location | Room | noun | 
+| classroom | Thing | Space | Location | Room | noun | 
+| deck | Thing | Space | Location | Room | noun | 
+| elevator | Thing | Space | Location | Room | noun | 
+| floor | Thing | Space | Location | Room | noun | 
+| garage | Thing | Space | Location | Room | noun | 
+| ground | Thing | Space | Location | Room | noun | 
+| hall | Thing | Space | Location | Room | noun | 
+| kitchen | Thing | Space | Location | Room | noun | 
+| pool | Thing | Space | Location | Room | noun | 
+| roof | Thing | Space | Location | Room | noun | 
+| room | Thing | Space | Location | Room | noun | 
+| seat | Thing | Space | Location | Room | noun | 
+| stage | Thing | Space | Location | Room | noun | 
+| lift | Thing | Space | Location | Room | verb | 
+| nearby | Thing | Space | Location |  | adjective | 
+| anywhere | Thing | Space | Location |  | adverb | 
+| everywhere | Thing | Space | Location |  | adverb | 
+| nowhere | Thing | Space | Location |  | adverb | 
+| somewhere | Thing | Space | Location |  | adverb | 
+| area | Thing | Space | Location |  | noun | 
+| location | Thing | Space | Location |  | noun | 
+| place | Thing | Space | Location |  | noun | 
+| sector | Thing | Space | Location |  | noun | 
+| spot | Thing | Space | Location |  | noun | 
+| zone | Thing | Space | Location |  | noun | 
+| near | Thing | Space | Location |  | preposition | 
+| direction | Thing | Space | Path |  | noun | 
+| door | Thing | Space | Path |  | noun | 
+| east | Thing | Space | Path |  | noun | 
+| entrance | Thing | Space | Path |  | noun | 
+| gate | Thing | Space | Path |  | noun | 
+| north | Thing | Space | Path |  | noun | 
+| path | Thing | Space | Path |  | noun | 
+| porch | Thing | Space | Path |  | noun | 
+| south | Thing | Space | Path |  | noun | 
+| stair | Thing | Space | Path |  | noun | 
+| way | Thing | Space | Path |  | noun | 
+| west | Thing | Space | Path |  | noun | 
+| outside | Thing | Space | Path |  | preposition | 
+| absolute | Thing | Abstract | State | Inherent | adjective | 
+| academic | Thing | Abstract | State | Inherent | adjective | 
+| accurate | Thing | Abstract | State | Inherent | adjective | 
+| actual | Thing | Abstract | State | Inherent | adjective | 
+| additional | Thing | Abstract | State | Inherent | adjective | 
+| adequate | Thing | Abstract | State | Inherent | adjective | 
+| advanced | Thing | Abstract | State | Inherent | adjective | 
+| agricultural | Thing | Abstract | State | Inherent | adjective | 
+| amazing | Thing | Abstract | State | Inherent | adjective | 
+| ancient | Thing | Abstract | State | Inherent | adjective | 
+| annual | Thing | Abstract | State | Inherent | adjective | 
+| appropriate | Thing | Abstract | State | Inherent | adjective | 
+| artistic | Thing | Abstract | State | Inherent | adjective | 
+| athletic | Thing | Abstract | State | Inherent | adjective | 
+| brief | Thing | Abstract | State | Inherent | adjective | 
+| brilliant | Thing | Abstract | State | Inherent | adjective | 
+| broad | Thing | Abstract | State | Inherent | adjective | 
+| capable | Thing | Abstract | State | Inherent | adjective | 
+| central | Thing | Abstract | State | Inherent | adjective | 
+| certain | Thing | Abstract | State | Inherent | adjective | 
+| changing | Thing | Abstract | State | Inherent | adjective | 
+| cheap | Thing | Abstract | State | Inherent | adjective | 
+| civil | Thing | Abstract | State | Inherent | adjective | 
+| classic | Thing | Abstract | State | Inherent | adjective | 
+| clinical | Thing | Abstract | State | Inherent | adjective | 
+| cognitive | Thing | Abstract | State | Inherent | adjective | 
+| collective | Thing | Abstract | State | Inherent | adjective | 
+| common | Thing | Abstract | State | Inherent | adjective | 
+| competitive | Thing | Abstract | State | Inherent | adjective | 
+| complex | Thing | Abstract | State | Inherent | adjective | 
+| comprehensive | Thing | Abstract | State | Inherent | adjective | 
+| concrete | Thing | Abstract | State | Inherent | adjective | 
+| conservative | Thing | Abstract | State | Inherent | adjective | 
+| considerable | Thing | Abstract | State | Inherent | adjective | 
+| constitutional | Thing | Abstract | State | Inherent | adjective | 
+| contemporary | Thing | Abstract | State | Inherent | adjective | 
+| continued | Thing | Abstract | State | Inherent | adjective | 
+| conventional | Thing | Abstract | State | Inherent | adjective | 
+| corporate | Thing | Abstract | State | Inherent | adjective | 
+| creative | Thing | Abstract | State | Inherent | adjective | 
+| crucial | Thing | Abstract | State | Inherent | adjective | 
+| cultural | Thing | Abstract | State | Inherent | adjective | 
+| curious | Thing | Abstract | State | Inherent | adjective | 
+| current | Thing | Abstract | State | Inherent | adjective | 
+| daily | Thing | Abstract | State | Inherent | adjective | 
+| dangerous | Thing | Abstract | State | Inherent | adjective | 
+| dear | Thing | Abstract | State | Inherent | adjective | 
+| deep | Thing | Abstract | State | Inherent | adjective | 
+| defensive | Thing | Abstract | State | Inherent | adjective | 
+| democratic | Thing | Abstract | State | Inherent | adjective | 
+| dependent | Thing | Abstract | State | Inherent | adjective | 
+| detailed | Thing | Abstract | State | Inherent | adjective | 
+| different | Thing | Abstract | State | Inherent | adjective | 
+| difficult | Thing | Abstract | State | Inherent | adjective | 
+| digital | Thing | Abstract | State | Inherent | adjective | 
+| direct | Thing | Abstract | State | Inherent | adjective | 
+| distant | Thing | Abstract | State | Inherent | adjective | 
+| distinct | Thing | Abstract | State | Inherent | adjective | 
+| diverse | Thing | Abstract | State | Inherent | adjective | 
+| domestic | Thing | Abstract | State | Inherent | adjective | 
+| double | Thing | Abstract | State | Inherent | adjective | 
+| dramatic | Thing | Abstract | State | Inherent | adjective | 
+| early | Thing | Abstract | State | Inherent | adjective | 
+| eastern | Thing | Abstract | State | Inherent | adjective | 
+| easy | Thing | Abstract | State | Inherent | adjective | 
+| economic | Thing | Abstract | State | Inherent | adjective | 
+| educational | Thing | Abstract | State | Inherent | adjective | 
+| electric | Thing | Abstract | State | Inherent | adjective | 
+| electronic | Thing | Abstract | State | Inherent | adjective | 
+| elementary | Thing | Abstract | State | Inherent | adjective | 
+| enormous | Thing | Abstract | State | Inherent | adjective | 
+| excellent | Thing | Abstract | State | Inherent | adjective | 
+| expensive | Thing | Abstract | State | Inherent | adjective | 
+| extreme | Thing | Abstract | State | Inherent | adjective | 
+| fine | Thing | Abstract | State | Inherent | adjective | 
+| free | Thing | Abstract | State | Inherent | adjective | 
+| good | Thing | Abstract | State | Inherent | adjective | 
+| guilty | Thing | Abstract | State | Inherent | adjective | 
+| heavy | Thing | Abstract | State | Inherent | adjective | 
+| holy | Thing | Abstract | State | Inherent | adjective | 
+| honest | Thing | Abstract | State | Inherent | adjective | 
+| huge | Thing | Abstract | State | Inherent | adjective | 
+| illegal | Thing | Abstract | State | Inherent | adjective | 
+| impossible | Thing | Abstract | State | Inherent | adjective | 
+| impressive | Thing | Abstract | State | Inherent | adjective | 
+| incredible | Thing | Abstract | State | Inherent | adjective | 
+| innocent | Thing | Abstract | State | Inherent | adjective | 
+| large | Thing | Abstract | State | Inherent | adjective | 
+| legal | Thing | Abstract | State | Inherent | adjective | 
+| nice | Thing | Abstract | State | Inherent | adjective | 
+| painful | Thing | Abstract | State | Inherent | adjective | 
+| perfect | Thing | Abstract | State | Inherent | adjective | 
+| powerful | Thing | Abstract | State | Inherent | adjective | 
+| private | Thing | Abstract | State | Inherent | adjective | 
+| public | Thing | Abstract | State | Inherent | adjective | 
+| quick | Thing | Abstract | State | Inherent | adjective | 
+| rare | Thing | Abstract | State | Inherent | adjective | 
+| real | Thing | Abstract | State | Inherent | adjective | 
+| regular | Thing | Abstract | State | Inherent | adjective | 
+| relevant | Thing | Abstract | State | Inherent | adjective | 
+| responsible | Thing | Abstract | State | Inherent | adjective | 
+| rough | Thing | Abstract | State | Inherent | adjective | 
+| sacred | Thing | Abstract | State | Inherent | adjective | 
+| simple | Thing | Abstract | State | Inherent | adjective | 
+| smooth | Thing | Abstract | State | Inherent | adjective | 
+| solid | Thing | Abstract | State | Inherent | adjective | 
+| steady | Thing | Abstract | State | Inherent | adjective | 
+| strange | Thing | Abstract | State | Inherent | adjective | 
+| stupid | Thing | Abstract | State | Inherent | adjective | 
+| sudden | Thing | Abstract | State | Inherent | adjective | 
+| super | Thing | Abstract | State | Inherent | adjective | 
+| surprising | Thing | Abstract | State | Inherent | adjective | 
+| sweet | Thing | Abstract | State | Inherent | adjective | 
+| tall | Thing | Abstract | State | Inherent | adjective | 
+| temporary | Thing | Abstract | State | Inherent | adjective | 
+| terrible | Thing | Abstract | State | Inherent | adjective | 
+| thick | Thing | Abstract | State | Inherent | adjective | 
+| thin | Thing | Abstract | State | Inherent | adjective | 
+| tight | Thing | Abstract | State | Inherent | adjective | 
+| tough | Thing | Abstract | State | Inherent | adjective | 
+| tremendous | Thing | Abstract | State | Inherent | adjective | 
+| true | Thing | Abstract | State | Inherent | adjective | 
+| unique | Thing | Abstract | State | Inherent | adjective | 
+| unusual | Thing | Abstract | State | Inherent | adjective | 
+| urban | Thing | Abstract | State | Inherent | adjective | 
+| valuable | Thing | Abstract | State | Inherent | adjective | 
+| vast | Thing | Abstract | State | Inherent | adjective | 
+| violent | Thing | Abstract | State | Inherent | adjective | 
+| weak | Thing | Abstract | State | Inherent | adjective | 
+| wide | Thing | Abstract | State | Inherent | adjective | 
+| widespread | Thing | Abstract | State | Inherent | adjective | 
+| wise | Thing | Abstract | State | Inherent | adjective | 
+| wonderful | Thing | Abstract | State | Inherent | adjective | 
+| wooden | Thing | Abstract | State | Inherent | adjective | 
+| wrong | Thing | Abstract | State | Inherent | adjective | 
+| identity | Thing | Abstract | State | Inherent | noun | 
+| official | Thing | Abstract | State | Inherent | noun | 
+| variable | Thing | Abstract | State | Inherent | noun | 
+| weight | Thing | Abstract | State | Inherent | noun | 
+| worth | Thing | Abstract | State | Inherent | preposition | 
+| require | Thing | Abstract | State | Inherent | verb | 
+| seem | Thing | Abstract | State | Inherent | verb | 
+| ill | Thing | Abstract | State | Medical | - | 
+| healthy | Thing | Abstract | State | Medical | adjective | 
+| sick | Thing | Abstract | State | Medical | adjective | 
+| cancer | Thing | Abstract | State | Medical | noun | 
+| cholesterol | Thing | Abstract | State | Medical | noun | 
+| disease | Thing | Abstract | State | Medical | noun | 
+| DNA | Thing | Abstract | State | Medical | noun | 
+| dead | Thing | Abstract | State | Permanent | adjective | 
+| old | Thing | Abstract | State | Permanent | adjective | 
+| permanent | Thing | Abstract | State | Permanent | adjective | 
+| proud | Thing | Abstract | State | Permanent | adjective | 
+| successful | Thing | Abstract | State | Permanent | adjective | 
+| complete | Thing | Abstract | State | Permanent | verb | 
+| able | Thing | Abstract | State | Temporary | adjective | 
+| active | Thing | Abstract | State | Temporary | adjective | 
+| afraid | Thing | Abstract | State | Temporary | adjective | 
+| apparent | Thing | Abstract | State | Temporary | adjective | 
+| armed | Thing | Abstract | State | Temporary | adjective | 
+| asleep | Thing | Abstract | State | Temporary | adjective | 
+| available | Thing | Abstract | State | Temporary | adjective | 
+| blind | Thing | Abstract | State | Temporary | adjective | 
+| broken | Thing | Abstract | State | Temporary | adjective | 
+| busy | Thing | Abstract | State | Temporary | adjective | 
+| careful | Thing | Abstract | State | Temporary | adjective | 
+| clean | Thing | Abstract | State | Temporary | adjective | 
+| clear | Thing | Abstract | State | Temporary | adjective | 
+| complicated | Thing | Abstract | State | Temporary | adjective | 
+| concerned | Thing | Abstract | State | Temporary | adjective | 
+| confident | Thing | Abstract | State | Temporary | adjective | 
+| consistent | Thing | Abstract | State | Temporary | adjective | 
+| constant | Thing | Abstract | State | Temporary | adjective | 
+| controversial | Thing | Abstract | State | Temporary | adjective | 
+| critical | Thing | Abstract | State | Temporary | adjective | 
+| dirty | Thing | Abstract | State | Temporary | adjective | 
+| dominant | Thing | Abstract | State | Temporary | adjective | 
+| dry | Thing | Abstract | State | Temporary | adjective | 
+| eager | Thing | Abstract | State | Temporary | adjective | 
+| effective | Thing | Abstract | State | Temporary | adjective | 
+| efficient | Thing | Abstract | State | Temporary | adjective | 
+| empty | Thing | Abstract | State | Temporary | adjective | 
+| famous | Thing | Abstract | State | Temporary | adjective | 
+| fresh | Thing | Abstract | State | Temporary | adjective | 
+| high | Thing | Abstract | State | Temporary | adjective | 
+| homeless | Thing | Abstract | State | Temporary | adjective | 
+| hot | Thing | Abstract | State | Temporary | adjective | 
+| important | Thing | Abstract | State | Temporary | adjective | 
+| intense | Thing | Abstract | State | Temporary | adjective | 
+| interested | Thing | Abstract | State | Temporary | adjective | 
+| interesting | Thing | Abstract | State | Temporary | adjective | 
+| married | Thing | Abstract | State | Temporary | adjective | 
+| naked | Thing | Abstract | State | Temporary | adjective | 
+| necessary | Thing | Abstract | State | Temporary | adjective | 
+| normal | Thing | Abstract | State | Temporary | adjective | 
+| ongoing | Thing | Abstract | State | Temporary | adjective | 
+| online | Thing | Abstract | State | Temporary | adjective | 
+| poor | Thing | Abstract | State | Temporary | adjective | 
+| positive | Thing | Abstract | State | Temporary | adjective | 
+| possible | Thing | Abstract | State | Temporary | adjective | 
+| pregnant | Thing | Abstract | State | Temporary | adjective | 
+| pure | Thing | Abstract | State | Temporary | adjective | 
+| quiet | Thing | Abstract | State | Temporary | adjective | 
+| rapid | Thing | Abstract | State | Temporary | adjective | 
+| raw | Thing | Abstract | State | Temporary | adjective | 
+| recent | Thing | Abstract | State | Temporary | adjective | 
+| rich | Thing | Abstract | State | Temporary | adjective | 
+| scared | Thing | Abstract | State | Temporary | adjective | 
+| sharp | Thing | Abstract | State | Temporary | adjective | 
+| short | Thing | Abstract | State | Temporary | adjective | 
+| silent | Thing | Abstract | State | Temporary | adjective | 
+| slow | Thing | Abstract | State | Temporary | adjective | 
+| small | Thing | Abstract | State | Temporary | adjective | 
+| stable | Thing | Abstract | State | Temporary | adjective | 
+| strong | Thing | Abstract | State | Temporary | adjective | 
+| sufficient | Thing | Abstract | State | Temporary | adjective | 
+| supposed | Thing | Abstract | State | Temporary | adjective | 
+| tiny | Thing | Abstract | State | Temporary | adjective | 
+| ugly | Thing | Abstract | State | Temporary | adjective | 
+| unable | Thing | Abstract | State | Temporary | adjective | 
+| visible | Thing | Abstract | State | Temporary | adjective | 
+| vulnerable | Thing | Abstract | State | Temporary | adjective | 
+| warm | Thing | Abstract | State | Temporary | adjective | 
+| wealthy | Thing | Abstract | State | Temporary | adjective | 
+| wet | Thing | Abstract | State | Temporary | adjective | 
+| young | Thing | Abstract | State | Temporary | adjective | 
+| fast | Thing | Abstract | State | Temporary | adverb | 
+| okay | Thing | Abstract | State | Temporary | adverb | 
+| pretty | Thing | Abstract | State | Temporary | adverb | 
+| still | Thing | Abstract | State | Temporary | adverb | 
+| own | Thing | Abstract | State | Temporary | determiner | 
+| emergency | Thing | Abstract | State | Temporary | noun | 
+| fat | Thing | Abstract | State | Temporary | noun | 
+| preference | Thing | Abstract | State | Temporary | noun | 
+| tension | Thing | Abstract | State | Temporary | noun | 
+| value | Thing | Abstract | State | Temporary | noun | 
+| flower | Thing | Object | Vegetal |  | noun | 
+| grass | Thing | Object | Vegetal |  | noun | 
+| lawn | Thing | Object | Vegetal |  | noun | 
+| leaf | Thing | Object | Vegetal |  | noun | 
+| pine | Thing | Object | Vegetal |  | noun | 
+| plant | Thing | Object | Vegetal |  | noun | 
+| rose | Thing | Object | Vegetal |  | noun | 
+| seed | Thing | Object | Vegetal |  | noun | 
+| tobacco | Thing | Object | Vegetal |  | noun | 
+| tomato | Thing | Object | Vegetal |  | noun | 
+| tree | Thing | Object | Vegetal |  | noun | 
+| vegetable | Thing | Object | Vegetal |  | noun | 
+| aircraft | Thing | Space | Vehicle |  | noun | 
+| bike | Thing | Space | Vehicle |  | noun | 
+| boat | Thing | Space | Vehicle |  | noun | 
+| bus | Thing | Space | Vehicle |  | noun | 
+| car | Thing | Space | Vehicle |  | noun | 
+| helicopter | Thing | Space | Vehicle |  | noun | 
+| jet | Thing | Space | Vehicle |  | noun | 
+| plane | Thing | Space | Vehicle |  | noun | 
+| ship | Thing | Space | Vehicle |  | noun | 
+| tank | Thing | Space | Vehicle |  | noun | 
+| truck | Thing | Space | Vehicle |  | noun | 
+| vehicle | Thing | Space | Vehicle |  | noun | 
+| train | Thing | Space | Vehicle |  | verb | 
+| closer |  |  |  |  | - | 
+| greatest |  |  |  |  | - | 
+| ie |  |  |  |  | - | 
+| Mr |  |  |  |  | - | 
+| Mrs |  |  |  |  | - | 
+| Ms |  |  |  |  | - | 
+| others |  |  |  |  | - | 
+| there |  |  |  |  | - | 
+| to |  |  |  |  | - | 
+| aware |  |  |  |  | adjective | 
+| biological |  |  |  |  | adjective | 
+| entire |  |  |  |  | adjective | 
+| environmental |  |  |  |  | adjective | 
+| equal |  |  |  |  | adjective | 
+| essential |  |  |  |  | adjective | 
+| ethnic |  |  |  |  | adjective | 
+| European |  |  |  |  | adjective | 
+| exact |  |  |  |  | adjective | 
+| existing |  |  |  |  | adjective | 
+| extensive |  |  |  |  | adjective | 
+| external |  |  |  |  | adjective | 
+| extra |  |  |  |  | adjective | 
+| extraordinary |  |  |  |  | adjective | 
+| fair |  |  |  |  | adjective | 
+| familiar |  |  |  |  | adjective | 
+| favorite |  |  |  |  | adjective | 
+| federal |  |  |  |  | adjective | 
+| fellow |  |  |  |  | adjective | 
+| female | Thing | Agent |  |  | adjective | 
+| final |  |  |  |  | adjective | 
+| financial |  |  |  |  | adjective | 
+| following |  |  |  |  | adjective | 
+| foreign |  |  |  |  | adjective | 
+| formal |  |  |  |  | adjective | 
+| French |  |  |  |  | adjective | 
+| frequent |  |  |  |  | adjective | 
+| friendly |  |  |  |  | adjective | 
+| full |  |  |  |  | adjective | 
+| fundamental |  |  |  |  | adjective | 
+| funny |  |  |  |  | adjective | 
+| gay |  |  |  |  | adjective | 
+| general |  |  |  |  | adjective | 
+| genetic |  |  |  |  | adjective | 
+| German |  |  |  |  | adjective | 
+| gifted |  |  |  |  | adjective | 
+| given |  |  |  |  | adjective | 
+| global |  |  |  |  | adjective | 
+| golden |  |  |  |  | adjective | 
+| grand |  |  |  |  | adjective | 
+| great |  |  |  |  | adjective | 
+| growing |  |  |  |  | adjective | 
+| hard |  |  |  |  | adjective | 
+| helpful |  |  |  |  | adjective | 
+| historic |  |  |  |  | adjective | 
+| historical |  |  |  |  | adjective | 
+| ideal |  |  |  |  | adjective | 
+| immediate |  |  |  |  | adjective | 
+| increased |  |  |  |  | adjective | 
+| increasing |  |  |  |  | adjective | 
+| independent |  |  |  |  | adjective | 
+| Indian |  |  |  |  | adjective | 
+| industrial |  |  |  |  | adjective | 
+| initial |  |  |  |  | adjective | 
+| inner |  |  |  |  | adjective | 
+| institutional |  |  |  |  | adjective | 
+| intellectual |  |  |  |  | adjective | 
+| internal |  |  |  |  | adjective | 
+| international |  |  |  |  | adjective | 
+| involved |  |  |  |  | adjective | 
+| Iraqi |  |  |  |  | adjective | 
+| Irish |  |  |  |  | adjective | 
+| Islamic |  |  |  |  | adjective | 
+| Israeli |  |  |  |  | adjective | 
+| Italian |  |  |  |  | adjective | 
+| Japanese |  |  |  |  | adjective | 
+| Jewish |  |  |  |  | adjective | 
+| joint |  |  |  |  | adjective | 
+| junior |  |  |  |  | adjective | 
+| late |  |  |  |  | adjective | 
+| Latin |  |  |  |  | adjective | 
+| leading |  |  |  |  | adjective | 
+| left |  |  |  |  | adjective | 
+| legitimate |  |  |  |  | adjective | 
+| liberal |  |  |  |  | adjective | 
+| likely |  |  |  |  | adjective | 
+| limited |  |  |  |  | adjective | 
+| literary |  |  |  |  | adjective | 
+| little |  |  |  |  | adjective | 
+| local |  |  |  |  | adjective | 
+| long-term |  |  |  |  | adjective | 
+| loose |  |  |  |  | adjective | 
+| lost |  |  |  |  | adjective | 
+| loud |  |  |  |  | adjective | 
+| lovely |  |  |  |  | adjective | 
+| low |  |  |  |  | adjective | 
+| lucky | Thing | Agent |  |  | adjective | 
+| main |  |  |  |  | adjective | 
+| major |  |  |  |  | adjective | 
+| male | Thing | Agent |  |  | adjective | 
+| massive |  |  |  |  | adjective | 
+| medical |  |  |  |  | adjective | 
+| mere |  |  |  |  | adjective | 
+| Mexican |  |  |  |  | adjective | 
+| middle |  |  |  |  | adjective | 
+| minor |  |  |  |  | adjective | 
+| moderate |  |  |  |  | adjective | 
+| modern |  |  |  |  | adjective | 
+| modest |  |  |  |  | adjective | 
+| multiple |  |  |  |  | adjective | 
+| musical |  |  |  |  | adjective | 
+| Muslim |  |  |  |  | adjective | 
+| mutual |  |  |  |  | adjective | 
+| narrow |  |  |  |  | adjective | 
+| national |  |  |  |  | adjective | 
+| native |  |  |  |  | adjective | 
+| natural |  |  |  |  | adjective | 
+| negative |  |  |  |  | adjective | 
+| new |  |  |  |  | adjective | 
+| northern |  |  |  |  | adjective | 
+| nuclear |  |  |  |  | adjective | 
+| numerous |  |  |  |  | adjective | 
+| obvious |  |  |  |  | adjective | 
+| odd |  |  |  |  | adjective | 
+| offensive |  |  |  |  | adjective | 
+| Olympic |  |  |  |  | adjective | 
+| operating |  |  |  |  | adjective | 
+| opposite |  |  |  |  | adjective | 
+| ordinary |  |  |  |  | adjective | 
+| organic |  |  |  |  | adjective | 
+| original |  |  |  |  | adjective | 
+| other |  |  |  |  | adjective | 
+| overall |  |  |  |  | adjective | 
+| pale |  |  |  |  | adjective | 
+| Palestinian |  |  |  |  | adjective | 
+| particular |  |  |  |  | adjective | 
+| past |  |  |  |  | adjective | 
+| personal |  |  |  |  | adjective | 
+| physical |  |  |  |  | adjective | 
+| political |  |  |  |  | adjective | 
+| popular |  |  |  |  | adjective | 
+| potential |  |  |  |  | adjective | 
+| practical |  |  |  |  | adjective | 
+| presidential |  |  |  |  | adjective | 
+| previous |  |  |  |  | adjective | 
+| primary |  |  |  |  | adjective | 
+| prime |  |  |  |  | adjective | 
+| prominent |  |  |  |  | adjective | 
+| proper |  |  |  |  | adjective | 
+| proposed |  |  |  |  | adjective | 
+| psychological |  |  |  |  | adjective | 
+| racial |  |  |  |  | adjective | 
+| radical |  |  |  |  | adjective | 
+| ready |  |  |  |  | adjective | 
+| reasonable |  |  |  |  | adjective | 
+| regional |  |  |  |  | adjective | 
+| religious |  |  |  |  | adjective | 
+| remaining |  |  |  |  | adjective | 
+| remarkable |  |  |  |  | adjective | 
+| remote |  |  |  |  | adjective | 
+| romantic |  |  |  |  | adjective | 
+| running |  |  |  |  | adjective | 
+| rural |  |  |  |  | adjective | 
+| Russian |  |  |  |  | adjective | 
+| safe |  |  |  |  | adjective | 
+| scientific |  |  |  |  | adjective | 
+| senior |  |  |  |  | adjective | 
+| sensitive |  |  |  |  | adjective | 
+| separate |  |  |  |  | adjective | 
+| serious |  |  |  |  | adjective | 
+| severe |  |  |  |  | adjective | 
+| sexual |  |  |  |  | adjective | 
+| significant |  |  |  |  | adjective | 
+| similar |  |  |  |  | adjective | 
+| single |  |  |  |  | adjective | 
+| slight |  |  |  |  | adjective | 
+| smart |  |  |  |  | adjective | 
+| so-called |  |  |  |  | adjective | 
+| social |  |  |  |  | adjective | 
+| soft |  |  |  |  | adjective | 
+| solar |  |  |  |  | adjective | 
+| sophisticated |  |  |  |  | adjective | 
+| sorry |  |  |  |  | adjective | 
+| southern |  |  |  |  | adjective | 
+| Soviet |  |  |  |  | adjective | 
+| Spanish |  |  |  |  | adjective | 
+| special |  |  |  |  | adjective | 
+| specific |  |  |  |  | adjective | 
+| spiritual |  |  |  |  | adjective | 
+| strategic |  |  |  |  | adjective | 
+| subsequent |  |  |  |  | adjective | 
+| substantial |  |  |  |  | adjective | 
+| Supreme |  |  |  |  | adjective | 
+| sure |  |  |  |  | adjective | 
+| technical |  |  |  |  | adjective | 
+| total |  |  |  |  | adjective | 
+| traditional |  |  |  |  | adjective | 
+| typical |  |  |  |  | adjective | 
+| ultimate |  |  |  |  | adjective | 
+| United |  |  |  |  | adjective | 
+| universal |  |  |  |  | adjective | 
+| unknown |  |  |  |  | adjective | 
+| unlikely |  |  |  |  | adjective | 
+| upper |  |  |  |  | adjective | 
+| used |  |  |  |  | adjective | 
+| useful |  |  |  |  | adjective | 
+| usual |  |  |  |  | adjective | 
+| various |  |  |  |  | adjective | 
+| visual |  |  |  |  | adjective | 
+| vital |  |  |  |  | adjective | 
+| weekly |  |  |  |  | adjective | 
+| western |  |  |  |  | adjective | 
+| whole |  |  |  |  | adjective | 
+| wild |  |  |  |  | adjective | 
+| willing |  |  |  |  | adjective | 
+| working |  |  |  |  | adjective | 
+| abroad |  |  |  |  | adverb | 
+| absolutely |  |  |  |  | adverb | 
+| actually |  |  |  |  | adverb | 
+| again |  |  |  |  | adverb | 
+| ago |  |  |  |  | adverb | 
+| ahead |  |  |  |  | adverb | 
+| almost |  |  |  |  | adverb | 
+| alone |  |  |  |  | adverb | 
+| already |  |  |  |  | adverb | 
+| also |  |  |  |  | adverb | 
+| always |  |  |  |  | adverb | 
+| AM |  |  |  |  | adverb | 
+| anymore |  |  |  |  | adverb | 
+| anyway |  |  |  |  | adverb | 
+| apart |  |  |  |  | adverb | 
+| apparently |  |  |  |  | adverb | 
+| approximately |  |  |  |  | adverb | 
+| around |  |  |  |  | adverb | 
+| aside |  |  |  |  | adverb | 
+| away |  |  |  |  | adverb | 
+| back |  |  |  |  | adverb | 
+| badly |  |  |  |  | adverb | 
+| barely |  |  |  |  | adverb | 
+| basically |  |  |  |  | adverb | 
+| below |  |  |  |  | adverb | 
+| besides |  |  |  |  | adverb | 
+| briefly |  |  |  |  | adverb | 
+| carefully |  |  |  |  | adverb | 
+| certainly |  |  |  |  | adverb | 
+| clearly |  |  |  |  | adverb | 
+| closely |  |  |  |  | adverb | 
+| completely |  |  |  |  | adverb | 
+| constantly |  |  |  |  | adverb | 
+| course |  |  |  |  | adverb | 
+| currently |  |  |  |  | adverb | 
+| deeply |  |  |  |  | adverb | 
+| definitely |  |  |  |  | adverb | 
+| differently |  |  |  |  | adverb | 
+| directly |  |  |  |  | adverb | 
+| down |  |  |  |  | adverb | 
+| dramatically |  |  |  |  | adverb | 
+| easily |  |  |  |  | adverb | 
+| effectively |  |  |  |  | adverb | 
+| either |  |  |  |  | adverb | 
+| else |  |  |  |  | adverb | 
+| elsewhere |  |  |  |  | adverb | 
+| enough |  |  |  |  | adverb | 
+| entirely |  |  |  |  | adverb | 
+| equally |  |  |  |  | adverb | 
+| especially |  |  |  |  | adverb | 
+| essentially |  |  |  |  | adverb | 
+| etc |  |  |  |  | adverb | 
+| even |  |  |  |  | adverb | 
+| eventually |  |  |  |  | adverb | 
+| ever |  |  |  |  | adverb | 
+| exactly |  |  |  |  | adverb | 
+| extremely |  |  |  |  | adverb | 
+| fairly |  |  |  |  | adverb | 
+| far |  |  |  |  | adverb | 
+| finally |  |  |  |  | adverb | 
+| forever |  |  |  |  | adverb | 
+| forth |  |  |  |  | adverb | 
+| forward |  |  |  |  | adverb | 
+| frequently |  |  |  |  | adverb | 
+| fully |  |  |  |  | adverb | 
+| furthermore |  |  |  |  | adverb | 
+| generally |  |  |  |  | adverb | 
+| gently |  |  |  |  | adverb | 
+| gradually |  |  |  |  | adverb | 
+| hardly |  |  |  |  | adverb | 
+| heavily |  |  |  |  | adverb | 
+| here |  |  |  |  | adverb | 
+| highly |  |  |  |  | adverb | 
+| how |  |  |  |  | adverb | 
+| however |  |  |  |  | adverb | 
+| immediately |  |  |  |  | adverb | 
+| increasingly |  |  |  |  | adverb | 
+| indeed |  |  |  |  | adverb | 
+| initially |  |  |  |  | adverb | 
+| instead |  |  |  |  | adverb | 
+| just |  |  |  |  | adverb | 
+| largely |  |  |  |  | adverb | 
+| later |  |  |  |  | adverb | 
+| least |  |  |  |  | adverb | 
+| less |  |  |  |  | adverb | 
+| literally |  |  |  |  | adverb | 
+| long |  |  |  |  | adverb | 
+| mainly |  |  |  |  | adverb | 
+| maybe |  |  |  |  | adverb | 
+| meanwhile |  |  |  |  | adverb | 
+| merely |  |  |  |  | adverb | 
+| more |  |  |  |  | adverb | 
+| moreover |  |  |  |  | adverb | 
+| most |  |  |  |  | adverb | 
+| mostly |  |  |  |  | adverb | 
+| naturally |  |  |  |  | adverb | 
+| nearly |  |  |  |  | adverb | 
+| necessarily |  |  |  |  | adverb | 
+| neither |  |  |  |  | adverb | 
+| never |  |  |  |  | adverb | 
+| nevertheless |  |  |  |  | adverb | 
+| newly |  |  |  |  | adverb | 
+| nonetheless |  |  |  |  | adverb | 
+| normally |  |  |  |  | adverb | 
+| obviously |  |  |  |  | adverb | 
+| occasionally |  |  |  |  | adverb | 
+| off |  |  |  |  | adverb | 
+| often |  |  |  |  | adverb | 
+| ok |  |  |  |  | adverb | 
+| only |  |  |  |  | adverb | 
+| originally |  |  |  |  | adverb | 
+| otherwise |  |  |  |  | adverb | 
+| out |  |  |  |  | adverb | 
+| particularly |  |  |  |  | adverb | 
+| partly |  |  |  |  | adverb | 
+| perfectly |  |  |  |  | adverb | 
+| perhaps |  |  |  |  | adverb | 
+| personally |  |  |  |  | adverb | 
+| physically |  |  |  |  | adverb | 
+| please |  |  |  |  | adverb | 
+| politically |  |  |  |  | adverb | 
+| possibly |  |  |  |  | adverb | 
+| potentially |  |  |  |  | adverb | 
+| precisely |  |  |  |  | adverb | 
+| previously |  |  |  |  | adverb | 
+| primarily |  |  |  |  | adverb | 
+| probably |  |  |  |  | adverb | 
+| properly |  |  |  |  | adverb | 
+| publicly |  |  |  |  | adverb | 
+| quickly |  |  |  |  | adverb | 
+| quietly |  |  |  |  | adverb | 
+| quite |  |  |  |  | adverb | 
+| rapidly |  |  |  |  | adverb | 
+| rarely |  |  |  |  | adverb | 
+| rather |  |  |  |  | adverb | 
+| really |  |  |  |  | adverb | 
+| recently |  |  |  |  | adverb | 
+| regardless |  |  |  |  | adverb | 
+| regularly |  |  |  |  | adverb | 
+| relatively |  |  |  |  | adverb | 
+| repeatedly |  |  |  |  | adverb | 
+| roughly |  |  |  |  | adverb | 
+| seriously |  |  |  |  | adverb | 
+| shortly |  |  |  |  | adverb | 
+| significantly |  |  |  |  | adverb | 
+| similarly |  |  |  |  | adverb | 
+| simply |  |  |  |  | adverb | 
+| slightly |  |  |  |  | adverb | 
+| slowly |  |  |  |  | adverb | 
+| so |  |  |  |  | adverb | 
+| somewhat |  |  |  |  | adverb | 
+| soon |  |  |  |  | adverb | 
+| specifically |  |  |  |  | adverb | 
+| straight |  |  |  |  | adverb | 
+| strongly |  |  |  |  | adverb | 
+| successfully |  |  |  |  | adverb | 
+| suddenly |  |  |  |  | adverb | 
+| surely |  |  |  |  | adverb | 
+| surprisingly |  |  |  |  | adverb | 
+| then |  |  |  |  | adverb | 
+| therefore |  |  |  |  | adverb | 
+| thus |  |  |  |  | adverb | 
+| today |  |  |  |  | adverb | 
+| together |  |  |  |  | adverb | 
+| tomorrow |  |  |  |  | adverb | 
+| tonight |  |  |  |  | adverb | 
+| too |  |  |  |  | adverb | 
+| totally |  |  |  |  | adverb | 
+| truly |  |  |  |  | adverb | 
+| twice |  |  |  |  | adverb | 
+| typically |  |  |  |  | adverb | 
+| ultimately |  |  |  |  | adverb | 
+| unfortunately |  |  |  |  | adverb | 
+| up |  |  |  |  | adverb | 
+| usually |  |  |  |  | adverb | 
+| very |  |  |  |  | adverb | 
+| virtually |  |  |  |  | adverb | 
+| well |  |  |  |  | adverb | 
+| whenever |  |  |  |  | adverb | 
+| where |  |  |  |  | adverb | 
+| why |  |  |  |  | adverb | 
+| widely |  |  |  |  | adverb | 
+| yesterday |  |  |  |  | adverb | 
+| yet |  |  |  |  | adverb | 
+| a |  |  |  |  | article | 
+| every |  |  |  |  | article | 
+| her |  |  |  |  | article | 
+| his |  |  |  |  | article | 
+| its |  |  |  |  | article | 
+| my |  |  |  |  | article | 
+| no |  |  |  |  | article | 
+| our |  |  |  |  | article | 
+| the |  |  |  |  | article | 
+| their |  |  |  |  | article | 
+| your |  |  |  |  | article | 
+| although |  |  |  |  | conjunction | 
+| and |  |  |  |  | conjunction | 
+| as |  |  |  |  | conjunction | 
+| because |  |  |  |  | conjunction | 
+| but |  |  |  |  | conjunction | 
+| except |  |  |  |  | conjunction | 
+| if |  |  |  |  | conjunction | 
+| nor |  |  |  |  | conjunction | 
+| or |  |  |  |  | conjunction | 
+| since |  |  |  |  | conjunction | 
+| than |  |  |  |  | conjunction | 
+| that |  |  |  |  | conjunction | 
+| though |  |  |  |  | conjunction | 
+| unless |  |  |  |  | conjunction | 
+| until |  |  |  |  | conjunction | 
+| when |  |  |  |  | conjunction | 
+| whereas |  |  |  |  | conjunction | 
+| whether |  |  |  |  | conjunction | 
+| while |  |  |  |  | conjunction | 
+| all | Thing |  |  |  | determiner | 
+| another |  |  |  |  | determiner | 
+| any |  |  |  |  | determiner | 
+| both |  |  |  |  | determiner | 
+| each |  |  |  |  | determiner | 
+| few |  |  |  |  | determiner | 
+| fewer |  |  |  |  | determiner | 
+| former |  |  |  |  | determiner | 
+| half |  |  |  |  | determiner | 
+| latter |  |  |  |  | determiner | 
+| many |  |  |  |  | determiner | 
+| much |  |  |  |  | determiner | 
+| same |  |  |  |  | determiner | 
+| several |  |  |  |  | determiner | 
+| some |  |  |  |  | determiner | 
+| such |  |  |  |  | determiner | 
+| these |  |  |  |  | determiner | 
+| this |  |  |  |  | determiner | 
+| those |  |  |  |  | determiner | 
+| what |  |  |  |  | determiner | 
+| whatever |  |  |  |  | determiner | 
+| which |  |  |  |  | determiner | 
+| whose |  |  |  |  | determiner | 
+| ah |  |  |  |  | interjection | 
+| hello |  |  |  |  | interjection | 
+| hey |  |  |  |  | interjection | 
+| hi |  |  |  |  | interjection | 
+| mm-hmm |  |  |  |  | interjection | 
+| oh |  |  |  |  | interjection | 
+| yeah |  |  |  |  | interjection | 
+| yes |  |  |  |  | interjection | 
+| not |  |  |  |  | negation | 
+| ability |  |  |  |  | noun | 
+| abortion |  |  |  |  | noun | 
+| absence |  |  |  |  | noun | 
+| abuse |  |  |  |  | noun | 
+| access |  |  |  |  | noun | 
+| accident |  |  |  |  | noun | 
+| achievement |  |  |  |  | noun | 
+| act |  |  |  |  | noun | 
+| action |  |  |  |  | noun | 
+| activity |  |  |  |  | noun | 
+| ad |  |  |  |  | noun | 
+| adjustment |  |  |  |  | noun | 
+| administration |  |  |  |  | noun | 
+| admission |  |  |  |  | noun | 
+| advance |  |  |  |  | noun | 
+| advantage |  |  |  |  | noun | 
+| adventure |  |  |  |  | noun | 
+| advertising |  |  |  |  | noun | 
+| adviser |  |  |  |  | noun | 
+| advocate |  |  |  |  | noun | 
+| affair |  |  |  |  | noun | 
+| agency |  |  |  |  | noun | 
+| agenda |  |  |  |  | noun | 
+| agent | Thing | Agent |  |  | noun | 
+| aid |  |  |  |  | noun | 
+| aide |  |  |  |  | noun | 
+| AIDS |  |  |  |  | noun | 
+| airline |  |  |  |  | noun | 
+| alliance |  |  |  |  | noun | 
+| ally |  |  |  |  | noun | 
+| alternative |  |  |  |  | noun | 
+| amount |  |  |  |  | noun | 
+| analysis |  |  |  |  | noun | 
+| angle |  |  |  |  | noun | 
+| appeal |  |  |  |  | noun | 
+| application |  |  |  |  | noun | 
+| approach |  |  |  |  | noun | 
+| arrangement |  |  |  |  | noun | 
+| art | Thing |  |  |  | noun | 
+| article |  |  |  |  | noun | 
+| aspect |  |  |  |  | noun | 
+| assessment |  |  |  |  | noun | 
+| asset |  |  |  |  | noun | 
+| assignment |  |  |  |  | noun | 
+| assistance |  |  |  |  | noun | 
+| assistant |  |  |  |  | noun | 
+| association |  |  |  |  | noun | 
+| assumption |  |  |  |  | noun | 
+| atmosphere |  |  |  |  | noun | 
+| attention |  |  |  |  | noun | 
+| attitude |  |  |  |  | noun | 
+| audience |  |  |  |  | noun | 
+| authority |  |  |  |  | noun | 
+| auto |  |  |  |  | noun | 
+| awareness |  |  |  |  | noun | 
+| background |  |  |  |  | noun | 
+| balance |  |  |  |  | noun | 
+| band |  |  |  |  | noun | 
+| basis |  |  |  |  | noun | 
+| behavior |  |  |  |  | noun | 
+| being |  |  |  |  | noun | 
+| Bible |  |  |  |  | noun | 
+| bit |  |  |  |  | noun | 
+| block |  |  |  |  | noun | 
+| bond |  |  |  |  | noun | 
+| border |  |  |  |  | noun | 
+| bottom |  |  |  |  | noun | 
+| boundary |  |  |  |  | noun | 
+| branch |  |  |  |  | noun | 
+| breath |  |  |  |  | noun | 
+| budget |  |  |  |  | noun | 
+| bunch |  |  |  |  | noun | 
+| burden |  |  |  |  | noun | 
+| candidate |  |  |  |  | noun | 
+| cap |  |  |  |  | noun | 
+| carbon |  |  |  |  | noun | 
+| career |  |  |  |  | noun | 
+| carrier |  |  |  |  | noun | 
+| case |  |  |  |  | noun | 
+| cell |  |  |  |  | noun | 
+| century |  |  |  |  | noun | 
+| chamber |  |  |  |  | noun | 
+| character |  |  |  |  | noun | 
+| characteristic |  |  |  |  | noun | 
+| charity |  |  |  |  | noun | 
+| chart |  |  |  |  | noun | 
+| chemical |  |  |  |  | noun | 
+| childhood |  |  |  |  | noun | 
+| circle |  |  |  |  | noun | 
+| class |  |  |  |  | noun | 
+| climate |  |  |  |  | noun | 
+| cluster |  |  |  |  | noun | 
+| coal |  |  |  |  | noun | 
+| coalition |  |  |  |  | noun | 
+| collapse |  |  |  |  | noun | 
+| collection | Thing |  |  |  | noun | 
+| column |  |  |  |  | noun | 
+| combination |  |  |  |  | noun | 
+| comfort |  |  |  |  | noun | 
+| command |  |  |  |  | noun | 
+| comment |  |  |  |  | noun | 
+| commitment |  |  |  |  | noun | 
+| communication |  |  |  |  | noun | 
+| comparison |  |  |  |  | noun | 
+| competitor | Thing | Agent |  |  | noun | 
+| complaint |  |  |  |  | noun | 
+| component |  |  |  |  | noun | 
+| composition |  |  |  |  | noun | 
+| concentration |  |  |  |  | noun | 
+| concern |  |  |  |  | noun | 
+| conclusion |  |  |  |  | noun | 
+| condition |  |  |  |  | noun | 
+| confidence |  |  |  |  | noun | 
+| Congress |  |  |  |  | noun | 
+| consensus |  |  |  |  | noun | 
+| consideration |  |  |  |  | noun | 
+| construction |  |  |  |  | noun | 
+| consumption |  |  |  |  | noun | 
+| contact |  |  |  |  | noun | 
+| context |  |  |  |  | noun | 
+| contrast |  |  |  |  | noun | 
+| contribution |  |  |  |  | noun | 
+| control |  |  |  |  | noun | 
+| controversy |  |  |  |  | noun | 
+| convention |  |  |  |  | noun | 
+| conviction |  |  |  |  | noun | 
+| cooking |  |  |  |  | noun | 
+| cooperation |  |  |  |  | noun | 
+| core |  |  |  |  | noun | 
+| corner |  |  |  |  | noun | 
+| correspondent |  |  |  |  | noun | 
+| council |  |  |  |  | noun | 
+| counselor |  |  |  |  | noun | 
+| counter |  |  |  |  | noun | 
+| country |  |  |  |  | noun | 
+| county |  |  |  |  | noun | 
+| court |  |  |  |  | noun | 
+| coverage |  |  |  |  | noun | 
+| craft |  |  |  |  | noun | 
+| crash |  |  |  |  | noun | 
+| creation |  |  |  |  | noun | 
+| creature | Thing | Agent |  |  | noun | 
+| credit |  |  |  |  | noun | 
+| crisis |  |  |  |  | noun | 
+| criteria |  |  |  |  | noun | 
+| critic |  |  |  |  | noun | 
+| criticism |  |  |  |  | noun | 
+| culture |  |  |  |  | noun | 
+| curriculum |  |  |  |  | noun | 
+| custom |  |  |  |  | noun | 
+| cycle |  |  |  |  | noun | 
+| damage |  |  |  |  | noun | 
+| danger |  |  |  |  | noun | 
+| date |  |  |  |  | noun | 
+| day |  |  |  |  | noun | 
+| debate |  |  |  |  | noun | 
+| debt |  |  |  |  | noun | 
+| decade |  |  |  |  | noun | 
+| defendant |  |  |  |  | noun | 
+| defense |  |  |  |  | noun | 
+| deficit |  |  |  |  | noun | 
+| degree |  |  |  |  | noun | 
+| delay |  |  |  |  | noun | 
+| democracy |  |  |  |  | noun | 
+| Democrat |  |  |  |  | noun | 
+| demonstration |  |  |  |  | noun | 
+| department |  |  |  |  | noun | 
+| depression |  |  |  |  | noun | 
+| depth |  |  |  |  | noun | 
+| destruction |  |  |  |  | noun | 
+| detail |  |  |  |  | noun | 
+| development |  |  |  |  | noun | 
+| diet |  |  |  |  | noun | 
+| difference |  |  |  |  | noun | 
+| difficulty |  |  |  |  | noun | 
+| dimension |  |  |  |  | noun | 
+| disability |  |  |  |  | noun | 
+| discipline |  |  |  |  | noun | 
+| discourse |  |  |  |  | noun | 
+| discovery |  |  |  |  | noun | 
+| discrimination |  |  |  |  | noun | 
+| disorder |  |  |  |  | noun | 
+| dispute |  |  |  |  | noun | 
+| distance |  |  |  |  | noun | 
+| distinction |  |  |  |  | noun | 
+| distribution |  |  |  |  | noun | 
+| district |  |  |  |  | noun | 
+| diversity |  |  |  |  | noun | 
+| division |  |  |  |  | noun | 
+| divorce |  |  |  |  | noun | 
+| doubt |  |  |  |  | noun | 
+| draft |  |  |  |  | noun | 
+| drama |  |  |  |  | noun | 
+| earnings |  |  |  |  | noun | 
+| economics |  |  |  |  | noun | 
+| economy |  |  |  |  | noun | 
+| edge |  |  |  |  | noun | 
+| edition |  |  |  |  | noun | 
+| editor |  |  |  |  | noun | 
+| education |  |  |  |  | noun | 
+| educator |  |  |  |  | noun | 
+| efficiency |  |  |  |  | noun | 
+| effort |  |  |  |  | noun | 
+| element |  |  |  |  | noun | 
+| elite |  |  |  |  | noun | 
+| emission |  |  |  |  | noun | 
+| emphasis |  |  |  |  | noun | 
+| employment |  |  |  |  | noun | 
+| enforcement |  |  |  |  | noun | 
+| engineering |  |  |  |  | noun | 
+| enterprise |  |  |  |  | noun | 
+| entertainment |  |  |  |  | noun | 
+| entry |  |  |  |  | noun | 
+| environment |  |  |  |  | noun | 
+| episode |  |  |  |  | noun | 
+| era |  |  |  |  | noun | 
+| error |  |  |  |  | noun | 
+| essay |  |  |  |  | noun | 
+| establishment |  |  |  |  | noun | 
+| estate |  |  |  |  | noun | 
+| ethics |  |  |  |  | noun | 
+| evolution |  |  |  |  | noun | 
+| examination |  |  |  |  | noun | 
+| example |  |  |  |  | noun | 
+| exception |  |  |  |  | noun | 
+| executive |  |  |  |  | noun | 
+| exercise |  |  |  |  | noun | 
+| exhibition |  |  |  |  | noun | 
+| expansion |  |  |  |  | noun | 
+| expense |  |  |  |  | noun | 
+| experiment |  |  |  |  | noun | 
+| exposure |  |  |  |  | noun | 
+| expression |  |  |  |  | noun | 
+| extension |  |  |  |  | noun | 
+| extent |  |  |  |  | noun | 
+| factor |  |  |  |  | noun | 
+| faculty |  |  |  |  | noun | 
+| faith |  |  |  |  | noun | 
+| fate |  |  |  |  | noun | 
+| fault |  |  |  |  | noun | 
+| feature |  |  |  |  | noun | 
+| fiction |  |  |  |  | noun | 
+| figure |  |  |  |  | noun | 
+| finance |  |  |  |  | noun | 
+| firm |  |  |  |  | noun | 
+| fitness |  |  |  |  | noun | 
+| flow |  |  |  |  | noun | 
+| force |  |  |  |  | noun | 
+| form |  |  |  |  | noun | 
+| formation |  |  |  |  | noun | 
+| formula |  |  |  |  | noun | 
+| fortune |  |  |  |  | noun | 
+| foundation |  |  |  |  | noun | 
+| frame |  |  |  |  | noun | 
+| framework |  |  |  |  | noun | 
+| frequency |  |  |  |  | noun | 
+| friendship |  |  |  |  | noun | 
+| function |  |  |  |  | noun | 
+| fund |  |  |  |  | noun | 
+| funding |  |  |  |  | noun | 
+| galaxy |  |  |  |  | noun | 
+| gallery |  |  |  |  | noun | 
+| gap |  |  |  |  | noun | 
+| gaze |  |  |  |  | noun | 
+| gender |  |  |  |  | noun | 
+| gene |  |  |  |  | noun | 
+| generation |  |  |  |  | noun | 
+| gesture |  |  |  |  | noun | 
+| giant |  |  |  |  | noun | 
+| goal |  |  |  |  | noun | 
+| government |  |  |  |  | noun | 
+| grade |  |  |  |  | noun | 
+| grain |  |  |  |  | noun | 
+| growth |  |  |  |  | noun | 
+| guide |  |  |  |  | noun | 
+| guideline |  |  |  |  | noun | 
+| habit |  |  |  |  | noun | 
+| habitat |  |  |  |  | noun | 
+| handful |  |  |  |  | noun | 
+| headline |  |  |  |  | noun | 
+| hearing |  |  |  |  | noun | 
+| hip |  |  |  |  | noun | 
+| history |  |  |  |  | noun | 
+| hour |  |  |  |  | noun | 
+| housing |  |  |  |  | noun | 
+| hundred |  |  |  |  | noun | 
+| identification |  |  |  |  | noun | 
+| imagination |  |  |  |  | noun | 
+| immigrant |  |  |  |  | noun | 
+| immigration |  |  |  |  | noun | 
+| impact |  |  |  |  | noun | 
+| impression |  |  |  |  | noun | 
+| improvement |  |  |  |  | noun | 
+| incident |  |  |  |  | noun | 
+| independence |  |  |  |  | noun | 
+| indication |  |  |  |  | noun | 
+| individual | Thing | Agent |  |  | noun | 
+| industry |  |  |  |  | noun | 
+| inflation |  |  |  |  | noun | 
+| initiative |  |  |  |  | noun | 
+| insight |  |  |  |  | noun | 
+| instance |  |  |  |  | noun | 
+| institution |  |  |  |  | noun | 
+| instrument |  |  |  |  | noun | 
+| insurance |  |  |  |  | noun | 
+| intensity |  |  |  |  | noun | 
+| interest |  |  |  |  | noun | 
+| interpretation |  |  |  |  | noun | 
+| intervention |  |  |  |  | noun | 
+| introduction |  |  |  |  | noun | 
+| invasion |  |  |  |  | noun | 
+| involvement |  |  |  |  | noun | 
+| issue |  |  |  |  | noun | 
+| journal |  |  |  |  | noun | 
+| journey |  |  |  |  | noun | 
+| judgment |  |  |  |  | noun | 
+| killing |  |  |  |  | noun | 
+| kind |  |  |  |  | noun | 
+| lab |  |  |  |  | noun | 
+| labor |  |  |  |  | noun | 
+| lack |  |  |  |  | noun | 
+| language |  |  |  |  | noun | 
+| layer |  |  |  |  | noun | 
+| leadership |  |  |  |  | noun | 
+| learning |  |  |  |  | noun | 
+| legacy |  |  |  |  | noun | 
+| legend |  |  |  |  | noun | 
+| legislation |  |  |  |  | noun | 
+| length |  |  |  |  | noun | 
+| lesson |  |  |  |  | noun | 
+| level |  |  |  |  | noun | 
+| license |  |  |  |  | noun | 
+| lifestyle |  |  |  |  | noun | 
+| lifetime |  |  |  |  | noun | 
+| limitation |  |  |  |  | noun | 
+| line |  |  |  |  | noun | 
+| link |  |  |  |  | noun | 
+| list |  |  |  |  | noun | 
+| literature |  |  |  |  | noun | 
+| living |  |  |  |  | noun | 
+| loan |  |  |  |  | noun | 
+| loss |  |  |  |  | noun | 
+| lot |  |  |  |  | noun | 
+| maintenance |  |  |  |  | noun | 
+| majority |  |  |  |  | noun | 
+| maker |  |  |  |  | noun | 
+| management |  |  |  |  | noun | 
+| manner |  |  |  |  | noun | 
+| manufacturing |  |  |  |  | noun | 
+| margin |  |  |  |  | noun | 
+| market |  |  |  |  | noun | 
+| marketing |  |  |  |  | noun | 
+| marriage |  |  |  |  | noun | 
+| mass |  |  |  |  | noun | 
+| master |  |  |  |  | noun | 
+| math |  |  |  |  | noun | 
+| measure |  |  |  |  | noun | 
+| measurement |  |  |  |  | noun | 
+| medicine |  |  |  |  | noun | 
+| medium |  |  |  |  | noun | 
+| member | Thing |  |  |  | noun | 
+| membership |  |  |  |  | noun | 
+| minority |  |  |  |  | noun | 
+| minute |  |  |  |  | noun | 
+| mixture |  |  |  |  | noun | 
+| mode |  |  |  |  | noun | 
+| model |  |  |  |  | noun | 
+| month |  |  |  |  | noun | 
+| mortgage |  |  |  |  | noun | 
+| motion |  |  |  |  | noun | 
+| motivation |  |  |  |  | noun | 
+| movement |  |  |  |  | noun | 
+| narrative |  |  |  |  | noun | 
+| nerve |  |  |  |  | noun | 
+| nomination |  |  |  |  | noun | 
+| novel |  |  |  |  | noun | 
+| objective |  |  |  |  | noun | 
+| observation |  |  |  |  | noun | 
+| occasion |  |  |  |  | noun | 
+| odds |  |  |  |  | noun | 
+| opening |  |  |  |  | noun | 
+| opinion |  |  |  |  | noun | 
+| opposition |  |  |  |  | noun | 
+| option |  |  |  |  | noun | 
+| order |  |  |  |  | noun | 
+| orientation |  |  |  |  | noun | 
+| origin |  |  |  |  | noun | 
+| outcome |  |  |  |  | noun | 
+| pace |  |  |  |  | noun | 
+| package |  |  |  |  | noun | 
+| page |  |  |  |  | noun | 
+| pair |  |  |  |  | noun | 
+| pan |  |  |  |  | noun | 
+| parent | Thing | Agent |  |  | noun | 
+| parking |  |  |  |  | noun | 
+| part | Thing |  |  |  | noun | 
+| participant | Thing | Agent |  |  | noun | 
+| participation |  |  |  |  | noun | 
+| partner | Thing | Agent |  |  | noun | 
+| partnership |  |  |  |  | noun | 
+| patch |  |  |  |  | noun | 
+| patient |  |  |  |  | noun | 
+| pattern |  |  |  |  | noun | 
+| payment |  |  |  |  | noun | 
+| peak |  |  |  |  | noun | 
+| peer |  |  |  |  | noun | 
+| penalty |  |  |  |  | noun | 
+| percentage |  |  |  |  | noun | 
+| performance |  |  |  |  | noun | 
+| period |  |  |  |  | noun | 
+| personnel |  |  |  |  | noun | 
+| perspective |  |  |  |  | noun | 
+| phase |  |  |  |  | noun | 
+| phenomenon |  |  |  |  | noun | 
+| philosophy |  |  |  |  | noun | 
+| phrase |  |  |  |  | noun | 
+| piece | Thing |  |  |  | noun | 
+| pitch |  |  |  |  | noun | 
+| population |  |  |  |  | noun | 
+| portion |  |  |  |  | noun | 
+| position |  |  |  |  | noun | 
+| possibility |  |  |  |  | noun | 
+| pound |  |  |  |  | noun | 
+| poverty |  |  |  |  | noun | 
+| pregnancy |  |  |  |  | noun | 
+| preparation |  |  |  |  | noun | 
+| presence |  |  |  |  | noun | 
+| presentation |  |  |  |  | noun | 
+| pressure |  |  |  |  | noun | 
+| pride |  |  |  |  | noun | 
+| principal |  |  |  |  | noun | 
+| principle |  |  |  |  | noun | 
+| privacy |  |  |  |  | noun | 
+| problem |  |  |  |  | noun | 
+| producer | Thing | Agent |  |  | noun | 
+| product | Thing |  |  |  | noun | 
+| production |  |  |  |  | noun | 
+| profession |  |  |  |  | noun | 
+| progress |  |  |  |  | noun | 
+| property |  |  |  |  | noun | 
+| proportion |  |  |  |  | noun | 
+| prospect |  |  |  |  | noun | 
+| protection |  |  |  |  | noun | 
+| protein |  |  |  |  | noun | 
+| provider | Thing |  |  |  | noun | 
+| province |  |  |  |  | noun | 
+| provision |  |  |  |  | noun | 
+| psychology |  |  |  |  | noun | 
+| publication |  |  |  |  | noun | 
+| quarter |  |  |  |  | noun | 
+| race |  |  |  |  | noun | 
+| rate |  |  |  |  | noun | 
+| ratio |  |  |  |  | noun | 
+| reaction |  |  |  |  | noun | 
+| reading |  |  |  |  | noun | 
+| reality | Thing |  |  |  | noun | 
+| recognition |  |  |  |  | noun | 
+| recommendation |  |  |  |  | noun | 
+| recovery |  |  |  |  | noun | 
+| reduction |  |  |  |  | noun | 
+| reform |  |  |  |  | noun | 
+| regime |  |  |  |  | noun | 
+| regulation |  |  |  |  | noun | 
+| representation |  |  |  |  | noun | 
+| representative |  |  |  |  | noun | 
+| Republican |  |  |  |  | noun | 
+| requirement |  |  |  |  | noun | 
+| resistance |  |  |  |  | noun | 
+| resolution |  |  |  |  | noun | 
+| resort |  |  |  |  | noun | 
+| resource |  |  |  |  | noun | 
+| respondent |  |  |  |  | noun | 
+| response |  |  |  |  | noun | 
+| responsibility |  |  |  |  | noun | 
+| restriction |  |  |  |  | noun | 
+| retirement |  |  |  |  | noun | 
+| review |  |  |  |  | noun | 
+| revolution |  |  |  |  | noun | 
+| risk |  |  |  |  | noun | 
+| root |  |  |  |  | noun | 
+| round |  |  |  |  | noun | 
+| route |  |  |  |  | noun | 
+| routine |  |  |  |  | noun | 
+| row |  |  |  |  | noun | 
+| rule |  |  |  |  | noun | 
+| safety |  |  |  |  | noun | 
+| sake |  |  |  |  | noun | 
+| sales |  |  |  |  | noun | 
+| sample |  |  |  |  | noun | 
+| sanction |  |  |  |  | noun | 
+| satisfaction |  |  |  |  | noun | 
+| saving |  |  |  |  | noun | 
+| scale |  |  |  |  | noun | 
+| scenario |  |  |  |  | noun | 
+| scene |  |  |  |  | noun | 
+| schedule |  |  |  |  | noun | 
+| scheme |  |  |  |  | noun | 
+| scholar |  |  |  |  | noun | 
+| scholarship |  |  |  |  | noun | 
+| science |  |  |  |  | noun | 
+| scope |  |  |  |  | noun | 
+| score |  |  |  |  | noun | 
+| script |  |  |  |  | noun | 
+| season |  |  |  |  | noun | 
+| secretary |  |  |  |  | noun | 
+| section |  |  |  |  | noun | 
+| security |  |  |  |  | noun | 
+| segment |  |  |  |  | noun | 
+| selection |  |  |  |  | noun | 
+| Senate |  |  |  |  | noun | 
+| sequence |  |  |  |  | noun | 
+| series |  |  |  |  | noun | 
+| service |  |  |  |  | noun | 
+| session |  |  |  |  | noun | 
+| setting |  |  |  |  | noun | 
+| settlement |  |  |  |  | noun | 
+| shade |  |  |  |  | noun | 
+| shape |  |  |  |  | noun | 
+| shooting |  |  |  |  | noun | 
+| shopping |  |  |  |  | noun | 
+| side |  |  |  |  | noun | 
+| significance |  |  |  |  | noun | 
+| sir |  |  |  |  | noun | 
+| size |  |  |  |  | noun | 
+| ski |  |  |  |  | noun | 
+| slice |  |  |  |  | noun | 
+| solution |  |  |  |  | noun | 
+| sort |  |  |  |  | noun | 
+| source |  |  |  |  | noun | 
+| species |  |  |  |  | noun | 
+| speed |  |  |  |  | noun | 
+| spending |  |  |  |  | noun | 
+| spokesman |  |  |  |  | noun | 
+| square |  |  |  |  | noun | 
+| stability |  |  |  |  | noun | 
+| stake |  |  |  |  | noun | 
+| standard |  |  |  |  | noun | 
+| standing |  |  |  |  | noun | 
+| state |  |  |  |  | noun | 
+| statement |  |  |  |  | noun | 
+| statistics |  |  |  |  | noun | 
+| status |  |  |  |  | noun | 
+| step |  |  |  |  | noun | 
+| stock |  |  |  |  | noun | 
+| storage |  |  |  |  | noun | 
+| strategy |  |  |  |  | noun | 
+| strength |  |  |  |  | noun | 
+| stroke |  |  |  |  | noun | 
+| structure |  |  |  |  | noun | 
+| stuff | Thing |  |  |  | noun | 
+| style |  |  |  |  | noun | 
+| subject |  |  |  |  | noun | 
+| substance |  |  |  |  | noun | 
+| summit |  |  |  |  | noun | 
+| survey |  |  |  |  | noun | 
+| survival |  |  |  |  | noun | 
+| symbol |  |  |  |  | noun | 
+| talent |  |  |  |  | noun | 
+| taxpayer |  |  |  |  | noun | 
+| technique |  |  |  |  | noun | 
+| technology |  |  |  |  | noun | 
+| tendency |  |  |  |  | noun | 
+| term |  |  |  |  | noun | 
+| terrorism |  |  |  |  | noun | 
+| test |  |  |  |  | noun | 
+| testing |  |  |  |  | noun | 
+| theme |  |  |  |  | noun | 
+| thing | Thing |  |  |  | noun | 
+| thinking |  |  |  |  | noun | 
+| thousand |  |  |  |  | noun | 
+| tone |  |  |  |  | noun | 
+| tool |  |  |  |  | noun | 
+| top |  |  |  |  | noun | 
+| tour |  |  |  |  | noun | 
+| tradition |  |  |  |  | noun | 
+| tragedy |  |  |  |  | noun | 
+| transportation |  |  |  |  | noun | 
+| treaty |  |  |  |  | noun | 
+| union |  |  |  |  | noun | 
+| utility |  |  |  |  | noun | 
+| variety |  |  |  |  | noun | 
+| venture |  |  |  |  | noun | 
+| version |  |  |  |  | noun | 
+| vessel |  |  |  |  | noun | 
+| view |  |  |  |  | noun | 
+| viewer |  |  |  |  | noun | 
+| violence |  |  |  |  | noun | 
+| virtue |  |  |  |  | noun | 
+| volume |  |  |  |  | noun | 
+| wealth |  |  |  |  | noun | 
+| week |  |  |  |  | noun | 
+| weekend |  |  |  |  | noun | 
+| welfare |  |  |  |  | noun | 
+| wisdom |  |  |  |  | noun | 
+| works |  |  |  |  | noun | 
+| yard |  |  |  |  | noun | 
+| year |  |  |  |  | noun | 
+| billion |  |  |  |  | number | 
+| dozen |  |  |  |  | number | 
+| eight |  |  |  |  | number | 
+| fifteen |  |  |  |  | number | 
+| fifth |  |  |  |  | number | 
+| fifty |  |  |  |  | number | 
+| first |  |  |  |  | number | 
+| five |  |  |  |  | number | 
+| four |  |  |  |  | number | 
+| fourth |  |  |  |  | number | 
+| last |  |  |  |  | number | 
+| million |  |  |  |  | number | 
+| next |  |  |  |  | number | 
+| nine |  |  |  |  | number | 
+| one |  |  |  |  | number | 
+| second |  |  |  |  | number | 
+| seven |  |  |  |  | number | 
+| six |  |  |  |  | number | 
+| ten |  |  |  |  | number | 
+| third |  |  |  |  | number | 
+| thirty |  |  |  |  | number | 
+| three |  |  |  |  | number | 
+| twelve |  |  |  |  | number | 
+| twenty |  |  |  |  | number | 
+| two |  |  |  |  | number | 
+| about |  |  |  |  | preposition | 
+| above |  |  |  |  | preposition | 
+| according |  |  |  |  | preposition | 
+| across |  |  |  |  | preposition | 
+| addition |  |  |  |  | preposition | 
+| after |  |  |  |  | preposition | 
+| against |  |  |  |  | preposition | 
+| along |  |  |  |  | preposition | 
+| among |  |  |  |  | preposition | 
+| at |  |  |  |  | preposition | 
+| before |  |  |  |  | preposition | 
+| behind |  |  |  |  | preposition | 
+| beneath |  |  |  |  | preposition | 
+| beside |  |  |  |  | preposition | 
+| between |  |  |  |  | preposition | 
+| beyond |  |  |  |  | preposition | 
+| by |  |  |  |  | preposition | 
+| depending |  |  |  |  | preposition | 
+| despite |  |  |  |  | preposition | 
+| due |  |  |  |  | preposition | 
+| during |  |  |  |  | preposition | 
+| for |  |  |  |  | preposition | 
+| from |  |  |  |  | preposition | 
+| front |  |  |  |  | preposition | 
+| in |  |  |  |  | preposition | 
+| including |  |  |  |  | preposition | 
+| inside |  |  |  |  | preposition | 
+| into |  |  |  |  | preposition | 
+| like |  |  |  |  | preposition | 
+| of |  |  |  |  | preposition | 
+| on |  |  |  |  | preposition | 
+| onto |  |  |  |  | preposition | 
+| over |  |  |  |  | preposition | 
+| per |  |  |  |  | preposition | 
+| plus |  |  |  |  | preposition | 
+| prior |  |  |  |  | preposition | 
+| regarding |  |  |  |  | preposition | 
+| terms |  |  |  |  | preposition | 
+| through |  |  |  |  | preposition | 
+| throughout |  |  |  |  | preposition | 
+| toward |  |  |  |  | preposition | 
+| towards |  |  |  |  | preposition | 
+| under |  |  |  |  | preposition | 
+| unlike |  |  |  |  | preposition | 
+| upon |  |  |  |  | preposition | 
+| versus |  |  |  |  | preposition | 
+| via |  |  |  |  | preposition | 
+| vs |  |  |  |  | preposition | 
+| with |  |  |  |  | preposition | 
+| within |  |  |  |  | preposition | 
+| without |  |  |  |  | preposition | 
+| anything | Thing |  |  |  | pronoun | 
+| everything | Thing |  |  |  | pronoun | 
+| he |  |  |  |  | pronoun | 
+| herself |  |  |  |  | pronoun | 
+| him |  |  |  |  | pronoun | 
+| himself |  |  |  |  | pronoun | 
+| I |  |  |  |  | pronoun | 
+| it |  |  |  |  | pronoun | 
+| itself |  |  |  |  | pronoun | 
+| lots |  |  |  |  | pronoun | 
+| mine |  |  |  |  | pronoun | 
+| none | Thing |  |  |  | pronoun | 
+| nothing | Thing |  |  |  | pronoun | 
+| plenty |  |  |  |  | pronoun | 
+| she |  |  |  |  | pronoun | 
+| something | Thing |  |  |  | pronoun | 
+| them |  |  |  |  | pronoun | 
+| themselves |  |  |  |  | pronoun | 
+| they |  |  |  |  | pronoun | 
+| us |  |  |  |  | pronoun | 
+| we |  |  |  |  | pronoun | 
+| who |  |  |  |  | pronoun | 
+| whom |  |  |  |  | pronoun | 
+| you |  |  |  |  | pronoun | 
+| yours |  |  |  |  | pronoun | 
+| yourself |  |  |  |  | pronoun | 
+| abandon |  |  |  |  | verb | 
+| absorb |  |  |  |  | verb | 
+| accept |  |  |  |  | verb | 
+| accompany |  |  |  |  | verb | 
+| accomplish |  |  |  |  | verb | 
+| accuse |  |  |  |  | verb | 
+| achieve |  |  |  |  | verb | 
+| acknowledge |  |  |  |  | verb | 
+| acquire |  |  |  |  | verb | 
+| adapt |  |  |  |  | verb | 
+| add |  |  |  |  | verb | 
+| adjust |  |  |  |  | verb | 
+| admire |  |  |  |  | verb | 
+| admit |  |  |  |  | verb | 
+| adopt |  |  |  |  | verb | 
+| advise |  |  |  |  | verb | 
+| affect |  |  |  |  | verb | 
+| afford |  |  |  |  | verb | 
+| agree |  |  |  |  | verb | 
+| aim |  |  |  |  | verb | 
+| allow |  |  |  |  | verb | 
+| alter |  |  |  |  | verb | 
+| analyze |  |  |  |  | verb | 
+| announce |  |  |  |  | verb | 
+| anticipate |  |  |  |  | verb | 
+| appear |  |  |  |  | verb | 
+| apply |  |  |  |  | verb | 
+| appoint |  |  |  |  | verb | 
+| appreciate |  |  |  |  | verb | 
+| approve |  |  |  |  | verb | 
+| argue |  |  |  |  | verb | 
+| arise |  |  |  |  | verb | 
+| arrange |  |  |  |  | verb | 
+| arrest |  |  |  |  | verb | 
+| arrive |  |  |  |  | verb | 
+| ask |  |  |  |  | verb | 
+| assert |  |  |  |  | verb | 
+| assess |  |  |  |  | verb | 
+| assign |  |  |  |  | verb | 
+| assist |  |  |  |  | verb | 
+| associate |  |  |  |  | verb | 
+| assume |  |  |  |  | verb | 
+| assure |  |  |  |  | verb | 
+| attach |  |  |  |  | verb | 
+| attend |  |  |  |  | verb | 
+| attract |  |  |  |  | verb | 
+| attribute |  |  |  |  | verb | 
+| avoid |  |  |  |  | verb | 
+| ban |  |  |  |  | verb | 
+| base |  |  |  |  | verb | 
+| be |  |  |  |  | verb | 
+| beat |  |  |  |  | verb | 
+| become |  |  |  |  | verb | 
+| begin |  |  |  |  | verb | 
+| believe |  |  |  |  | verb | 
+| belong |  |  |  |  | verb | 
+| bend |  |  |  |  | verb | 
+| bind |  |  |  |  | verb | 
+| blow |  |  |  |  | verb | 
+| born |  |  |  |  | verb | 
+| borrow |  |  |  |  | verb | 
+| bother |  |  |  |  | verb | 
+| bring |  |  |  |  | verb | 
+| cast |  |  |  |  | verb | 
+| characterize |  |  |  |  | verb | 
+| choose |  |  |  |  | verb | 
+| cite |  |  |  |  | verb | 
+| combine |  |  |  |  | verb | 
+| compete |  |  |  |  | verb | 
+| compose |  |  |  |  | verb | 
+| concentrate |  |  |  |  | verb | 
+| conclude |  |  |  |  | verb | 
+| conduct |  |  |  |  | verb | 
+| confirm |  |  |  |  | verb | 
+| confront |  |  |  |  | verb | 
+| consist |  |  |  |  | verb | 
+| constitute |  |  |  |  | verb | 
+| construct |  |  |  |  | verb | 
+| consume |  |  |  |  | verb | 
+| continue |  |  |  |  | verb | 
+| contribute |  |  |  |  | verb | 
+| convert |  |  |  |  | verb | 
+| cope |  |  |  |  | verb | 
+| could |  |  |  |  | verb | 
+| count |  |  |  |  | verb | 
+| cover |  |  |  |  | verb | 
+| crack |  |  |  |  | verb | 
+| criticize |  |  |  |  | verb | 
+| cross |  |  |  |  | verb | 
+| declare |  |  |  |  | verb | 
+| decline |  |  |  |  | verb | 
+| decrease |  |  |  |  | verb | 
+| demonstrate |  |  |  |  | verb | 
+| depend |  |  |  |  | verb | 
+| depict |  |  |  |  | verb | 
+| derive |  |  |  |  | verb | 
+| detect |  |  |  |  | verb | 
+| determine |  |  |  |  | verb | 
+| develop |  |  |  |  | verb | 
+| devote |  |  |  |  | verb | 
+| differ |  |  |  |  | verb | 
+| dismiss |  |  |  |  | verb | 
+| distinguish |  |  |  |  | verb | 
+| distribute |  |  |  |  | verb | 
+| divide |  |  |  |  | verb | 
+| do |  |  |  |  | verb | 
+| dominate |  |  |  |  | verb | 
+| drag |  |  |  |  | verb | 
+| ease |  |  |  |  | verb | 
+| educate |  |  |  |  | verb | 
+| eliminate |  |  |  |  | verb | 
+| embrace |  |  |  |  | verb | 
+| emerge |  |  |  |  | verb | 
+| emphasize |  |  |  |  | verb | 
+| engage |  |  |  |  | verb | 
+| enhance |  |  |  |  | verb | 
+| ensure |  |  |  |  | verb | 
+| establish |  |  |  |  | verb | 
+| estimate |  |  |  |  | verb | 
+| evolve |  |  |  |  | verb | 
+| exceed |  |  |  |  | verb | 
+| exhibit |  |  |  |  | verb | 
+| exist |  |  |  |  | verb | 
+| expand |  |  |  |  | verb | 
+| explode |  |  |  |  | verb | 
+| expose |  |  |  |  | verb | 
+| express |  |  |  |  | verb | 
+| extend |  |  |  |  | verb | 
+| fade |  |  |  |  | verb | 
+| fail |  |  |  |  | verb | 
+| fall |  |  |  |  | verb | 
+| finish |  |  |  |  | verb | 
+| fit |  |  |  |  | verb | 
+| float |  |  |  |  | verb | 
+| focus |  |  |  |  | verb | 
+| forget |  |  |  |  | verb | 
+| found |  |  |  |  | verb | 
+| freeze |  |  |  |  | verb | 
+| gain |  |  |  |  | verb | 
+| generate |  |  |  |  | verb | 
+| glance |  |  |  |  | verb | 
+| grow |  |  |  |  | verb | 
+| guarantee |  |  |  |  | verb | 
+| guess |  |  |  |  | verb | 
+| happen |  |  |  |  | verb | 
+| have |  |  |  |  | verb | 
+| highlight |  |  |  |  | verb | 
+| illustrate |  |  |  |  | verb | 
+| implement |  |  |  |  | verb | 
+| include |  |  |  |  | verb | 
+| incorporate |  |  |  |  | verb | 
+| inform |  |  |  |  | verb | 
+| inspire |  |  |  |  | verb | 
+| interpret |  |  |  |  | verb | 
+| involve |  |  |  |  | verb | 
+| justify |  |  |  |  | verb | 
+| know |  |  |  |  | verb | 
+| lead |  |  |  |  | verb | 
+| lean |  |  |  |  | verb | 
+| let |  |  |  |  | verb | 
+| limit |  |  |  |  | verb | 
+| load |  |  |  |  | verb | 
+| locate |  |  |  |  | verb | 
+| lose |  |  |  |  | verb | 
+| lower |  |  |  |  | verb | 
+| maintain |  |  |  |  | verb | 
+| manage |  |  |  |  | verb | 
+| mark |  |  |  |  | verb | 
+| mean |  |  |  |  | verb | 
+| mention |  |  |  |  | verb | 
+| miss |  |  |  |  | verb | 
+| mix |  |  |  |  | verb | 
+| occupy |  |  |  |  | verb | 
+| occur |  |  |  |  | verb | 
+| operate |  |  |  |  | verb | 
+| oppose |  |  |  |  | verb | 
+| organize |  |  |  |  | verb | 
+| ought |  |  |  |  | verb | 
+| overlook |  |  |  |  | verb | 
+| pack |  |  |  |  | verb | 
+| pause |  |  |  |  | verb | 
+| persuade |  |  |  |  | verb | 
+| pop |  |  |  |  | verb | 
+| pour |  |  |  |  | verb | 
+| prefer |  |  |  |  | verb | 
+| preserve |  |  |  |  | verb | 
+| prevent |  |  |  |  | verb | 
+| promote |  |  |  |  | verb | 
+| prompt |  |  |  |  | verb | 
+| realize |  |  |  |  | verb | 
+| recall |  |  |  |  | verb | 
+| refer |  |  |  |  | verb | 
+| reflect |  |  |  |  | verb | 
+| regard |  |  |  |  | verb | 
+| rely |  |  |  |  | verb | 
+| resemble |  |  |  |  | verb | 
+| resolve |  |  |  |  | verb | 
+| respond |  |  |  |  | verb | 
+| restore |  |  |  |  | verb | 
+| retain |  |  |  |  | verb | 
+| retire |  |  |  |  | verb | 
+| rid |  |  |  |  | verb | 
+| rise |  |  |  |  | verb | 
+| roll |  |  |  |  | verb | 
+| rub |  |  |  |  | verb | 
+| satisfy |  |  |  |  | verb | 
+| secure |  |  |  |  | verb | 
+| seek |  |  |  |  | verb | 
+| seize |  |  |  |  | verb | 
+| select |  |  |  |  | verb | 
+| sell |  |  |  |  | verb | 
+| serve |  |  |  |  | verb | 
+| shall |  |  |  |  | verb | 
+| shift |  |  |  |  | verb | 
+| should |  |  |  |  | verb | 
+| shrug |  |  |  |  | verb | 
+| sigh |  |  |  |  | verb | 
+| slide |  |  |  |  | verb | 
+| slip |  |  |  |  | verb | 
+| snap |  |  |  |  | verb | 
+| solve |  |  |  |  | verb | 
+| squeeze |  |  |  |  | verb | 
+| strengthen |  |  |  |  | verb | 
+| sustain |  |  |  |  | verb | 
+| sweep |  |  |  |  | verb | 
+| swing |  |  |  |  | verb | 
+| thank |  |  |  |  | verb | 
+| undergo |  |  |  |  | verb | 
+| weigh |  |  |  |  | verb | 
+| wonder |  |  |  |  | verb | 
+| would |  |  |  |  | verb | 
