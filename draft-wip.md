@@ -850,7 +850,6 @@
 | pile | Thing | Object | Inanimate |  | noun | 
 | shelf | Thing | Object | Inanimate |  | noun | 
 | grocery | Thing | Object | Inanimate |  | noun | 
-#REF!
 | pipe | Thing | Object | Inanimate |  | noun | 
 | tire | Thing | Object | Inanimate |  | verb | 
 | makeup | Thing | Object | Inanimate |  | noun | 
@@ -1606,229 +1605,84 @@
 | distinct | Thing | Abstract | State | Inherent | adjective | 
 | collective | Thing | Abstract | State | Inherent | adjective | 
 | considerable | Thing | Abstract | State | Inherent | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
 | athletic | Thing | Abstract | State | Inherent | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
 | changing | Thing | Abstract | State | Inherent | adjective | 
-#REF!
-#REF!
 | sacred | Thing | Abstract | State | Inherent | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
 | widespread | Thing | Abstract | State | Inherent | adjective | 
-#REF!
-#REF!
 | concrete | Thing | Abstract | State | Inherent | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
 | continued | Thing | Abstract | State | Inherent | adjective | 
-#REF!
 | agricultural | Thing | Abstract | State | Inherent | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
 | adequate | Thing | Abstract | State | Inherent | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
 | artistic | Thing | Abstract | State | Inherent | adjective | 
-#REF!
 | greatest | Thing | Abstract | State | Inherent | - | 
-#REF!
-#REF!
 | true | Thing | Abstract | State | Inherent | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
 | cancer | Thing | Abstract | State | Medical | noun | 
 | healthy | Thing | Abstract | State | Medical | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
 | sick | Thing | Abstract | State | Medical | adjective | 
 | ill | Thing | Abstract | State | Medical | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
 | old | Thing | Abstract | State | Permanent | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
 | dead | Thing | Abstract | State | Permanent | adjective | 
-#REF!
 | successful | Thing | Abstract | State | Permanent | adjective | 
-#REF!
-#REF!
 | complete | Thing | Abstract | State | Permanent | verb | 
-#REF!
 | proud | Thing | Abstract | State | Permanent | adjective | 
-#REF!
 | permanent | Thing | Abstract | State | Permanent | adjective | 
-#REF!
-#REF!
-#REF!
 | well | Thing | Abstract | State | Temporary | adverb | 
 | new | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
 | still | Thing | Abstract | State | Temporary | adverb | 
-#REF!
-#REF!
 | great | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
 | big | Thing | Abstract | State | Temporary | adjective | 
-#REF!
 | own | Thing | Abstract | State | Temporary | determiner | 
 | high | Thing | Abstract | State | Temporary | adjective | 
-#REF!
 | sure | Thing | Abstract | State | Temporary | adjective | 
 | small | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
 | long | Thing | Abstract | State | Temporary | adverb | 
 | young | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
 | okay | Thing | Abstract | State | Temporary | adverb | 
-#REF!
 | important | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
 | able | Thing | Abstract | State | Temporary | adjective | 
 | low | Thing | Abstract | State | Temporary | adjective | 
 | hard | Thing | Abstract | State | Temporary | adjective | 
 | possible | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
 | full | Thing | Abstract | State | Temporary | adjective | 
-#REF!
 | value | Thing | Abstract | State | Temporary | noun | 
 | strong | Thing | Abstract | State | Temporary | adjective | 
 | pretty | Thing | Abstract | State | Temporary | adverb | 
-#REF!
-#REF!
 | clear | Thing | Abstract | State | Temporary | adjective | 
 | recent | Thing | Abstract | State | Temporary | adjective | 
 | available | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
 | ready | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
 | single | Thing | Abstract | State | Temporary | adjective | 
 | short | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
 | poor | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
-#REF!
 | hot | Thing | Abstract | State | Temporary | adjective | 
 | interesting | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
-#REF!
 | supposed | Thing | Abstract | State | Temporary | adjective | 
 | necessary | Thing | Abstract | State | Temporary | adjective | 
 | positive | Thing | Abstract | State | Temporary | adjective | 
 | fast | Thing | Abstract | State | Temporary | adverb | 
 | rich | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
 | normal | Thing | Abstract | State | Temporary | adjective | 
 | effective | Thing | Abstract | State | Temporary | adjective | 
-#REF!
 | afraid | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
 | interested | Thing | Abstract | State | Temporary | adjective | 
 | fresh | Thing | Abstract | State | Temporary | adjective | 
-#REF!
 | critical | Thing | Abstract | State | Temporary | adjective | 
 | concerned | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
 | online | Thing | Abstract | State | Temporary | adjective | 
-#REF!
 | warm | Thing | Abstract | State | Temporary | adjective | 
 | clean | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
 | tiny | Thing | Abstract | State | Temporary | adjective | 
 | quiet | Thing | Abstract | State | Temporary | adjective | 
-#REF!
 | active | Thing | Abstract | State | Temporary | adjective | 
-#REF!
 | married | Thing | Abstract | State | Temporary | adjective | 
 | emergency | Thing | Abstract | State | Temporary | noun | 
 | famous | Thing | Abstract | State | Temporary | adjective | 
 | slow | Thing | Abstract | State | Temporary | adjective | 
 | busy | Thing | Abstract | State | Temporary | adjective | 
-#REF!
 | empty | Thing | Abstract | State | Temporary | adjective | 
 | careful | Thing | Abstract | State | Temporary | adjective | 
 | dry | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
 | fat | Thing | Abstract | State | Temporary | noun | 
-#REF!
 | consistent | Thing | Abstract | State | Temporary | adjective | 
 | pregnant | Thing | Abstract | State | Temporary | adjective | 
 | unable | Thing | Abstract | State | Temporary | adjective | 
@@ -1838,24 +1692,11 @@
 | silent | Thing | Abstract | State | Temporary | adjective | 
 | constant | Thing | Abstract | State | Temporary | adjective | 
 | dirty | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
-#REF!
 | tension | Thing | Abstract | State | Temporary | noun | 
 | complicated | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
 | blind | Thing | Abstract | State | Temporary | adjective | 
 | broken | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
-#REF!
 | visible | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
 | intense | Thing | Abstract | State | Temporary | adjective | 
 | wet | Thing | Abstract | State | Temporary | adjective | 
 | raw | Thing | Abstract | State | Temporary | adjective | 
@@ -1864,12 +1705,9 @@
 | wealthy | Thing | Abstract | State | Temporary | adjective | 
 | confident | Thing | Abstract | State | Temporary | adjective | 
 | armed | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
 | ugly | Thing | Abstract | State | Temporary | adjective | 
 | asleep | Thing | Abstract | State | Temporary | adjective | 
 | stable | Thing | Abstract | State | Temporary | adjective | 
-#REF!
 | efficient | Thing | Abstract | State | Temporary | adjective | 
 | naked | Thing | Abstract | State | Temporary | adjective | 
 | sufficient | Thing | Abstract | State | Temporary | adjective | 
@@ -1879,23 +1717,15 @@
 | rapid | Thing | Abstract | State | Temporary | adjective | 
 | homeless | Thing | Abstract | State | Temporary | adjective | 
 | dominant | Thing | Abstract | State | Temporary | adjective | 
-#REF!
-#REF!
 | eager | Thing | Abstract | State | Temporary | adjective | 
 | closer | Thing | Abstract | State | Temporary | - | 
-#REF!
 | all | Thing |  |  |  | determiner | 
 | thing | Thing |  |  |  | noun | 
 | something | Thing |  |  |  | pronoun | 
-#REF!
-#REF!
 | part | Thing |  |  |  | noun | 
 | anything | Thing |  |  |  | pronoun | 
 | nothing | Thing |  |  |  | pronoun | 
 | everything | Thing |  |  |  | pronoun | 
-#REF!
-#REF!
-#REF!
 | member | Thing |  |  |  | noun | 
 | piece | Thing |  |  |  | noun | 
 | whatever | Thing |  |  |  | determiner | 
@@ -2196,7 +2026,6 @@
 | favorite |  |  |  |  | adjective | 
 | independent |  |  |  |  | adjective | 
 | volume |  |  |  |  | noun | 
-#REF!
 | lots |  |  |  |  | pronoun | 
 | speed |  |  |  |  | noun | 
 | aware |  |  |  |  | adjective | 
@@ -2314,7 +2143,6 @@
 | lean |  |  |  |  | verb | 
 | used |  |  |  |  | adjective | 
 | minority |  |  |  |  | noun | 
-#REF!
 | Soviet |  |  |  |  | adjective | 
 | gender |  |  |  |  | noun | 
 | declare |  |  |  |  | verb | 
@@ -2329,7 +2157,6 @@
 | component |  |  |  |  | noun | 
 | Jewish |  |  |  |  | adjective | 
 | yours |  |  |  |  | pronoun | 
-#REF!
 | mark |  |  |  |  | verb | 
 | significantly |  |  |  |  | adverb | 
 | largely |  |  |  |  | adverb | 
