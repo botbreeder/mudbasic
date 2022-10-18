@@ -71,7 +71,7 @@ The reference syntax is actually a selection.
 
 Back in the days, renumbering was tedious and error prone. With the UI we have today, renumbering can be as simple as a select-and-drag gesture. Or you could select and manually choose the start and step for the new numbers. Everything gets updated right away, just like a spreadsheet when you move a range of cells around.
 
-
+However, very large programs wouldn't be easy to manipulate as monoblocks, so I think this approach works best for small connected chunks.
 
 
 
