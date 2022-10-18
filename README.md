@@ -42,32 +42,31 @@ Here is a dumb example, Jackie the cat and her human pet Jane.
 
 ```
 10 "Jackie"
-20 (10) is a cat
-30 the color of (10) is mostly white
-40 (10) is fat and lazy
+20 [10] is a cat
+30 the color of [10] is mostly white
+40 [10] is fat and lazy
 
 110 "Jane"
-120 (110) is a woman
-130 (110) belongs to (10)
+120 [110] is a woman
+130 [110] belongs to [10]
 ```
 
-Lines with a single double quoted string are identifiers.
-
-Of course we could allow `"Jane"` instead of `(110)` inside of placeholders, but then we'd have to come up with an id for each and every entity we have to deal with. More importantly, we'll sometimes need to say things about statements themselves. For instance:
+Of course we could allow `"Jane"` instead of `[110]` inside of placeholders, but then we'd have to come up with an id for each and every entity we have to deal with. More importantly, we'll sometimes need to say things about statements themselves. For instance:
 
 ```
+140 [130] is false
 210 "Joe"
-220 (210) believes that (130) is true
+220 [210] believes that [130] is true
 ```
 
 Since statements are numbered, we can use as many `Jane` as we need without worrying about conflicts or naming issues.
 
 The reference syntax is actually a selection.
 
-- `(110)` means: only the statement 110,
-- `(110-130)` means: statements from 110 to 130 included,
-- `(10, 110, 210)` means: the statements 10, 110 and 210,
-- `(10, 110-130, 210)` means: the 10, all from 110 to 130, and the 210.
+- `[110]` means: only the statement 110,
+- `[110-130]` means: statements from 110 to 130 included,
+- `[10, 110, 210]` means: the statements 10, 110 and 210,
+- `[10, 110-130, 210]` means: the 10, all from 110 to 130, and the 210.
 
 Back in the days, renumbering was tedious and error prone. With the UI we have today, renumbering can be as simple as a select-and-drag gesture. Or you could select and manually choose the start and step for the new numbers. Everything gets updated right away, just like a spreadsheet when you move a range of cells around.
 
