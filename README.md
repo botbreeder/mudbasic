@@ -22,11 +22,10 @@ But it's not enough. If an agent witnesses a situation at high-level, and this s
 
 Here is a low details description of a typical citizen life.
 
-- Birth and death,
-- Ages: child, young, adult, mature, old,
-- Having friends,
+- Birth, age, death,
 - Parents, children,
-- Living in a house / flat,
+- Friends,
+- Home: house / flat, pets,
 - Job / vacation,
 - Spare time, week-ends: hobby, sport, art,
 - shopping, groceries.
