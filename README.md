@@ -53,7 +53,7 @@ Here is a dumb example, Jackie the cat and her human pet Jane.
 
 Lines with a single double quoted string are identifiers.
 
-Of course we could allow `"Jane"` instead of `(110)` inside of placeholders, but then we'd have to come up with an id for each and every entity or statement we have to deal with. More importantly, we'll sometimes need to say things about statements themselves. For instance:
+Of course we could allow `"Jane"` instead of `(110)` inside of placeholders, but then we'd have to come up with an id for each and every entity we have to deal with. More importantly, we'll sometimes need to say things about statements themselves. For instance:
 
 ```
 210 "Joe"
@@ -73,7 +73,7 @@ Back in the days, renumbering was tedious and error prone. With the UI we have t
 
 However, very large programs wouldn't be easy to manipulate as monoblocks, so I think this approach works best for small connected chunks.
 
-
+## The ECS architecture
 
 
 
