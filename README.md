@@ -27,12 +27,36 @@ Here is a low details description of a typical citizen life.
 - Friends,
 - Home: house / flat, pets,
 - Job / vacation,
-- Spare time, week-ends: hobby, sport, art,
+- Spare time, week-ends: hobby, sport, art, social,
 - shopping, groceries.
 
+## Unstructured BASIC and the entities
 
+Yup, good old BASIC. With line numbers. Why?
 
+Defining all of these things takes a lot of abstraction, and I don't think we can do it without natural language. Concurrently, true natural language is full of ambiguities and special cases, so not exactly the right tool for the job.
 
+The approach taken here is that of a controlled language, made of statements that look like natural language sentences, with placeholders. These statements are numbered, and the placeholders they have can hold references to other statements.
+
+Here is a dumb example, Jackie the cat and her human pet Jane.
+
+```
+10 Jackie
+20 (10) is a cat
+30 the color of (10) is mostly white
+40 (10) is fat and lazy
+
+110 Jane
+120 (110) is a woman
+130 (110) belongs to (10)
+```
+
+Of course we could use `Jane` instead of `(110)` inside of placeholders, but then we'd have to come up with an id for each and every entity we have to deal with. More importantly, we might need to say things about statements themselves. For instance:
+
+```
+210 Joe
+220 (210) believes that (130) is true
+```
 
 
 
