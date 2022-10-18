@@ -30,6 +30,8 @@ Here is a low details description of a typical citizen life.
 - Spare time, week-ends: hobby, sport, art, social,
 - shopping, groceries.
 
+_**Mandatory disclaimer**. This is not life. I am perfectly aware that this is an arrogant, western-centric, stupid description of the grotesque and unsustainably selfish "way of life" of a few lucky people who live in the wealthiest countries (and who keep buying new cars to save the planet). Please accept my deepest apologies: this is the world AI will pop-up in._
+
 ## Unstructured BASIC and the entities
 
 Yup, good old BASIC. With line numbers. Why?
