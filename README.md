@@ -51,7 +51,9 @@ Here is a dumb example, Jackie the cat and her human pet Jane.
 130 (110) belongs to (10)
 ```
 
-Of course we could use `Jane` instead of `(110)` inside of placeholders, but then we'd have to come up with an id for each and every entity we have to deal with. More importantly, we might need to say things about statements themselves. For instance:
+Lines with a single double quoted string are identifiers.
+
+Of course we could use `"Jane"` instead of `(110)` inside of placeholders, but then we'd have to come up with an id for each and every entity and statement we have to deal with. More importantly, we'll sometimes need to say things about statements themselves. For instance:
 
 ```
 210 "Joe"
