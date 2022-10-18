@@ -41,12 +41,12 @@ The approach taken here is that of a controlled language, made of statements tha
 Here is a dumb example, Jackie the cat and her human pet Jane.
 
 ```
-10 Jackie
+10 "Jackie"
 20 (10) is a cat
 30 the color of (10) is mostly white
 40 (10) is fat and lazy
 
-110 Jane
+110 "Jane"
 120 (110) is a woman
 130 (110) belongs to (10)
 ```
@@ -54,10 +54,18 @@ Here is a dumb example, Jackie the cat and her human pet Jane.
 Of course we could use `Jane` instead of `(110)` inside of placeholders, but then we'd have to come up with an id for each and every entity we have to deal with. More importantly, we might need to say things about statements themselves. For instance:
 
 ```
-210 Joe
+210 "Joe"
 220 (210) believes that (130) is true
 ```
 
+Since statements are numbered, we can use as many `Jane` as we need without worrying about conflicts or naming issues.
+
+The reference syntax is actually a selection.
+
+- `(110)` means: only the statement 110,
+- `(110-130)` means: statements from 110 to 130 included,
+- `(10, 110, 210)` means: the statements 10, 110 and 210,
+- `(10, 110-130, 210)` means: the 10, all from 110 to 130, and the 210.
 
 
 
