@@ -54,9 +54,8 @@ Here is a dumb example, Jackie the cat and her human pet Jane.
 Of course we could allow `"Jane"` instead of `[110]` inside of placeholders, but then we'd have to come up with an id for each and every entity we have to deal with. More importantly, we'll sometimes need to say things about statements themselves. For instance:
 
 ```
-140 [130] is false
-210 "Joe"
-220 [210] believes that [130] is true
+50 [10] believes that [130] is true
+140 [130] is actually false
 ```
 
 Since statements are numbered, we can use as many `Jane` as we need without worrying about conflicts or naming issues.
