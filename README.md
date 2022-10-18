@@ -69,7 +69,7 @@ The reference syntax is actually a selection.
 - `(10, 110, 210)` means: the statements 10, 110 and 210,
 - `(10, 110-130, 210)` means: the 10, all from 110 to 130, and the 210.
 
-
+Back in the days, renumbering was tedious and error prone. With the UI we have today, renumbering can be as simple as a select-and-drag gesture. Or you could select and manually choose the start and step for the new numbers. Everything gets updated right away, just like a spreadsheet when you move a range of cells around.
 
 
 
