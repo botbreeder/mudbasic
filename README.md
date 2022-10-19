@@ -58,7 +58,7 @@ Sometimes we need to say things about statements themselves. For instance:
 140 130 is actually false
 ```
 
-Very large programs wouldn't be easy to manipulate as monolithic blocks, but it works fine for small connected chunks.
+Very large programs wouldn't be easy to manipulate as monolithic blocks, but the line-numbering thing works fine for small connected chunks.
 
 ## Narratives as reusable blocks
 
