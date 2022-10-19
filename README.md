@@ -30,13 +30,13 @@ Here is a low details description of a typical western-style citizen life.
 - Spare time, week-ends: hobby, sport, art, social,
 - shopping, groceries.
 
-## Unstructured BASIC and the entities
+## Unstructured BASIC
 
 Yup, good old BASIC. With line numbers. Why?
 
 Defining all of these things takes a lot of abstraction, and I don't think we can do it without natural language. Concurrently, true natural language is full of ambiguities and special cases, so not exactly the right tool for the job.
 
-The approach taken here is that of a controlled language, made of statements that look like natural language sentences, with placeholders. These statements are numbered, and the placeholders they have can hold references to other statements.
+The approach taken here is that of a controlled language, made of statements that look like natural language sentences, with placeholders. These statements are identified by numbers or identifiers, and they have placeholders that can hold references to other statements.
 
 Here is a dumb example, Jackie the cat and her human pet Jane.
 
@@ -51,14 +51,12 @@ Here is a dumb example, Jackie the cat and her human pet Jane.
 130 [110] belongs to [10]
 ```
 
-Of course we could allow `"Jane"` instead of `[110]` inside of placeholders, but then we'd have to come up with an id for each and every entity we have to deal with. More importantly, we'll sometimes need to say things about statements themselves. For instance:
+Sometimes we need to say things about statements themselves. For instance:
 
 ```
 50 [10] believes that [130] is true
 140 [130] is actually false
 ```
-
-Since statements are numbered, we can use as many `Jane` as we need without worrying about conflicts or naming issues.
 
 The reference syntax is actually a selection.
 
@@ -67,11 +65,21 @@ The reference syntax is actually a selection.
 - `[10, 110, 210]` means: the statements 10, 110 and 210,
 - `[10, 110-130, 210]` means: the 10, all from 110 to 130, and the 210.
 
-Back in the days, renumbering was tedious and error prone. With the UI we have today, renumbering can be as simple as a select-and-drag gesture. Or you could select and manually choose the start and step for the new numbers. Everything gets updated right away, just like a spreadsheet when you move a range of cells around.
+Very large programs wouldn't be easy to manipulate as monolithic blocks, but it works fine for small connected chunks.
 
-However, very large programs wouldn't be easy to manipulate as monoblocks, so I think this approach works best for small connected chunks.
+## Narratives as reusable blocks
 
-## The ECS architecture
+A block of declarative code can be packaged like a function. Let's call these blocks _narratives_.
+
+```
+= [10] is a cat
+100 [10] is an animal
+110 [10] has fur
+120 the size of [10] is small
+```
+
+A narrative is a user-defined statement. The first line is the header of the narrative. It declares the syntax of the statement being defined. In this example, `[10]` represents the identity the narrative is assigned to. It's like the argument of a function.
+
 
 
 
