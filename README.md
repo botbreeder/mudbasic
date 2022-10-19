@@ -76,5 +76,39 @@ A narrative is a user-defined statement. The first line is the header of the nar
 
 `0` represents the statement being defined itself (the header of the narrative).
 
+### Defining archetypes
+
+Archetypes are prototypes with a different name because heck, we're not doing OOP here.
+
+The cat would really be:
+
+```
+[a cat]
+
+110 0 is an animal
+120 0 has fur
+130 the size of 10 is small
+140 0 has (4) legs and a tail
+```
+
+Definition can be modified by the higher-level "caller". It goes like:
+
+```
+10 a cat
+20 the name of 10 is Jackie
+30 the color of 10 is mostly white
+40 10 is fat and lazy
+50 10 has (3) legs
+```
+
+Jackie has 3 legs instead of 4. The statement `50` locally overrides the statement `140` of `a cat`.
+
+
+
+
+
+
+
+
 
 
