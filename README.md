@@ -74,7 +74,7 @@ A block of declarative code can be packaged like a function. Let's call these bl
 
 A narrative is a user-defined statement. The first line is the header of the narrative. It declares the syntax of the statement being defined. In this example, `10` represents the thing the narrative is applied to. It's like the argument of a function.
 
-
+`0` represents the statement being defined itself (the header of the narrative).
 
 
 
