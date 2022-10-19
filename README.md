@@ -30,7 +30,7 @@ Here is a low details description of a typical western-style citizen life.
 - Spare time, week-ends: hobby, sport, art, social,
 - shopping, groceries.
 
-## Unstructured BASIC
+## Unstructured BASIC and the entities
 
 Yup, good old BASIC. With line numbers. Why?
 
@@ -41,29 +41,22 @@ The approach taken here is that of a controlled language, made of statements tha
 Here is a dumb example, Jackie the cat and her human pet Jane.
 
 ```
-10 "Jackie"
-20 [10] is a cat
-30 the color of [10] is mostly white
-40 [10] is fat and lazy
+10 a cat
+20 the name of 10 is Jackie
+30 the color of 10 is mostly white
+40 10 is fat and lazy
 
-110 "Jane"
-120 [110] is a woman
-130 [110] belongs to [10]
+110 a woman
+120 the name of 110 is Jane
+130 110 belongs to 10
 ```
 
 Sometimes we need to say things about statements themselves. For instance:
 
 ```
-50 [10] believes that [130] is true
-140 [130] is actually false
+50 10 believes that 130 is true
+140 130 is actually false
 ```
-
-The reference syntax is actually a selection.
-
-- `[110]` means: only the statement 110,
-- `[110-130]` means: statements from 110 to 130 included,
-- `[10, 110, 210]` means: the statements 10, 110 and 210,
-- `[10, 110-130, 210]` means: the 10, all from 110 to 130, and the 210.
 
 Very large programs wouldn't be easy to manipulate as monolithic blocks, but it works fine for small connected chunks.
 
@@ -72,13 +65,14 @@ Very large programs wouldn't be easy to manipulate as monolithic blocks, but it 
 A block of declarative code can be packaged like a function. Let's call these blocks _narratives_.
 
 ```
-= [10] is a cat
-100 [10] is an animal
-110 [10] has fur
-120 the size of [10] is small
+[10 is a cat]
+
+110 10 is an animal
+120 10 has fur
+130 the size of 10 is small
 ```
 
-A narrative is a user-defined statement. The first line is the header of the narrative. It declares the syntax of the statement being defined. In this example, `[10]` represents the identity the narrative is assigned to. It's like the argument of a function.
+A narrative is a user-defined statement. The first line is the header of the narrative. It declares the syntax of the statement being defined. In this example, `10` represents the thing the narrative is applied to. It's like the argument of a function.
 
 
 
