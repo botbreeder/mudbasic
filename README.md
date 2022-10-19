@@ -91,7 +91,7 @@ The cat would really be:
 140 0 has (4) legs and a tail
 ```
 
-Definition can be modified by the higher-level "caller". It goes like:
+Definitions can be modified by the higher-level "caller". It goes like:
 
 ```
 10 a cat
@@ -101,7 +101,7 @@ Definition can be modified by the higher-level "caller". It goes like:
 50 10 has (3) legs
 ```
 
-Jackie has 3 legs instead of 4. The statement `50` locally overrides the statement `140` of `a cat`.
+Jackie has 3 legs instead of 4, because the statement `50` locally overrides the statement `140` of `a cat`.
 
 
 
