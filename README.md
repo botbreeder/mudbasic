@@ -60,6 +60,15 @@ Sometimes we need to say things about statements themselves. For instance:
 
 Very large programs wouldn't be easy to manipulate as monolithic blocks, but the line-numbering thing works fine for small connected chunks.
 
+Since it's a modern unstructured BASIC, we'll pimp our line-numbers and allow several dot-separated numbers instead, like this:
+
+```
+10    a cat
+20.1  the name of 10 is Jackie
+20.2  the color of 10 is mostly white
+30    10 is fat and lazy
+```
+
 ## Narratives as reusable blocks
 
 A block of declarative code can be packaged like a function. Let's call these blocks _narratives_.
