@@ -12,7 +12,7 @@ One first design decision is: does the entire world runs full-scale 24/7, or doe
 
 - Low details level is only the minimum: where are things, is there anything terribly important happening, when does things begin and end, and that's about it.
 - Mid-level is about what's happening: who's involved (and what), what exactly is happening, but still not how (only a distant description).
-- High-level of details includes not only what's happening but also _how_ it's happening, and why, using ~[scenes/scripts](https://tinycog.sourceforge.net/wiki/Scene_Based_Reasoning) in [OpenDDL](http://openddl.org/)~ something.
+- High-level of details includes not only what's happening but also _how_ it's happening, and why, using [scenes/scripts](https://tinycog.sourceforge.net/wiki/Scene_Based_Reasoning).
 
 Having several LODs means that the system must be able to convert a situation from one LOD to another. Downgrading from high-level to low-level looks straightforward at first, it's just a matter of forgetting certain aspects of the situation. Upgrading from low to high, on the other hand, requires the system to have a schema of the corresponding "typical" situation at the higher level, so blanks can be filled in. Of course the schemas can include stochastic parameters.
 
