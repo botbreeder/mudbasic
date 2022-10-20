@@ -83,8 +83,6 @@ A block of declarative code can be packaged like a function. Let's call these bl
 
 A narrative is a user-defined statement. The first line is the header of the narrative. It declares the syntax of the statement being defined. In this example, `10` represents the thing the narrative is applied to. It's like the argument of a function.
 
-`0` represents the statement being defined itself (the header of the narrative).
-
 > _**Side-note**: As you can see, we're using the ancient INI file format here. I am well aware of modern solutions like [TOML](https://toml.io/en/) or [ENO](https://eno-lang.org/). I just happen to love archeology and vintageware._
 
 ### Defining archetypes
@@ -101,6 +99,8 @@ The cat would really be:
 130 = the size of 10 is small
 140 = 0 has (4) legs and a tail
 ```
+
+`0` represents the statement being defined itself (the header of the narrative).
 
 Definitions can be modified by the higher-level "caller". It goes like:
 
