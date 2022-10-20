@@ -88,7 +88,7 @@ A narrative is a user-defined statement. The first line is the header of the nar
 
 ## Defining archetypes
 
-Archetypes are prototypes with a different name because heck, we're not doing OOP here. An archetype is a narrative without parameters. An archetype is usually a type of things or, if you prefer, a typical thing of some kind. It can also be an individual.
+Archetypes are prototypes with a different name because heck, we're not doing OOP here. An archetype is a narrative without parameters. An archetype is usually a type of things or, if you prefer, a typical thing of some kind. It can also be an individual if instantiated only once.
 
 Keep it natural. The cat would really be:
 
@@ -112,7 +112,9 @@ Definitions can be modified by the higher-level "caller". It goes like:
 50 = 10 has (3) legs ; overriding the typical number of legs of a cat
 ```
 
-The statement `10` creates an instance of `a cat`. Jackie has 3 legs instead of 4, because the statement `50` locally overrides the statement `140` of `a cat`.
+The statement `10` creates an instance of `a cat`. Jackie has 3 legs instead of 4, because the statement `50` overrides the statement `140` of `a cat`.
+
+Local overriding also works on non-archetypal narratives (i.e. narratives with non-zero arity).
 
 ## Literal values & comments
 
