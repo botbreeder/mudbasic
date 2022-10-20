@@ -30,7 +30,7 @@ Here is a low details description of a typical western-style citizen life.
 - Spare time, week-ends: hobby, sport, art, social,
 - shopping, groceries.
 
-![BASIC](https://github.com/botbreeder/mudbasic/raw/main/basic-ready.png)
+![BASIC](https://github.com/botbreeder/mudbasic/raw/main/ready.png)
 
 ## Unstructured BASIC and the entities
 
