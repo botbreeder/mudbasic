@@ -102,7 +102,7 @@ Keep it natural. The cat would really be:
 140 = 0 has (4) legs and a tail
 ```
 
-`0` represents the statement being defined itself (the header of the narrative).
+`0` references the statement being defined itself (the header of the narrative).
 
 Definitions can be modified by the higher-level "caller". It goes like:
 
