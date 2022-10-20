@@ -105,18 +105,18 @@ Keep it natural. The cat would really be:
 Definitions can be modified by the higher-level "caller". It goes like:
 
 ```INI
-10 = a cat ; instance of a cat
+10 = a cat
 20 = the name of 10 is "Jackie"
 30 = the color of 10 is mostly white
 40 = 10 is fat and lazy
-50 = 10 has (3) legs
+50 = 10 has (3) legs ; overriding the typical number of legs of a cat
 ```
 
 The statement `10` creates an instance of `a cat`. Jackie has 3 legs instead of 4, because the statement `50` locally overrides the statement `140` of `a cat`.
 
 ## Literal values & comments
 
-While numbers usually make reference to a statement within the narrative, numbers between parentheses are understood as **literal numbers**, like the number of legs in the example above.
+While numbers are usually references to a statement within the narrative, numbers between parentheses are understood as **literal numbers**, like the number of legs in the example above.
 
 Texts between double quotes are understood as **literal strings**.
 
