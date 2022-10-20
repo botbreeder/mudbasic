@@ -86,7 +86,7 @@ A narrative is a user-defined statement. The first line is the header of the nar
 
 > _**Side-note**: As you can see, we're using the ancient INI file format here. I am well aware of modern solutions like [TOML](https://toml.io/en/) or [ENO](https://eno-lang.org/). I just happen to love archeology and vintageware._
 
-## Defining archetypes
+## Defining/using archetypes
 
 Archetypes are prototypes with a different name because heck, we're not doing OOP here. An archetype is a narrative without parameters. An archetype is usually a type of things or, if you prefer, a typical thing of some kind. It can also be an individual if instantiated only once.
 
