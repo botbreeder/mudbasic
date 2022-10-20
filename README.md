@@ -20,7 +20,7 @@ But it's not enough. If an agent witnesses a situation at high-level, and this s
 
 ## Low details level
 
-Here is a low details description of a typical western-style citizen life.
+Here is a low details description of a typical western-style citizen life differentiator.
 
 - Birth, age, death,
 - Parents, children,
@@ -36,7 +36,7 @@ Good old BASIC. With line numbers. Why?
 
 Defining all of these things takes a lot of abstraction, and I don't think we can do it without natural language. Concurrently, true natural language is full of ambiguities and special cases, so not exactly the right tool for the job.
 
-The approach taken here is that of a controlled language, made of statements that look like natural language sentences, with placeholders. These statements are identified by numbers or identifiers, and they have placeholders that can hold references to other statements.
+The approach taken here is that of a controlled language, made of statements that look like natural language sentences, with moving parts. These statements are identified by numbers, and they take arguments that can, among other things, be references to other statements.
 
 Here is a dumb example, Jackie the cat and her human pet Jane.
 
