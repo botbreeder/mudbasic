@@ -40,50 +40,52 @@ The approach taken here is that of a controlled language, made of statements tha
 
 Here is a dumb example, Jackie the cat and her human pet Jane.
 
-```
-10 a cat
-20 the name of 10 is Jackie
-30 the color of 10 is mostly white
-40 10 is fat and lazy
+```INI
+10 = a cat
+20 = the name of 10 is "Jackie"
+30 = the color of 10 is mostly white
+40 = 10 is fat and lazy
 
-110 a woman
-120 the name of 110 is Jane
-130 110 belongs to 10
+110 = a woman
+120 = the name of 110 is "Jane"
+130 = 110 belongs to 10
 ```
 
 Sometimes we need to say things about statements themselves. For instance:
 
-```
-50 10 believes that 130 is true
-140 130 is actually false
+```INI
+50 =  10 believes that 130 is true
+140 = 130 is actually false
 ```
 
 Very large programs wouldn't be easy to manipulate as monolithic blocks, but the line-numbering thing works fine for small connected chunks.
 
 Since it's a modern unstructured BASIC, we'll pimp our line-numbers and allow several dot-separated numbers instead, like this:
 
-```
-10    a cat
-20.1  the name of 10 is Jackie
-20.2  the color of 10 is mostly white
-30    10 is fat and lazy
+```INI
+10 =   a cat
+20.1 = the name of 10 is "Jackie"
+20.2 = the color of 10 is mostly white
+30 =   10 is fat and lazy
 ```
 
 ## Narratives as reusable blocks
 
 A block of declarative code can be packaged like a function. Let's call these blocks _narratives_.
 
-```
+```INI
 [10 is a cat]
 
-110 10 is an animal
-120 10 has fur
-130 the size of 10 is small
+110 = 10 is an animal
+120 = 10 has fur
+130 = the size of 10 is small
 ```
 
 A narrative is a user-defined statement. The first line is the header of the narrative. It declares the syntax of the statement being defined. In this example, `10` represents the thing the narrative is applied to. It's like the argument of a function.
 
 `0` represents the statement being defined itself (the header of the narrative).
+
+> _**Side-note**: As you can see, we're using the ancient INI file format here. I am well aware of modern solutions like [TOML](https://toml.io/en/) or [ENO](https://eno-lang.org/). I just happen to love archeology and vintageware._
 
 ### Defining archetypes
 
@@ -91,23 +93,23 @@ Archetypes are prototypes with a different name because heck, we're not doing OO
 
 The cat would really be:
 
-```
+```INI
 [a cat]
 
-110 0 is an animal
-120 0 has fur
-130 the size of 10 is small
-140 0 has (4) legs and a tail
+110 = 0 is an animal
+120 = 0 has fur
+130 = the size of 10 is small
+140 = 0 has (4) legs and a tail
 ```
 
 Definitions can be modified by the higher-level "caller". It goes like:
 
-```
-10 a cat
-20 the name of 10 is Jackie
-30 the color of 10 is mostly white
-40 10 is fat and lazy
-50 10 has (3) legs
+```INI
+10 = a cat
+20 = the name of 10 is "Jackie"
+30 = the color of 10 is mostly white
+40 = 10 is fat and lazy
+50 = 10 has (3) legs
 ```
 
 Jackie has 3 legs instead of 4, because the statement `50` locally overrides the statement `140` of `a cat`.
