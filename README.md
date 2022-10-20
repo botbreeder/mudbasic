@@ -41,11 +41,13 @@ The approach taken here is that of a controlled language, made of statements tha
 Here is a dumb example, Jackie the cat and her human pet Jane.
 
 ```INI
+; Jackie the cat
 10 = a cat
 20 = the name of 10 is "Jackie"
 30 = the color of 10 is mostly white
 40 = 10 is fat and lazy
 
+; Jane the human pet of Jackie
 110 = a woman
 120 = the name of 110 is "Jane"
 130 = 110 belongs to 10
@@ -84,11 +86,11 @@ A narrative is a user-defined statement. The first line is the header of the nar
 
 > _**Side-note**: As you can see, we're using the ancient INI file format here. I am well aware of modern solutions like [TOML](https://toml.io/en/) or [ENO](https://eno-lang.org/). I just happen to love archeology and vintageware._
 
-### Defining archetypes
+## Defining archetypes
 
-Archetypes are prototypes with a different name because heck, we're not doing OOP here.
+Archetypes are prototypes with a different name because heck, we're not doing OOP here. An archetype is a narrative without parameters. An archetype is usually a type of things or, if you prefer, a typical thing of some kind. It can also be an individual.
 
-The cat would really be:
+Keep it natural. The cat would really be:
 
 ```INI
 [a cat]
@@ -103,21 +105,24 @@ The cat would really be:
 Definitions can be modified by the higher-level "caller". It goes like:
 
 ```INI
-10 = a cat
+10 = a cat ; instance of a cat
 20 = the name of 10 is "Jackie"
 30 = the color of 10 is mostly white
 40 = 10 is fat and lazy
 50 = 10 has (3) legs
 ```
 
-Jackie has 3 legs instead of 4, because the statement `50` locally overrides the statement `140` of `a cat`.
+The statement `10` creates an instance of `a cat`. Jackie has 3 legs instead of 4, because the statement `50` locally overrides the statement `140` of `a cat`.
 
+## Literal values & comments
 
+While numbers usually make reference to a statement within the narrative, numbers between parentheses are understood as **literal numbers**, like the number of legs in the example above.
 
+Texts between double quotes are understood as **literal strings**.
 
+`true` and `false` are understood as **literal booleans**.
 
-
-
+Everything after a semi-colon `;` on a line is a **comment**.
 
 
 
