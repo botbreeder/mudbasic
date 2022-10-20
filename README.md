@@ -32,7 +32,7 @@ Here is a low details description of a typical western-style citizen life.
 
 ## Unstructured BASIC and the entities
 
-Yup, good old BASIC. With line numbers. Why?
+Good old BASIC. With line numbers. Why?
 
 Defining all of these things takes a lot of abstraction, and I don't think we can do it without natural language. Concurrently, true natural language is full of ambiguities and special cases, so not exactly the right tool for the job.
 
