@@ -128,6 +128,8 @@ Since it's a modern unstructured BASIC, we'll pimp our line-numbers and allow se
 30 =   10 is fat and lazy
 ```
 
+If you make a statement about `20`, it would apply to both `20.1` and `20.2`.
+
 ## How do you define real
 
 Let's go back to this:
