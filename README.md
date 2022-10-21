@@ -32,13 +32,13 @@ Here is a low details description of a typical western-style citizen life differ
 
 ## Unstructured BASIC and the entities
 
-Good old BASIC. With line numbers. Why?
+No, this is not the next Trent Reznor. This is Good Old BASIC. With line numbers. Why?
 
-Defining all of these things takes a lot of abstraction, and I don't think we can do it without natural language. Concurrently, true natural language is full of ambiguities and special cases, so not exactly the right tool for the job.
+Defining all these things takes a lot of abstraction, and I don't think we can do it without natural language. Concurrently, true natural language is full of ambiguities and special cases, so not exactly the right tool for the job.
 
 The approach taken here is that of a controlled language, made of statements that look like natural language sentences, with moving parts. These statements are identified by numbers, and they take arguments that can, among other things, be references to other statements.
 
-Here is a dumb example, Jackie the cat and her human pet Jane.
+Meet Jackie the cat and her human pet Jane.
 
 ```INI
 ; Jackie the cat
@@ -61,15 +61,6 @@ Sometimes we need to say things about statements themselves. For instance:
 ```
 
 Very large programs wouldn't be easy to manipulate as monolithic blocks, but the line-numbering thing works fine for small connected chunks.
-
-Since it's a modern unstructured BASIC, we'll pimp our line-numbers and allow several dot-separated numbers instead, like this:
-
-```INI
-10 =   a cat
-20.1 = the name of 10 is "Jackie"
-20.2 = the color of 10 is mostly white
-30 =   10 is fat and lazy
-```
 
 ## Narratives as reusable blocks
 
@@ -100,7 +91,7 @@ Keep it natural. The cat would really be:
 140 = 0 has (4) legs and a tail
 ```
 
-`0` references the statement being defined itself (the header of the narrative).
+`0` is a reference to the statement being defined itself (the header of the narrative).
 
 Definitions can be modified by the higher-level "caller". It goes like:
 
@@ -118,13 +109,49 @@ Local overriding also works on non-archetypal narratives (i.e. narratives with n
 
 ## Literal values & comments
 
-While numbers are usually references to a statement within the narrative, numbers between parentheses are understood as **literal numbers**, like the number of legs in the example above.
+While numbers are usually references to a statement within the narrative, numbers between parentheses are understood as **_literal numbers_**, like the number of legs in the example above.
 
-Texts between double quotes are understood as **literal strings**.
+Texts between double quotes are understood as **_literal strings_**.
 
-`true` and `false` are understood as **literal booleans**.
+`true` and `false` are understood as **_literal booleans_**.
 
-Everything after a semi-colon `;` on a line is a **comment**.
+Everything after a semi-colon `;` on a line is a **_comment_**.
 
+## Fancy neo/retro line-numbering
 
+Since it's a modern unstructured BASIC, we'll pimp our line-numbers and allow several dot-separated numbers instead, like this:
+
+```INI
+10 =   a cat
+20.1 = the name of 10 is "Jackie"
+20.2 = the color of 10 is mostly white
+30 =   10 is fat and lazy
+```
+
+## How do you define real
+
+Let's go back to this:
+
+```INI
+; Jackie the cat
+10 = a cat
+20 = the name of 10 is "Jackie"
+30 = the color of 10 is mostly white
+40 = 10 is fat and lazy
+
+; Jane the human pet of Jackie
+110 = a woman
+120 = the name of 110 is "Jane"
+130 = 110 belongs to 10
+
+; Surprise
+50 =  10 believes that 130 is true
+140 = 130 is actually false
+```
+
+Did you notice that `140` above tastes like _INTERCAL_? It really makes you wonder what is real. If writing a statement is not enough to make it true, how do we finally make things true? After all, another part of the program could declare that `140` is false too!
+
+The answer is, you don't. You don't define real, you only build structures in the air. Most of the time, you're defining _how a subject sees_ things. Subjectively. Sometimes it goes fractal, you're defining how a subject thinks another subject sees things. Then at the end there is one true thing: the human user sitting in front of the computer. The point of view of the end-user is the entry point to... real.
+
+Simply put, what matters is what happens next. A cat is a cat, no matter what. Is it real or not doesn't change a thing, it will move just the same.
 
