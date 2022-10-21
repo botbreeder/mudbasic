@@ -130,6 +130,8 @@ Since it's a modern unstructured BASIC, we'll pimp our line-numbers and allow se
 
 If you make a statement about `20`, it would apply to both `20.1` and `20.2`.
 
+`20.0` is not the same as `20`.
+
 ## How do you define real
 
 Let's go back to this:
