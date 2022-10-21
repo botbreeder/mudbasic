@@ -153,9 +153,9 @@ Let's go back to this:
 140 = 130 is actually false
 ```
 
-Did you notice that `140` above tastes like _INTERCAL_? It really makes you wonder what is real. If writing a statement is not enough to make it true, how do we finally make things true? After all, another part of the program could declare that `140` is false too!
+Did you notice that the `140` above tastes like [INTERCAL](https://en.wikipedia.org/wiki/COMEFROM)? It really makes you wonder what is real. If writing a statement is not enough to make it true, how do we finally make things true? After all, another part of the program could declare that `140` is false too!
 
 The answer is, you don't. You don't define real, you only build structures in the air. Most of the time, you're defining _how a subject sees_ things. Subjectively. Sometimes it goes fractal, you're defining how a subject thinks another subject sees things. Then at the end there is one true thing: the human user sitting in front of the computer. The point of view of the end-user is the entry point to... real.
 
-Simply put, what matters is what happens next. A cat is a cat, no matter what. Is it real or not doesn't change a thing, it will move just the same.
+Simply put, what matters is what happens next. A cat is a cat, no matter what. Is it real or not, doesn't change a thing. It will move just the same.
 
