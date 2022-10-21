@@ -28,7 +28,7 @@ Here is a low details description of a typical western-style citizen life differ
 - Home: house / flat, pets,
 - Job / vacation,
 - Spare time, week-ends: hobby, sport, art, social,
-- shopping, groceries.
+- Groceries, shopping habits.
 
 ## Unstructured BASIC and the entities
 
