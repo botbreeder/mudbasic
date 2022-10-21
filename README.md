@@ -1,7 +1,5 @@
 # MudBASIC
 
-![b-ready](https://github.com/botbreeder/mudbasic/raw/main/b-ready.png)
-
 ## Introductory thoughts
 
 While the inhabitants are meant to be genetically evolving AIs, the world they live in, Open City, is just a reactive environment, even though it's a complex one. Modularity is a cornerstone of the desired architecture, because the world is hosted on Firebase (or any similar shared DB). The state of the world is stored online, but the dynamics of the world has to run somewhere. It runs client-side, in the browser.
