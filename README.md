@@ -87,10 +87,10 @@ Keep it natural. The cat would really be:
 
 ```INI
 [a cat]
-110 = 0 is an animal
-120 = 0 has fur
-130 = the size of 10 is small
-140 = 0 has (4) legs and a tail
+0 = is an animal
+10 = 0 has fur
+20 = the size of 10 is small
+30 = 0 has (4) legs and a tail
 ```
 
 `0` is a reference to the statement being defined itself (the header of the narrative).
@@ -105,7 +105,7 @@ Definitions can be modified by the higher-level "caller". It goes like:
 50 = 10 has (3) legs ; overriding the typical number of legs of a cat
 ```
 
-The statement `10` creates an instance of `a cat`. Jackie has 3 legs instead of 4 though, because the statement `50` overrides the statement `140` of `a cat`.
+The statement `10` creates an instance of `a cat`. Jackie has 3 legs instead of 4 though, because the statement `50` overrides the statement `30` of `a cat`.
 
 Local overriding also works on non-archetypal narratives (i.e. narratives with non-zero arity).
 
