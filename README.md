@@ -89,7 +89,7 @@ Keep it natural. The cat would really be:
 [a cat]
 0 =  an animal
 10 = 0 has fur
-20 = the size of 10 is small
+20 = the size of 0 is small
 30 = 0 has (4) legs and a tail
 ```
 
