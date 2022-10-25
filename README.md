@@ -165,9 +165,11 @@ Simply put, what matters is what happens next. A cat is a cat, no matter what. I
 
 # The world
 
-##  The ECS architecture
+##  The ECAES architecture
 
-The [Entity Component System](https://en.wikipedia.org/wiki/Entity_component_system) architecture is a well established, efficient way of running a virtual world. ECS is good at handling a lot of heterogeneous entities at high framerates.
+The [Entity / Component / System](https://en.wikipedia.org/wiki/Entity_component_system) architecture is a well established, efficient way of running a virtual world. ECS is good at handling a lot of heterogeneous entities at high framerates.
+
+ECAES would be an **Entity / Component-As-Entity / System** architecture.
 
 The line `10 = a cat` seems to be creating an entity, an instance of the narrative called `a cat`. It feels pretty natural.
 
@@ -175,7 +177,7 @@ The line `20 = the name of 10 is "Jackie"` on the other hand, feels more like a 
 
 Sure, their arity is different: `a cat` has an arity of 0, and `the name of # is #` has an arity of 2. But apart from that, they're both statements, so they should be treated the same.
 
-MudBASIC is an architecture where every component is also an entity. It might sound crazy, but `the name of 10 is "Jackie"` is not only a component attached to `10`. It is also an instance of the narrative `the name of # is #` and as such, an entity which can have components attached to it.
+MudBASIC is an architecture where every component is also an entity. It might sound crazy, but `the name of 10 is "Jackie"` is not only a component attached to `10`. It is also an instance of the narrative `the name of # is #` and as such, an entity, which can have components attached to it.
 
 Components are entities. Components can have components.
 
