@@ -175,7 +175,7 @@ The line `20 = the name of 10 is "Jackie"` on the other hand, feels more like a 
 
 Sure, their arity is different: `a cat` has an arity of 0, and `the name of # is #` has an arity of 2. But apart from that, they're both statements, so they should be treated the same.
 
-MudBASIC is an architecture where every component is an entity. It might sound crazy, but the idea that `the name of 10 is "Jackie"` is not only a component, but also an entity, which can have components attached to it.
+MudBASIC is an architecture where every component is an entity. It might sound crazy, but the idea that `the name of 10 is "Jackie"` is not only a component. It is also an entity, which can have components attached to it.
 
 Components are entities. Components can have components.
 
