@@ -191,6 +191,9 @@ To me, this is not a problem you solve with code. This is a problem you solve wi
 
 Moreover there's a crucial benefit since we're working in a distributed environment. The datastore is centralized on Firebase or a similar shared dbase, but everything runs client-side, in the browsers of the users. **Every system can be assigned to a client, so everything runs concurrently.**
 
-The architecture doesn't even have to run every system every cycle. Instead, systems have a "desired frequency", and the architecture balances work automatically by redistributing systems to clients when needed, in order to get closer to the desired frequencies.
+The architecture doesn't even have to run every system every cycle. Instead, systems have an "ideal frequency", and the architecture balances work automatically by redistributing systems to clients when needed, in order to get closer to the desired frequencies.
+
+The world isn't deterministic, but it works as expected because it is designed from the ground up in the perspective of doing everything asynchronously and concurrently. It can be slow: we're not making a 60fps game, we're telling a story.
+
 
 
