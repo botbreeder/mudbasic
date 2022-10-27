@@ -195,5 +195,11 @@ The architecture doesn't even have to run every system every cycle. Instead, sys
 
 The world isn't deterministic, but it works as expected, because it is designed from the ground up in the perspective of doing everything asynchronously and concurrently. It can be slow: we're not making a 60fps game, we're telling a story. Events will happen in time.
 
+`RealFreq/IdealFreq` is a percentage we want to max.
+
+`IdleTime/TotalTime` is another one we want to max.
+
+
+
 
 
