@@ -191,9 +191,9 @@ To me, this is not a problem you solve with code. This is a problem you solve wi
 
 Moreover there's a crucial benefit here since we're working in a distributed environment. The datastore is centralized on Firebase, but it's serverless: everything runs client-side, in the browsers of users. **Every system can be assigned to a client, so everything runs concurrently.**
 
-The architecture doesn't even have to run every system every cycle. There's no cycle, no main loop! Instead, systems have an "ideal frequency", and the architecture balances work automatically by redistributing systems to clients when needed, in order to get closer to the desired frequencies. There is no central controller, clients communicate through a **scheduling board** to cooperate and achieve adaptive balancing.
+The architecture doesn't even have to run every system every cycle. There's no cycle, no main loop! Instead, each system has an "ideal frequency", and MudBASIC spreads systems over clients, reassigning systems to other clients when needed, in order to get closer to the desired ideal frequencies. There is no central controller, clients communicate through a **scheduling board** to cooperate and achieve load balancing.
 
-Clients always share their current **contribution score** when they update things. Their `ContribScore` reflects how well they're doing. `ContribScore = FreqScore * EaseScore`. Then `FreqScore =` (the product of) `RealFreq / IdealFreq` (of all systems), and `EaseScore = IdleTime / TotalTime`. High-scoring clients can run more systems, while low-scoring clients need to lighten their workload.
+On the scheduling board, clients always share their current **contribution score** when they update things. Their `ContribScore` reflects how well they're doing. `ContribScore = FreqScore * EaseScore`. Then `FreqScore =` (the product of) `RealFreq / IdealFreq` (of all systems), and `EaseScore = IdleTime / TotalTime`. High-scoring clients can run more systems, while low-scoring clients need to lighten their workload.
 
 The world isn't deterministic, but it works as expected, because it is designed from the ground up in the perspective of doing everything asynchronously and concurrently. It can be slow... we're not making a 60fps game, we're telling a story. Events will happen in time.
 
