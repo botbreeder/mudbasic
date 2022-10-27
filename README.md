@@ -195,7 +195,7 @@ The architecture doesn't even have to run every system every cycle. Instead, sys
 
 The world isn't deterministic, but it works as expected, because it is designed from the ground up in the perspective of doing everything asynchronously and concurrently. It can be slow: we're not making a 60fps game, we're telling a story. Events will happen in time.
 
-Clients always share their current contribution score when they update things. Their `ContribScore` reflects how well they're doing. `ContribScore = FreqScore * EaseScore`. Then `FreqScore = RealFreq / IdealFreq` and `EaseScore = IdleTime / TotalTime`.
+Clients always share their current **contribution score** when they update things. Their `ContribScore` reflects how well they're doing. `ContribScore = FreqScore * EaseScore`. Then `FreqScore =` the product of `RealFreq / IdealFreq` of all systems, and `EaseScore = IdleTime / TotalTime`. High-scoring clients can run more systems, while low-scoring clients need to lighten their workload.
 
 
 
