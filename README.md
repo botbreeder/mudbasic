@@ -187,7 +187,7 @@ Systems are still classical ECS systems (with a big warning sign on the schedule
 
 The way I see it, the main drawback of the ECS architecture is that systems are very dependent on their ordering. Adding new systems to already existing systems can be disruptive. Big world? Big headache.
 
-To me, this is not a problem you solve with code. This is a problem you solve with a simple rule: **do not rely on systems execution order**. If, from the very beginning, you keep in mind that you never know which systems run before/after another one, then the scheduling problem vanishes. 
+To me, this is not a problem you solve with code. This is a problem you solve with a simple rule: **do not rely on systems execution order**. If, from the very beginning, you keep in mind that you never know which systems run before/after other ones, then the scheduling problem vanishes. 
 
 Moreover there's a crucial benefit here since we're working in a distributed environment. The datastore is centralized on Firebase, but it's serverless: everything runs client-side, in the browsers of users. **Every system can be assigned to a client, so everything runs concurrently.**
 
