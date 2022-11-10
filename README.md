@@ -197,6 +197,25 @@ When they update things, clients always share their current **contribution score
 
 So, the world isn't deterministic anyway because ideal frequencies are specific to systems and because the world is distributed over a physical network. But it works as expected, because it is designed from the ground up in the perspective of doing everything asynchronously and concurrently. It's OK to be slow... we're not making a 60fps game, we're telling a story. Events will happen in time.
 
+## Dimensions
+
+MUDs are 1-dimension worlds. The only dimension is, "what physically happens", with a filter to keep only "easy to say" actions. What happens if we have multiple dimensions?
+
+For a starter, it doesn't have to be abstract. For a bird-eye view description of Open City is as relevant as the street-view description of a random person. Two relevant lines of causes and effects.
+
+Take rain for instance. When it rains, people get wet, our two lines are interfering. Now why rain at this particular moment? Even a pure physical world has reasons to make rain. So are we going to simulate it? No, we want to storytell it for two reasons, 1) it's expensive to simulate molecules in the air, and 2) because this is the whole point of the architecture: using words to define things! The very words a meteorologist would tell us to explain why rain at this particular moment.
+
+It works simply because people are consistent in the way they use words. What matters is what happens in their head. Something can be spoken and understood. We can describe the evolution of things, with words. So other developers understand, and users understand. And the causal evolution of the world makes sense.
+
+As we saw, a meteorologist module could explain, more or less precisely, what caused rain, physically. Are MUDs purely physical description? In a sense, yes, loot the sword, equip it. As soon as you have a quest or a campaign tough, you also have other kinds of descriptions, typically higher level ones. It seems fair to treat them as first class citizens now.
+
+All stories can have a logic of their own. Big stories emerge from little stories. Little stories are summoned by big stories.
+
+Big stories can say things like "I need some quiet scene here", or "I need this person to get out of the room asap", or "I need rain". Then a little story, which has precisely those consequences, can say "yeah, I can do this". 
+
+The other way around, little stories can say things like "this person is walking there", "that child is lost here", and a big story can recognize it and say "hey that's the beginning of me". Obviously the adult helps the kid.
+
+So we're already far away from your typical MUD, with mobs wandering around. We have what Emily Short has called [storylets](https://emshort.blog/2019/11/29/storylets-you-want-them/), triggering one another, either bottom-up or top-down.
 
 
 
