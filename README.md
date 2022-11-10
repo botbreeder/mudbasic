@@ -215,8 +215,10 @@ Big stories can say things like "I need some quiet scene here", or "I need this 
 
 The other way around, little stories can say things like "this person is walking there", "that child is lost here", and a big story can recognize it and say "hey that's the beginning of me". Obviously the adult helps the kid.
 
-So we're already far away from your typical MUD, with mobs wandering around. We have what Emily Short has called [storylets](https://emshort.blog/2019/11/29/storylets-you-want-them/), triggering one another, either bottom-up or top-down.
+So we're already far away from your typical MUD, with mobs wandering around. We have what Emily Short has called [storylets](https://emshort.blog/2019/11/29/storylets-you-want-them/), triggering one another, either bottom-up or top-down. One difference is that storylets as presented by Short are meant to be components of the whole story of an interactive fiction. But we're not making an interactive fiction here, we're making an interactive world: there's no main story because there's no main characters.
 
+Then how do our storylets trigger one another? Before entering into details, we can notice that things may need to be prepared. A love story, which needs rain as scenery for a highly emotional moment, would need the meteorology story to set up plausible reasons for rain to fall at that particular moment. Somehow, before the love story needs the rain, the meteorologist should already be preparing it. This is where fate kicks in.
 
+The meteorologist can build reasons for rain anytime, but it should do it when rain is the most needed, and only when rain is plausible. I mean, long before the heart-breaking moment of the love story, we're not sure yet we're going to need rain, we just _might_ need it, but the meteorologist should already decide what to do. There could be several stories that need rain, but there also could be several stories that need a bright sunshiny day at the very same time. **The cumulative strengths of these contradictory needs drive the meteorologist to choose an option over the other one.** That's fate.
 
 
