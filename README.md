@@ -225,7 +225,7 @@ Now to say the least, systems are not "classical ECS systems" anymore!
 
 ## Getting tech
 
-It's an adaptive ad hoc network of modules communicating and computing in controlled natural language.
+It's an adaptive ad hoc network of modules communicating and computing in controlled natural language. You wanted it.
 
 
 
