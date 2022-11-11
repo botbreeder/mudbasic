@@ -197,7 +197,7 @@ When they update things, clients always share their current **contribution score
 
 So, the world isn't deterministic anyway because ideal frequencies are specific to systems and because the world is distributed over a physical network. But it works as expected, because it is designed from the ground up in the perspective of doing everything asynchronously and concurrently. It's OK to be slow... we're not making a 60fps game, we're telling a story. Events will happen in time.
 
-## Dimensions
+## Dimensions, fate and the story of things to come
 
 MUDs are 1-dimension worlds. The only dimension is, "what physically happens", with a filter to keep only "easy to say" actions. What happens if we have multiple dimensions?
 
