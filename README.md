@@ -223,3 +223,23 @@ The meteorologist can build reasons for rain anytime, but it should do it when r
 
 Now to say the least, systems are not "classical ECS systems" anymore!
 
+## Getting tech
+
+It's an adaptive ad hoc network of modules communicating and computing in controlled natural language.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
