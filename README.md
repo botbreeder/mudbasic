@@ -227,7 +227,7 @@ Now to say the least, systems are not "classical ECS systems" anymore!
 
 It's an adaptive ad hoc network of modules communicating and computing in controlled natural language. You wanted it. They work on a temporal description of the evolution of a directed graph, a [dynamic](https://towardsdatascience.com/overview-of-deep-learning-on-graph-embeddings-4305c10ad4a4) [graph](https://towardsdatascience.com/what-are-dynamic-graphs-and-why-they-are-interesting-180b9fab9229).
 
-The world is made up of stories.
+The world is made up of stories. Because it doesn't need to be an accurate physical simulation.
 
 
 
